@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #1b1b1b;
+
+    padding: 10px 0px;
+    padding-bottom: 2px;
+
+    text-align: center;
+}
+
+.titulo-perfil>img {
+    width: 9.9rem;
+    opacity: 0.8;
+}
+
+.categorias {
+    padding: 7px 0px;
+
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    background-color: #535353;
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.categorias::-webkit-scrollbar {
+    display: none;
+}
+
+.categorias>button {
+    background: none;
+    border: none;
+    padding: 0.2px 2px;
+
+    cursor: pointer;
+}
+
+.categorias>button:hover {
+    border-bottom: 3px solid #1b1b1b;
+}

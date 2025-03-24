@@ -1,0 +1,38 @@
+@media only screen and (max-width: 350px) {
+
+    /* Fontes */
+    h1 {
+        font-size: 1.25rem !important;
+    }
+
+    h2 {
+        font-size: 1rem !important;
+    }
+
+    p {
+        font-size: 0.7rem !important;
+    }
+
+    .titulo-footer>h3 {
+        font-size: 0.6rem !important;
+        line-height: 30px !important;
+    }
+
+    .logo-criador>figcaption {
+        font-size: 1rem !important;
+    }
+
+    /* Footer */
+    .logo-footer {
+        width: 7rem;
+    }
+
+    .img-criador {
+        width: 2rem;
+    }
+
+    .social-img {
+        width: 2rem;
+    }
+
+}

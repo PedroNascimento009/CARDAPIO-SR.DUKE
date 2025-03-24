@@ -1,0 +1,93 @@
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "social-rest social-criador"
+        "titulo titulo";
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1b1b1b;
+    border-top: 4px solid #535353;
+
+    padding: 0px 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.social-rest {
+    display: grid;
+    grid-template-areas:
+        "logo-rest logo-rest"
+        "sr1 sr2";
+    justify-content: center;
+
+    grid-area: social-rest;
+
+    margin-bottom: 20px;
+}
+
+.social-criador {
+    display: grid;
+    grid-template-areas:
+        "logo-criador logo-criador"
+        "sc1 sc1";
+    justify-content: center;
+
+    grid-area: social-criador;
+
+    margin-bottom: 20px;
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+
+    width: 8rem;
+
+    grid-area: logo-rest;
+}
+
+.social-img {
+    width: 3rem;
+}
+
+.sr1 {
+    grid-area: sr1;
+}
+
+.sr2 {
+    grid-area: sr2;
+}
+
+.sc1 {
+    grid-area: sc1;
+}
+
+.sc2 {
+    grid-area: sc2;
+}
+
+.logo-criador {
+    display: flex;
+    align-items: center;
+    grid-area: logo-criador;
+
+    margin-bottom: 20px;
+}
+
+.img-criador {
+    width: 2.6rem;
+
+    margin-right: 5px;
+
+    border-radius: 50%;
+}
+
+.titulo-footer {
+    text-align: center;
+
+    border-top: 2px solid #d6d6d6;
+
+    grid-area: titulo;
+}
