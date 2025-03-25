@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(/assets/fonts/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-SemiBold;
+    src: url(/assets/fonts/RobotoCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+
+/* Header */
+
+button,
+.titulo-perfil>p {
+    color: #d6d6d6;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* Main */
+
+h1 {
+    color: #1b1b1b;
+
+    font-family: Roboto-Bold;
+    font-size: 1.8rem;
+}
+
+h2 {
+    color: #1b1b1b;
+
+    font-family: Roboto-SemiBold;
+    font-size: 1.4rem;
+}
+
+p {
+    color: #1b1b1b;
+
+    font-family: Poppins;
+    font-size: 0.8rem;
+
+    line-height: 17px;
+}
+
+/* Footer */
+.titulo-footer>h3 {
+    color: #d6d6d6;
+
+    font-family: Roboto;
+    font-size: 0.8rem;
+
+    line-height: 38px;
+}
+
+.logo-criador>figcaption {
+    color: #d6d6d6;
+
+    font-family: Roboto;
+    font-size: 1.1rem;
+}
