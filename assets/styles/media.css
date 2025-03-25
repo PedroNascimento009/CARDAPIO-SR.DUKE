@@ -1,25 +1,8 @@
 @media only screen and (max-width: 350px) {
 
-    /* Fontes */
-    h1 {
-        font-size: 1.25rem !important;
-    }
-
-    h2 {
-        font-size: 1rem !important;
-    }
-
-    p {
-        font-size: 0.7rem !important;
-    }
-
-    .titulo-footer>h3 {
-        font-size: 0.6rem !important;
-        line-height: 30px !important;
-    }
-
-    .logo-criador>figcaption {
-        font-size: 1rem !important;
+    /* Header */
+    .categorias {
+        gap: 4px;
     }
 
     /* Footer */
@@ -35,4 +18,30 @@
         width: 2rem;
     }
 
+    /* Fontes */
+    .categorias>button,
+    .titulo-perfil>p {
+        font-size: 0.9 !important;
+    }
+
+    h1 {
+        font-size: 1.45rem !important;
+    }
+
+    h2 {
+        font-size: 1.2rem !important;
+    }
+
+    p {
+        font-size: 0.7rem !important;
+    }
+
+    .titulo-footer>h3 {
+        font-size: 0.6rem !important;
+        line-height: 30px !important;
+    }
+
+    .logo-criador>figcaption {
+        font-size: 1rem !important;
+    }
 }

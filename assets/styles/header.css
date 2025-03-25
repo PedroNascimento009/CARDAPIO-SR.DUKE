@@ -7,15 +7,20 @@
 header {
     background: #1b1b1b;
 
-    padding: 10px 0px;
-    padding-bottom: 2px;
+    padding-top: 30px;
 
     text-align: center;
+}
+
+.titulo-perfil {
+    border-bottom: 2px solid #000000;
 }
 
 .titulo-perfil>img {
     width: 9.9rem;
     opacity: 0.8;
+
+    margin-bottom: 10px;
 }
 
 .categorias {
@@ -25,7 +30,7 @@ header {
     justify-content: center;
     gap: 12px;
 
-    background-color: #535353;
+    border-bottom: 2px solid #000000;
 
     overflow-x: scroll;
     white-space: nowrap;
@@ -44,5 +49,5 @@ header {
 }
 
 .categorias>button:hover {
-    border-bottom: 3px solid #1b1b1b;
+    border-bottom: 2px solid #d6d6d6;
 }

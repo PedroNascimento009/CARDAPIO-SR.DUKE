@@ -9,7 +9,6 @@ footer {
     align-items: center;
 
     background-color: #1b1b1b;
-    border-top: 4px solid #535353;
 
     padding: 0px 10px;
     padding-top: 30px;
@@ -62,10 +61,12 @@ footer {
 
 .sc1 {
     grid-area: sc1;
+    justify-self: flex-start;
 }
 
 .sc2 {
     grid-area: sc2;
+    margin-left: 6px;
 }
 
 .logo-criador {
@@ -73,13 +74,15 @@ footer {
     align-items: center;
     grid-area: logo-criador;
 
+    width: 128px;
+
     margin-bottom: 20px;
 }
 
 .img-criador {
-    width: 2.6rem;
+    width: 2.49rem;
 
-    margin-right: 5px;
+    margin-right: 8px;
 
     border-radius: 50%;
 }
@@ -87,7 +90,7 @@ footer {
 .titulo-footer {
     text-align: center;
 
-    border-top: 2px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
 
     grid-area: titulo;
 }

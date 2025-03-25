@@ -16,7 +16,10 @@ main {
 }
 
 .bloco-categorias>h1 {
-    padding: 15px 0px;
+    margin: 30px auto;
+
+    width: 100px;
+    border-bottom: 2px solid #1b1b1b;
 }
 
 .bloco-categorias>p {
@@ -24,7 +27,7 @@ main {
 }
 
 .prato {
-    margin: 20px 0;
+    margin-bottom: 40px;
 }
 
 .prato:last-child {

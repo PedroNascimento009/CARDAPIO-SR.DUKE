@@ -7,7 +7,7 @@ document.addEventListener("scroll", function () {
         const img = prato.querySelector("img");
         const rect = img.getBoundingClientRect();
         
-        if (rect.top > windowHeight / 4 && rect.bottom < windowHeight * 3.5 / 4.5) {
+        if (rect.top > windowHeight / 4 && rect.bottom < windowHeight * 3.7 / 4.6) {
             prato.classList.add("visible");
         } else {
             prato.classList.remove("visible");
