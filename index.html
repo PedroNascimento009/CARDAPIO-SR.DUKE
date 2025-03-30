@@ -20,20 +20,22 @@
             <p>&#9906 Praça Marechal Deodoro, Centro</p>
         </div>
         <nav class="categorias">
-            <button>Entrada</button>
-            <button>Prato-Principal</button>
-            <button>Sobremesa</button>
-            <button>Bebidas</button>
-            <button>Vinhos</button>
+            <button onclick="abrirTabs('entrada')">Entrada</button>
+            <button onclick="abrirTabs('prato-principal')">Prato-Principal</button>
+            <button onclick="abrirTabs('salada')">Salada</button>
+            <button onclick="abrirTabs('hamburguer')">hamburguer</button>
+            <button onclick="abrirTabs('sobremesa')">Sobremesa</button>
+            <button onclick="abrirTabs('bebidas')">Bebidas</button>
+            <button onclick="abrirTabs('vinhos')">Vinhos</button>
         </nav>
     </header>
 
     <main>
-        <section class="entradas">
+        <section class="entrada" id="entrada">
             <section class="bloco-categorias">
                 <h1>Entradas</h1>
                 <figure class="prato">
-                    <img src="assets/imgs/dishes/pastel.webp" alt="Pastel nordestino">
+                    <img src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino">
                     <figcaption class="fig-prato">
                         <h2>Pastel nordestino(6 uni.)</h2>
                         <p>Massa de pastel recheada com nosssa carne do sol e queijo coalho.</p>
@@ -41,7 +43,7 @@
                     </figcaption>
                 </figure>
                 <figure class="prato">
-                    <img src="assets/imgs/dishes/coxinha.webp" alt="Coxinha de siri">
+                    <img src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri">
                     <figcaption class="fig-prato">
                         <h2>Coxinha de siri(6 uni.)</h2>
                         <p>Filé de siri ao coco acompanhado de molho de acerola picante.</p>
@@ -49,7 +51,7 @@
                     </figcaption>
                 </figure>
                 <figure class="prato">
-                    <img src="assets/imgs/dishes/comarão.webp" alt="Camarão ao coco">
+                    <img src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco">
                     <figcaption class="fig-prato">
                         <h2>Camarão ao coco</h2>
                         <p>Camarões empanados com coco e fritos, servidos com Aioli de dendê cítrico.</p>
@@ -57,7 +59,7 @@
                     </figcaption>
                 </figure>
                 <figure class="prato">
-                    <img src="assets/imgs/dishes/tabua-frios.webp" alt="Tabua de queijos e frios">
+                    <img src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios">
                     <figcaption class="fig-prato">
                         <h2>Tabua de queijos e frios(serve 4p)</h2>
                         <p>Queijo coalho, queijo parmesão, gorgonzola, salaminho, azeitonas, uva.</p>
@@ -65,7 +67,158 @@
                     </figcaption>
                 </figure>
                 <figure class="prato">
-                    <img src="assets/imgs/dishes/dueto.webp" alt="Dueto">
+                    <img src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto">
+                    <figcaption class="fig-prato">
+                        <h2>Dueto</h2>
+                        <p>Cubos de filé grelhados ao molho roti acompanhado de fritas da casa</p>
+                        <p>R&dollar; 59</p>
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <section class="entradas" id="entrada">
+            <section class="bloco-categorias">
+                <h1>Salada</h1>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/salad/salada-ceasar.webp" alt="Salada Ceasar">
+                    <figcaption class="fig-prato">
+                        <h2>Salada Ceasar</h2>
+                        <p>Folhas frescas, peito de frango em tiras, queijo parmesão, molho ceasar finalizado com croutons.</p>
+                        <p>R&dollar; 40</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/salad/niçoise-duke.wepb" alt="Niçoise do Duke">
+                    <figcaption class="fig-prato">
+                        <h2>Niçoise do Duke</h2>
+                        <p>Folhas frescas, ovos cozidos, tomatinho, azeitonas, batatatinhas grelhadas e peixe branco servidos com molho citronete./p>
+                        <p>R&dollar; 59</p>
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <section class="entrada" id="entrada">
+            <section class="bloco-categorias">
+                <h1>Hamburguer Kid´s</h1>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/cheese-burguer.webp" alt="Cheeseburguer">
+                    <figcaption class="fig-prato">
+                        <h2>Cheeseburguer</h2>
+                        <p>Pão tostado, hamburguer angus 120g, queijo cheddar, cebolas caramelizadas e aioli. Acompanha de batata rústicas.</p>
+                        <p>R&dollar; 30</p>
+                    </figcaption>
+                </figure>
+        </section>
+
+        <section class="prato-principal" id="prato-principal">
+            <section class="bloco-categorias">
+                <h1>Prato-Principal</h1>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/risoto-nordestino.wepb" alt="Risoto nordestino">
+                    <figcaption class="fig-prato">
+                        <h2>Risoto Nordestino</h2>
+                        <p>Arroz italiano, abobóra, queijo coalho e carne do sol, finalizado com parmesão e manteiga.</p>
+                        <p>R&dollar; 59</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke">
+                    <figcaption class="fig-prato">
+                        <h2>Arroz do Duke</h2>
+                        <p>Arroz negro cremoso, puxados com mix de pimentão, filé de siri, camarão e polvo.</p>
+                        <p>R&dollar; 85</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/linguine-camarao.webp" alt="Linguine camarao">
+                    <figcaption class="fig-prato">
+                        <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
+                        <p>Linguine grano duro, feitos com leite de coco e caldo de camarão da casa com camarão, abobrinhas e cogumelos refogados.</p>
+                        <p>R&dollar; 55</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/carbonara.webp" alt="Tabua de queijos e frios">
+                    <figcaption class="fig-prato">
+                        <h2>Carbonara</h2>
+                        <p>Linguine grano duro, envolto em molho cremoso de ovos e bacon finalizado com parmesão.</p>
+                        <p>R&dollar; 55</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib">
+                    <figcaption class="fig-prato">
+                        <h2>Prime rib suíno</h2>
+                        <p>Corte suíno ao dry rub grelhado em um molho cremoso de laranja e mostarda, servido com purê de abóbora salteado de milho fresco com coentro.</p>
+                        <p>R&dollar; 40</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/peixe-branco.wepb" alt="Peixe branco">
+                    <figcaption class="fig-prato">
+                        <h2>Peixe branco</h2>
+                        <p>Peixe branco com crosta de de pão, purê de banana da terra e legumes do dia salteados.</p>
+                        <p>R&dollar; 65</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/polvo-grelhado.webp" alt="Polvo grelhado">
+                    <figcaption class="fig-prato">
+                        <h2>Polvo grelhado</h2>
+                        <p>Polvo grelhado servido com mousseline de batata e aioli roxo finalizado com chimichurri.</p>
+                        <p>R&dollar; 79</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto">
+                    <figcaption class="fig-prato">
+                        <h2>Filé com risoto</h2>
+                        <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
+                        <p>R&dollar; 69</p>
+                    </figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <section class="entradas" id="entrada">
+            <section class="bloco-categorias">
+                <h1>Entradas</h1>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino">
+                    <figcaption class="fig-prato">
+                        <h2>Pastel nordestino(6 uni.)</h2>
+                        <p>Massa de pastel recheada com nosssa carne do sol e queijo coalho.</p>
+                        <p>R&dollar; 42</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri">
+                    <figcaption class="fig-prato">
+                        <h2>Coxinha de siri(6 uni.)</h2>
+                        <p>Filé de siri ao coco acompanhado de molho de acerola picante.</p>
+                        <p>R&dollar; 38</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco">
+                    <figcaption class="fig-prato">
+                        <h2>Camarão ao coco</h2>
+                        <p>Camarões empanados com coco e fritos, servidos com Aioli de dendê cítrico.</p>
+                        <p>R&dollar; 40</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios">
+                    <figcaption class="fig-prato">
+                        <h2>Tabua de queijos e frios(serve 4p)</h2>
+                        <p>Queijo coalho, queijo parmesão, gorgonzola, salaminho, azeitonas, uva.</p>
+                        <p>R&dollar; 120</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto">
                     <figcaption class="fig-prato">
                         <h2>Dueto</h2>
                         <p>Cubos de filé grelhados ao molho roti acompanhado de fritas da casa</p>
