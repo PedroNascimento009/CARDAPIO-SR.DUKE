@@ -14,7 +14,9 @@ main {
 .bloco-categorias>h1 {
     margin: 30px auto;
 
-    width: 2000px;
+    text-align: center;
+
+    width: 400px;
     border-bottom: 2px solid #1b1b1b;
 }
 
@@ -22,11 +24,11 @@ main {
     margin-bottom: 15px;
 }
 
-.prato {
-    margin-bottom: 40px;
+.prato, .bebida {
+    margin-bottom: 50px;
 }
 
-.prato:last-child {
+.prato:last-child, .bebida {
     margin-bottom: 0;
     padding-bottom: 40px;
 }
@@ -45,11 +47,10 @@ main {
     height: 220px;
 }
 
-.fig-prato {
+.fig-prato, .bebida {
     margin: 0px 30px;
 }
 
-.fig-prato>h2 {
+.fig-prato>h2, .bebida>h2 {
     border-bottom: 2px solid #1b1b1b;
-    margin: 0;
 }
