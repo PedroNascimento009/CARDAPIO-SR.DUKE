@@ -11,26 +11,45 @@ main {
     box-shadow: inset 0px -111px 95px -24px rgba(0, 0, 0, 0.32);
 }
 
-.entradas {
-    text-align: center;
+.categoria {
+    display: none;
+
+    margin-bottom: 20px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .bloco-categorias>h1 {
-    margin: 30px auto;
+    padding: 20px 0px;
 
-    width: 100px;
-    border-bottom: 2px solid #1b1b1b;
+    text-align: center;
 }
 
 .bloco-categorias>p {
     margin-bottom: 15px;
 }
 
-.prato {
-    margin-bottom: 40px;
+.prato,
+.bebida {
+    margin-bottom: 50px;
 }
 
-.prato:last-child {
+.prato:last-child,
+.bebida {
     margin-bottom: 0;
     padding-bottom: 40px;
 }
@@ -49,11 +68,12 @@ main {
     height: 220px;
 }
 
-.fig-prato {
+.fig-prato,
+.bebida {
     margin: 0px 30px;
 }
 
-.fig-prato>h2 {
+.fig-prato>h2,
+.bebida>h2 {
     border-bottom: 2px solid #1b1b1b;
-    margin: 0;
 }

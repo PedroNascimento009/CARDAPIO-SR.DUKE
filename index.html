@@ -21,7 +21,7 @@
         </div>
         <nav class="categorias">
             <button onclick="abrirTabs('entrada')">Entrada</button>
-            <button onclick="abrirTabs('prato-principal')">Prato-Principal</button>
+            <button onclick="abrirTabs('pratoPrincipal')">Prato-Principal</button>
             <button onclick="abrirTabs('salada')">Salada</button>
             <button onclick="abrirTabs('hamburguer')">hamburguer</button>
             <button onclick="abrirTabs('sobremesa')">Sobremesa</button>
@@ -31,7 +31,7 @@
     </header>
 
     <main>
-        <section class="entrada" id="entrada">
+        <section class="categoria" id="entrada">
             <section class="bloco-categorias">
                 <h1>Entradas</h1>
                 <figure class="prato">
@@ -77,7 +77,7 @@
             </section>
         </section>
 
-        <section class="entradas" id="entrada">
+        <section class="categoria" id="salada">
             <section class="bloco-categorias">
                 <h1>Salada</h1>
                 <figure class="prato">
@@ -101,7 +101,7 @@
             </section>
         </section>
 
-        <section class="entrada" id="entrada">
+        <section class="categoria" id="hamburguer">
             <section class="bloco-categorias">
                 <h1>Hamburguer Kid´s</h1>
                 <figure class="prato">
@@ -114,148 +114,149 @@
                     </figcaption>
                 </figure>
             </section>
+        </section>
 
-            <section class="prato-principal" id="prato-principal">
-                <section class="bloco-categorias">
-                    <h1>Prato-Principal</h1>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/risoto-nordestino.wepb" alt="Risoto nordestino">
-                        <figcaption class="fig-prato">
-                            <h2>Risoto Nordestino</h2>
-                            <p>Arroz italiano, abobóra, queijo coalho e carne do sol, finalizado com parmesão e
-                                manteiga.</p>
-                            <p>R&dollar; 59</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke">
-                        <figcaption class="fig-prato">
-                            <h2>Arroz do Duke</h2>
-                            <p>Arroz negro cremoso, puxados com mix de pimentão, filé de siri, camarão e polvo.</p>
-                            <p>R&dollar; 85</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/linguine-camarao.webp" alt="Linguine camarao">
-                        <figcaption class="fig-prato">
-                            <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
-                            <p>Linguine grano duro, feitos com leite de coco e caldo de camarão da casa com camarão,
-                                abobrinhas e cogumelos refogados.</p>
-                            <p>R&dollar; 55</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/carbonara.webp" alt="Tabua de queijos e frios">
-                        <figcaption class="fig-prato">
-                            <h2>Carbonara</h2>
-                            <p>Linguine grano duro, envolto em molho cremoso de ovos e bacon finalizado com parmesão.
-                            </p>
-                            <p>R&dollar; 55</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib">
-                        <figcaption class="fig-prato">
-                            <h2>Prime rib suíno</h2>
-                            <p>Corte suíno ao dry rub grelhado em um molho cremoso de laranja e mostarda, servido com
-                                purê de abóbora salteado de milho fresco com coentro.</p>
-                            <p>R&dollar; 40</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/peixe-branco.wepb" alt="Peixe branco">
-                        <figcaption class="fig-prato">
-                            <h2>Peixe branco</h2>
-                            <p>Peixe branco com crosta de de pão, purê de banana da terra e legumes do dia salteados.
-                            </p>
-                            <p>R&dollar; 65</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/polvo-grelhado.webp" alt="Polvo grelhado">
-                        <figcaption class="fig-prato">
-                            <h2>Polvo grelhado</h2>
-                            <p>Polvo grelhado servido com mousseline de batata e aioli roxo finalizado com chimichurri.
-                            </p>
-                            <p>R&dollar; 79</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto">
-                        <figcaption class="fig-prato">
-                            <h2>Filé com risoto</h2>
-                            <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
-                            <p>R&dollar; 69</p>
-                        </figcaption>
-                    </figure>
-                </section>
+        <section class="categoria" id="pratoPrincipal">
+            <section class="bloco-categorias">
+                <h1>Prato-Principal</h1>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/risoto-nordestino.wepb" alt="Risoto nordestino">
+                    <figcaption class="fig-prato">
+                        <h2>Risoto Nordestino</h2>
+                        <p>Arroz italiano, abobóra, queijo coalho e carne do sol, finalizado com parmesão e
+                            manteiga.</p>
+                        <p>R&dollar; 59</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke">
+                    <figcaption class="fig-prato">
+                        <h2>Arroz do Duke</h2>
+                        <p>Arroz negro cremoso, puxados com mix de pimentão, filé de siri, camarão e polvo.</p>
+                        <p>R&dollar; 85</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/linguine-camarao.webp" alt="Linguine camarao">
+                    <figcaption class="fig-prato">
+                        <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
+                        <p>Linguine grano duro, feitos com leite de coco e caldo de camarão da casa com camarão,
+                            abobrinhas e cogumelos refogados.</p>
+                        <p>R&dollar; 55</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/carbonara.webp" alt="Tabua de queijos e frios">
+                    <figcaption class="fig-prato">
+                        <h2>Carbonara</h2>
+                        <p>Linguine grano duro, envolto em molho cremoso de ovos e bacon finalizado com parmesão.
+                        </p>
+                        <p>R&dollar; 55</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib">
+                    <figcaption class="fig-prato">
+                        <h2>Prime rib suíno</h2>
+                        <p>Corte suíno ao dry rub grelhado em um molho cremoso de laranja e mostarda, servido com
+                            purê de abóbora salteado de milho fresco com coentro.</p>
+                        <p>R&dollar; 40</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/peixe-branco.wepb" alt="Peixe branco">
+                    <figcaption class="fig-prato">
+                        <h2>Peixe branco</h2>
+                        <p>Peixe branco com crosta de de pão, purê de banana da terra e legumes do dia salteados.
+                        </p>
+                        <p>R&dollar; 65</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/polvo-grelhado.webp" alt="Polvo grelhado">
+                    <figcaption class="fig-prato">
+                        <h2>Polvo grelhado</h2>
+                        <p>Polvo grelhado servido com mousseline de batata e aioli roxo finalizado com chimichurri.
+                        </p>
+                        <p>R&dollar; 79</p>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto">
+                    <figcaption class="fig-prato">
+                        <h2>Filé com risoto</h2>
+                        <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
+                        <p>R&dollar; 69</p>
+                    </figcaption>
+                </figure>
             </section>
+        </section>
 
-            <section class="sobremesa" id="sobremesa">
-                <section class="bloco-categorias">
-                    <h1>Sobremesa</h1>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/dessert/pudim-rapadura.webp" alt="Pudim rapadura">
-                        <figcaption class="fig-prato">
-                            <h2>Pudim de rapadura</h2>
-                            <p>Releitura do clássico pudim com toque da rapadura do nosso nordeste.</p>
-                            <p>R&dollar; 16</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato">
-                        <img src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real">
-                        <figcaption class="fig-prato">
-                            <h2>Delícia Real</h2>
-                            <p>Brownie da casa acompanhado com sorvete e ganache.</p>
-                            <p>R&dollar; 21</p>
-                        </figcaption>
-                    </figure>
-                </section>
-            </section>
-
-            <section class="bebidas" id="bebidas">
-                <section class="bloco-categorias">
-                    <h1>Bebidas Não Alcoólicas</h1>
-                    <div class="bebida">
-                        <h2>Refrigerante KS</h2>
-                        <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
-                        <p>R&dollar; 6</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Refrigerante Lata</h2>
-                        <p>Coca-Cola, Coca Zero e Guaraná Antártica.</p>
-                        <p>R&dollar; 7</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Suco de laranja copo</h2>
-                        <p>R&dollar; 9</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Suco de laranja jarra</h2>
-                        <p>R&dollar; 18</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Suco copo S/Leite</h2>
-                        <p>Cajá, maracujá e acerola</p>
-                        <p>R&dollar; 7</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Suco copo C/Leite</h2>
-                        <p>Cajá, maracujá e acerola</p>
-                        <p>R&dollar; 8</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Suco jarra S/Leite</h2>
-                        <p>Cajá, maracujá e acerola</p>
-                        <p>R&dollar; 15</p>
-                    </div>
-                    <div class="bebida">
-                        <h2>Suco jarra C/Leite</h2>
-                        <p>Cajá, maracujá e acerola</p>
+        <section class="categoria" id="sobremesa">
+            <section class="bloco-categorias">
+                <h1>Sobremesa</h1>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/dessert/pudim-rapadura.webp" alt="Pudim rapadura">
+                    <figcaption class="fig-prato">
+                        <h2>Pudim de rapadura</h2>
+                        <p>Releitura do clássico pudim com toque da rapadura do nosso nordeste.</p>
                         <p>R&dollar; 16</p>
-                    </div>
-                </section>
+                    </figcaption>
+                </figure>
+                <figure class="prato">
+                    <img src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real">
+                    <figcaption class="fig-prato">
+                        <h2>Delícia Real</h2>
+                        <p>Brownie da casa acompanhado com sorvete e ganache.</p>
+                        <p>R&dollar; 21</p>
+                    </figcaption>
+                </figure>
             </section>
+        </section>
+
+        <section class="categoria" id="bebidas">
+            <section class="bloco-categorias">
+                <h1>Bebidas Não Alcoólicas</h1>
+                <div class="bebida">
+                    <h2>Refrigerante KS</h2>
+                    <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
+                    <p>R&dollar; 6</p>
+                </div>
+                <div class="bebida">
+                    <h2>Refrigerante Lata</h2>
+                    <p>Coca-Cola, Coca Zero e Guaraná Antártica.</p>
+                    <p>R&dollar; 7</p>
+                </div>
+                <div class="bebida">
+                    <h2>Suco de laranja copo</h2>
+                    <p>R&dollar; 9</p>
+                </div>
+                <div class="bebida">
+                    <h2>Suco de laranja jarra</h2>
+                    <p>R&dollar; 18</p>
+                </div>
+                <div class="bebida">
+                    <h2>Suco copo S/Leite</h2>
+                    <p>Cajá, maracujá e acerola</p>
+                    <p>R&dollar; 7</p>
+                </div>
+                <div class="bebida">
+                    <h2>Suco copo C/Leite</h2>
+                    <p>Cajá, maracujá e acerola</p>
+                    <p>R&dollar; 8</p>
+                </div>
+                <div class="bebida">
+                    <h2>Suco jarra S/Leite</h2>
+                    <p>Cajá, maracujá e acerola</p>
+                    <p>R&dollar; 15</p>
+                </div>
+                <div class="bebida">
+                    <h2>Suco jarra C/Leite</h2>
+                    <p>Cajá, maracujá e acerola</p>
+                    <p>R&dollar; 16</p>
+                </div>
+            </section>
+        </section>
     </main>
 
     <footer>

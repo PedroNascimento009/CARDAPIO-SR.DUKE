@@ -33,20 +33,24 @@ h1 {
     font-size: 1.8rem;
 }
 
-h2 {
+.fig-prato>h2, .bebida>h2 {
     color: #1b1b1b;
 
     font-family: Roboto-SemiBold;
     font-size: 1.4rem;
 }
 
-p {
+.fig-prato>p:first-child, .bebida>p {
     color: #1b1b1b;
 
     font-family: Poppins;
     font-size: 0.8rem;
 
     line-height: 17px;
+}
+
+.fig-prato>p:last-child, .bebida>p:last-child {
+    font-size: 1rem;
 }
 
 /* Footer */
