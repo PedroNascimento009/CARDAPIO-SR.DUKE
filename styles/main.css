@@ -54,3 +54,8 @@ main {
 .fig-prato>h2, .bebida>h2 {
     border-bottom: 2px solid #1b1b1b;
 }
+
+.cont-whisky>img {
+    width: 10px;
+    height: 10px;
+}
