@@ -19,7 +19,7 @@ main {
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 1s ease;
-    pointer-events: none; /* pra evitar clique enquanto oculta */
+    pointer-events: none;
   }
 
 .prato-intro.visivel {
@@ -103,4 +103,27 @@ main {
 .fig-prato>h2,
 .bebida>h2 {
     border-bottom: 2px solid #1b1b1b;
+}
+
+.bloco-categorias-dest {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cont-whisky {
+    display: inline-block;
+    position: relative;
+}
+
+.cont-whisky>img {
+    width: 140px;
+    height: 140px;
+}
+
+.cont-whisky>figcaption {
+    max-width: 30px;
+
+    position: absolute;
+    top: 0;
 }
