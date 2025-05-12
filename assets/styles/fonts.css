@@ -16,7 +16,7 @@
 /* Header */
 
 button,
-.titulo-perfil>p {
+.cont-profile>p {
     color: #d6d6d6;
 
     font-family: Roboto;
@@ -33,14 +33,16 @@ h1 {
     font-size: 1.8rem;
 }
 
-.fig-prato>h2, .bebida>h2 {
+.fig-dish>h2,
+.cont-drink>h2 {
     color: #1b1b1b;
 
     font-family: Roboto-SemiBold;
     font-size: 1.4rem;
 }
 
-.fig-prato>p:first-child, .bebida>p {
+.fig-dish>p:first-child,
+.cont-drink>p {
     color: #1b1b1b;
 
     font-family: Poppins;
@@ -49,12 +51,13 @@ h1 {
     line-height: 17px;
 }
 
-.fig-prato>p:last-child, .bebida>p:last-child {
+.fig-dish>p:last-child,
+.cont-drink>p:last-child {
     font-size: 1rem;
 }
 
 /* Footer */
-.titulo-footer>h3 {
+.title-footer>h3 {
     color: #d6d6d6;
 
     font-family: Roboto;
@@ -63,7 +66,7 @@ h1 {
     line-height: 38px;
 }
 
-.logo-criador>figcaption {
+.logo-creator>figcaption {
     color: #d6d6d6;
 
     font-family: Roboto;

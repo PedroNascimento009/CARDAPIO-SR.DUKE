@@ -12,18 +12,18 @@ header {
     text-align: center;
 }
 
-.titulo-perfil {
+.cont-profile {
     border-bottom: 2px solid #000000;
 }
 
-.titulo-perfil>img {
+.profile-img {
     width: 9.9rem;
     opacity: 0.8;
 
     margin-bottom: 10px;
 }
 
-.categorias {
+.cont-category {
     padding: 7px 10px;
 
     border-bottom: 2px solid #000000;
@@ -32,11 +32,11 @@ header {
     white-space: nowrap;
 }
 
-.categorias::-webkit-scrollbar {
+.cont-category::-webkit-scrollbar {
     display: none;
 }
 
-.categorias>button {
+.category-button {
     background: none;
     border: none;
     padding: 0.2px 2px;
@@ -44,6 +44,6 @@ header {
     cursor: pointer;
 }
 
-.categorias>button:hover {
+.category-button:hover {
     border-bottom: 2px solid #d6d6d6;
 }

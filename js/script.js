@@ -1,26 +1,26 @@
 // IMG Reveal Scroll
 document.addEventListener("scroll", function () {
-    const pratos = document.querySelectorAll(".prato");
+    const dish = document.querySelectorAll(".cont-dish");
     const windowHeight = window.innerHeight;
     
-    pratos.forEach(prato => {
-        const img = prato.querySelector("img");
+    dish.forEach(dish => {
+        const img = dish.querySelector("img");
         const rect = img.getBoundingClientRect();
         
-        if (rect.top > windowHeight / 4 && rect.bottom < windowHeight * 3.7 / 4.6) {
-            prato.classList.add("visible");
+        if (rect.top > windowHeight / 5 && rect.bottom < windowHeight * 3.8 / 4.7) {
+            dish.classList.add("visible");
         } else {
-            prato.classList.remove("visible");
+            dish.classList.remove("visible");
         }
     });
 });
 
 //TABS NAVBAR
 function abrirTabs(IdTab) {
-    var categorias = document.getElementsByClassName('categoria');
+    var category = document.getElementsByClassName('main-category');
 
-    for (var i = 0; i < categorias.length; i++) {
-        categorias[i].style.display = 'none';
+    for (var i = 0; i < category.length; i++) {
+        category[i].style.display = 'none';
     }
 
     document.getElementById(IdTab).style.display = "block";
@@ -28,7 +28,7 @@ function abrirTabs(IdTab) {
 }
 
 //TROCA DE IMGS
-const figuras = [document.getElementById("iamgem1"), document.getElementById("imagem2")];
+const figuras = [document.getElementById("imagem1"), document.getElementById("imagem2")];
 let indice = 0;
 
 setInterval(() => {
