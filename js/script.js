@@ -1,12 +1,17 @@
+//INTRO
+setTimeout(() => {
+    document.getElementById("introdution").classList.add("visivel");
+}, 1000);
+
 // IMG Reveal Scroll
 document.addEventListener("scroll", function () {
     const dish = document.querySelectorAll(".cont-dish");
     const windowHeight = window.innerHeight;
-    
+
     dish.forEach(dish => {
         const img = dish.querySelector("img");
         const rect = img.getBoundingClientRect();
-        
+
         if (rect.top > windowHeight / 5 && rect.bottom < windowHeight * 3.8 / 4.7) {
             dish.classList.add("visible");
         } else {
@@ -32,11 +37,11 @@ const figuras = [document.getElementById("imagem1"), document.getElementById("im
 let indice = 0;
 
 setInterval(() => {
-  const atual = figuras[indice];
-  const proxima = figuras[(indice + 1) % figuras.length];
+    const atual = figuras[indice];
+    const proxima = figuras[(indice + 1) % figuras.length];
 
-  atual.classList.remove("visivel");
-  proxima.classList.add("visivel");
+    atual.classList.remove("visivel");
+    proxima.classList.add("visivel");
 
-  indice = (indice + 1) % figuras.length;
+    indice = (indice + 1) % figuras.length;
 }, 4000);
