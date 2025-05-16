@@ -63,22 +63,16 @@ main {
     }
 }
 
-.sub-category {
+.category-list {
     display: grid;
     gap: 40px;
 }
 
-.sub-category>h1 {
-    margin-top: 30px;
-
-    text-align: center;
-}
-
-.cont-dish:last-child {
+.category-dish-item:last-child {
     padding-bottom: 10px;
 }
 
-.cont-dish>img {
+.dish-image {
     width: 100%;
     height: 110px;
 
@@ -88,21 +82,21 @@ main {
     transition: height 0.7s ease-out;
 }
 
-.cont-dish.visible img {
+.category-dish-item.visible img {
     height: 220px;
 }
 
-.fig-dish,
-.cont-drink {
+.dish-description,
+.category-drink-item {
     margin: 0px 30px;
 }
 
-.fig-dish>h2,
-.cont-drink>h2 {
+.dish-description>h2,
+.category-drink-item>h2 {
     border-bottom: 2px solid #1b1b1b;
 }
 
-.cont-distilled {
+.category-beverage {
     display: flex;
     gap: 40px;
 
@@ -111,23 +105,23 @@ main {
     overflow-x: scroll;
 }
 
-.cont-distilled::-webkit-scrollbar {
+.category-beverage::-webkit-scrollbar {
     display: none;
 }
 
-.sub-distilled {
+.category-beverage-item {
     display: flex;
     gap: 10px;
     padding: 0px 20px;
 }
 
-.distilled-img {
+.beverage-image {
     max-width: 200px;
     max-height: 200px;
     width: auto;
     height: auto;
 }
 
-.distilled-fig {
+.beverage-description {
     max-width: 100px;
 }
