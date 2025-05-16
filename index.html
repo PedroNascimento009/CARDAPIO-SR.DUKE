@@ -15,890 +15,881 @@
 
 <body>
     <header>
-        <div id="introdution">
-            <img class="introdution-img" src="assets/imgs/icons/logo.webp" alt="logo abertura">
-        </div>
-        <div class="cont-profile">
+        <figure id="introdution">
+            <img class="introdution-image" src="assets/imgs/icons/logo.webp" alt="logo abertura">
+        </figure>
+        <figure class="cont-profile">
             <img class="profile-img" src="assets/imgs/icons/logo.webp" alt="logo">
             <p>&#9906 Praça Marechal Deodoro, Centro</p>
-        </div>
+        </figure>
         <nav class="cont-category">
-            <button class="category-button" onclick="abrirTabs('entrance')">Entradas</button>
-            <button class="category-button" onclick="abrirTabs('mainDish')">Prato-Principal</button>
-            <button class="category-button" onclick="abrirTabs('salad')">Saladas</button>
-            <button class="category-button" onclick="abrirTabs('kids')">Kid´s</button>
-            <button class="category-button" onclick="abrirTabs('dessert')">Sobremesas</button>
-            <button class="category-button" onclick="abrirTabs('drinks')">Bebidas</button>
-            <button class="category-button" onclick="abrirTabs('cocktails')">Drinks</button>
-            <button class="category-button" onclick="abrirTabs('distilled')">Destilados</button>
-            <button class="category-button" onclick="abrirTabs('wines')">Vinhos</button>
+            <button class="category-button" onclick="openTabs('entrance')">Entradas</button>
+            <button class="category-button" onclick="openTabs('mainDish')">Prato-Principal</button>
+            <button class="category-button" onclick="openTabs('salad')">Saladas</button>
+            <button class="category-button" onclick="openTabs('kids')">Kid´s</button>
+            <button class="category-button" onclick="openTabs('dessert')">Sobremesas</button>
+            <button class="category-button" onclick="openTabs('drinks')">Bebidas</button>
+            <button class="category-button" onclick="openTabs('cocktails')">Drinks</button>
+            <button class="category-button" onclick="openTabs('distilled')">Destilados</button>
+            <button class="category-button" onclick="openTabs('wines')">Vinhos</button>
         </nav>
     </header>
 
     <main>
-        <!--section id="intro">
-            <section>
-                <h1>Pratos em destaques</h1>
-                <div>
-                    <figure class="prato-intro" id="imagem1">
-                        <img src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="arroz-duke">
-                        <figcaption>
-                            <h2>Arroz do duke</h2>
-                            <p>Arroz negro cremoso, puxados com mix de pimentão, filé de siri, camarão e polvo</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="prato-intro" id="imagem2">
-                        <img src="assets/imgs/dishes/main-course/file-risoto.webp" alt="file-risoto">
-                        <figcaption>
-                            <h2>Filé com risoto</h2>
-                            <p>Medalhão de filé grelhado servido com risoto de parmesão</p>
-                        </figcaption>
-                    </figure>
-                </div>
-            </section-->
-        </section>
         <section class="main-category" id="entrance">
-            <section class="sub-category">
-                <h1>Entradas</h1>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino">
-                    <figcaption class="fig-dish">
+            <h1>Entradas</h1>
+            <ul class="category-list">
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino">
+                    <div class="dish-description">
                         <h2>Pastel nordestino(6 uni.)</h2>
-                        <p>Massa de pastel recheada com nosssa carne do sol e queijo coalho.</p>
+                        <p>Massa de pastel recheada com nossa carne do sol e queijo coalho.</p>
                         <p>R&dollar; 42</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel siri">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel siri">
+                    <div class="dish-description">
                         <h2>Pastel de siri(6 uni.)</h2>
                         <p>Massa de pastel recheada com file de siri.</p>
                         <p>R&dollar; 42</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri">
+                    <div class="dish-description">
                         <h2>Coxinha de siri(6 uni.)</h2>
                         <p>Filé de siri ao coco acompanhado de molho de acerola picante.</p>
                         <p>R&dollar; 38</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco">
+                    <div class="dish-description">
                         <h2>Camarão ao coco</h2>
                         <p>Camarões empanados com coco e fritos, servidos com Aioli de dendê cítrico.</p>
                         <p>R&dollar; 40</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto">
+                    <div class="dish-description">
                         <h2>Dueto</h2>
                         <p>Cubos de filé grelhados ao molho roti acompanhado de fritas da casa</p>
                         <p>R&dollar; 70</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios"-->
+                    <div class="dish-description">
                         <h2>Tabua de queijos e frios(serve 4p)</h2>
                         <p>Queijo coalho, queijo parmesão, gorgonzola, salaminho, azeitonas, uva.</p>
                         <p>R&dollar; 120</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/batata-rustica-g" alt="Batata rustica G"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/batata-rustica-g" alt="Batata rustica G"-->
+                    <div class="dish-description">
                         <h2>Batata Rustica com cheddar e bacon(G)</h2>
                         <p>Porção de batata rústicas(400g) com queijo cheddar e bacon crocante(100g).</p>
                         <p>R&dollar; 60</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/batata-rustica-g" alt="Batata rustica G"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/batata-rustica-g" alt="Batata rustica G"-->
+                    <div class="dish-description">
                         <h2>Batata Rustica com cheddar e bacon(P)</h2>
                         <p>Porção de batata rústicas(200g) com queijo cheddar e bacon crocante(50g).</p>
                         <p>R&dollar; 30</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/bolinho-queijo" alt="Bolinho de queijo"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/bolinho-queijo" alt="Bolinho de queijo"-->
+                    <div class="dish-description">
                         <h2>Bolinhos de queijo coalho</h2>
                         <p>Bolinhos de massa de macaxeira recheados com queijo coalho.</p>
                         <p>R&dollar; 25</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/brusqueta-classica" alt="Brusqueta classica"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-classica" alt="Brusqueta classica"-->
+                    <div class="dish-description">
                         <h2>Brusqueta Clássica</h2>
-                        <p>Fatias de pão tostados servidas com tomates frescos temperados, manjericão, queijo coalho grelhado e finalizado com azeite.</p>
+                        <p>Fatias de pão tostados servidas com tomates frescos temperados, manjericão, queijo coalho
+                            grelhado e finalizado com azeite.</p>
                         <p>R&dollar; 24</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/brusqueta-camarao" alt="Brusqueta de camarão"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-camarao" alt="Brusqueta de camarão"-->
+                    <div class="dish-description">
                         <h2>Brusqueta de camarão</h2>
                         <p>Fatias de pão tostados servidas com camarões salteados ao alho e limão siciliano.</p>
                         <p>R&dollar; 36</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/brusqueta-siri" alt="Brusqueta de siri"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-siri" alt="Brusqueta de siri"-->
+                    <div class="dish-description">
                         <h2>Brusqueta de siri cremoso</h2>
-                        <p>Fatias de pão tostados servidas com um creme de siri cororados com folhas frescas de rucula.</p>
+                        <p>Fatias de pão tostados servidas com um creme de siri cororados com folhas frescas de rucula.
+                        </p>
                         <p>R&dollar; 30</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/caldinho-polvo" alt="Caldinho de polvo"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/caldinho-polvo" alt="Caldinho de polvo"-->
+                    <div class="dish-description">
                         <h2>Caldinho de polvo</h2>
-                        <p>Tentaculos de polvo cozidos envolvidos em uma mistura de tomate, cebola, pimentão e ervas frescas, regados com azeita e toque de limão siciliano.</p>
+                        <p>Tentaculos de polvo cozidos envolvidos em uma mistura de tomate, cebola, pimentão e ervas
+                            frescas, regados com azeita e toque de limão siciliano.</p>
                         <p>R&dollar; 20</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/croquete-nordestina" alt="Croquete nordestina-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/croquete-nordestina" alt="Croquete nordestina-->
+                    <div class="dish-description">
                         <h2>Croquete nordestina</h2>
                         <p>Croquetes com massa de macaxeira recheada com carne do sol e queijo coalho.</p>
                         <p>R&dollar; 30</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/croquete-nordestina" alt="Croquete nordestina-->
-                    <figcaption class="fig-dish">
-                        <h2>Croquete nordestina</h2>
-                        <p>Massa de macaxeira recheada com carne do sol, queijo coalho e cream cheese.</p>
-                        <p>R&dollar; 30</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/panelinha-camarão" alt="Panelinha de camarão"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/panelinha-camarão" alt="Panelinha de camarão"-->
+                    <div class="dish-description">
                         <h2>Panelinha de camarão</h2>
-                        <p>Camarões selados e mergulhados em molho de tomate levemente picante, com tome de especiarias e ervas frescas. Acompanha torradas crocantes.</p>
+                        <p>Camarões selados e mergulhados em molho de tomate levemente picante, com tome de especiarias
+                            e ervas frescas. Acompanha torradas crocantes.</p>
                         <p>R&dollar; 42</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/torrada-pate" alt="Torrada com patê"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/torrada-pate" alt="Torrada com patê"-->
+                    <div class="dish-description">
                         <h2>Torrada com patê</h2>
                         <p>Pão tostado servidos com patê de queijo parmessão ou gorgonzola.</p>
                         <p>R&dollar; 15</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <!--img src="assets/imgs/dishes/prohibited/vinagrete-polvo" alt="Vinagrete de polvo"-->
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/vinagrete-polvo" alt="Vinagrete de polvo"-->
+                    <div class="dish-description">
                         <h2>Vinagrete de polvo</h2>
-                        <p>Tentaculos de polvo cozidos envolvidos em uma mistura de tomate, cebola roxa, pimentão e ervas frescas, regados com azeita e toque de limão siciliano. Acompanha massa branca.</p>
+                        <p>Tentaculos de polvo cozidos envolvidos em uma mistura de tomate, cebola roxa, pimentão e
+                            ervas frescas, regados com azeita e toque de limão siciliano. Acompanha massa branca.</p>
                         <p>R&dollar; 28</p>
-                    </figcaption>
-                </figure>
-            </section>
-        </section>
-
-        <section class="main-category" id="salad">
-            <section class="sub-category">
-                <h1>Salada</h1>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/salad/salada-ceasar.webp" alt="Salada Ceasar">
-                    <figcaption class="fig-dish">
-                        <h2>Salada Ceasar</h2>
-                        <p>Folhas frescas, peito de frango em tiras, queijo parmesão, molho ceasar finalizado com
-                            croutons.</p>
-                        <p>R&dollar; 40</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/salad/niçoise-duke.wepb" alt="Niçoise do Duke">
-                    <figcaption class="fig-dish">
-                        <h2>Niçoise do Duke</h2>
-                        <p>Folhas frescas, ovos cozidos, tomatinho, azeitonas, batatatinhas grelhadas e peixe branco
-                            servidos com molho citronete./p>
-                        <p>R&dollar; 59</p>
-                    </figcaption>
-                </figure>
-            </section>
-        </section>
-
-        <section class="main-category" id="kids">
-            <section class="sub-category">
-                <h1>Kid´s</h1>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/cheese-burguer.webp" alt="Cheeseburguer">
-                    <figcaption class="fig-dish">
-                        <h2>Cheeseburguer</h2>
-                        <p>Pão tostado, hamburguer angus 120g, queijo cheddar, cebolas caramelizadas e aioli. Acompanha
-                            de batata rústicas.</p>
-                        <p>R&dollar; 30</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+            </ul>
         </section>
 
         <section class="main-category" id="mainDish">
-            <section class="sub-category">
-                <h1>Prato-Principal</h1>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/risoto-nordestino.wepb" alt="Risoto nordestino">
-                    <figcaption class="fig-dish">
-                        <h2>Risoto Nordestino</h2>
-                        <p>Arroz italiano, abobóra, queijo coalho e carne do sol, finalizado com parmesão e
-                            manteiga.</p>
-                        <p>R&dollar; 59</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke">
-                    <figcaption class="fig-dish">
+            <h1>Prato-Principal</h1>
+            <ul class="category-list">
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke">
+                    <div class="dish-description">
                         <h2>Arroz do Duke</h2>
                         <p>Arroz negro cremoso, puxados com mix de pimentão, filé de siri, camarão e polvo.</p>
                         <p>R&dollar; 85</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/linguine-camarao.webp" alt="Linguine camarao">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/linguine-camarao.webp"
+                        alt="Linguine camarao">
+                    <div class="dish-description">
                         <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
                         <p>Linguine grano duro, feitos com leite de coco e caldo de camarão da casa com camarão,
                             abobrinhas e cogumelos refogados.</p>
                         <p>R&dollar; 55</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/carbonara.webp" alt="Tabua de queijos e frios">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/carbonara.webp"
+                        alt="Tabua de queijos e frios">
+                    <div class="dish-description">
                         <h2>Carbonara</h2>
                         <p>Linguine grano duro, envolto em molho cremoso de ovos e bacon finalizado com parmesão.
                         </p>
                         <p>R&dollar; 55</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib">
+                    <div class="dish-description">
                         <h2>Prime rib suíno</h2>
                         <p>Corte suíno ao dry rub grelhado em um molho cremoso de laranja e mostarda, servido com
                             purê de abóbora salteado de milho fresco com coentro.</p>
                         <p>R&dollar; 40</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/peixe-branco.wepb" alt="Peixe branco">
-                    <figcaption class="fig-dish">
-                        <h2>Peixe branco</h2>
-                        <p>Peixe branco com crosta de de pão, purê de banana da terra e legumes do dia salteados.
-                        </p>
-                        <p>R&dollar; 65</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/polvo-grelhado.webp" alt="Polvo grelhado">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/polvo-grelhado.webp"
+                        alt="Polvo grelhado">
+                    <div class="dish-description">
                         <h2>Polvo grelhado</h2>
                         <p>Polvo grelhado servido com mousseline de batata e aioli roxo finalizado com chimichurri.
                         </p>
                         <p>R&dollar; 79</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto">
+                    <div class="dish-description">
                         <h2>Filé com risoto</h2>
                         <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
                         <p>R&dollar; 69</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/main-course/peixe-branco.wepb" alt="Peixe branco"-->
+                    <div class="dish-description">
+                        <h2>Peixe branco</h2>
+                        <p>Peixe branco com crosta de de pão, purê de banana da terra e legumes do dia salteados.
+                        </p>
+                        <p>R&dollar; 65</p>
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/main-course/risoto-nordestino.wepb" alt="Risoto nordestino"-->
+                    <div class="dish-description">
+                        <h2>Risoto Nordestino</h2>
+                        <p>Arroz italiano, abobóra, queijo coalho e carne do sol, finalizado com parmesão e
+                            manteiga.</p>
+                        <p>R&dollar; 59</p>
+                    </div>
+                </li>
+            </ul>
         </section>
 
+        <section class="main-category" id="salad">
+            <h1>Salada</h1>
+            <ul class="category-list">
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/salad/salada-ceasar.webp" alt="Salada Ceasar">
+                    <div class="dish-description">
+                        <h2>Salada Ceasar</h2>
+                        <p>Folhas frescas, peito de frango em tiras, queijo parmesão, molho ceasar finalizado com
+                            croutons.</p>
+                        <p>R&dollar; 40</p>
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <!--img class="dish-image" src="assets/imgs/dishes/salad/niçoise-duke.wepb" alt="Niçoise do Duke"-->
+                    <div class="dish-description">
+                        <h2>Niçoise do Duke</h2>
+                        <p>Folhas frescas, ovos cozidos, tomatinho, azeitonas, batatatinhas grelhadas e peixe branco
+                            servidos com molho citronete./p>
+                        <p>R&dollar; 59</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-category" id="kids">
+            <h1>Kid´s</h1>
+            <ul class="category-list">
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/main-course/cheese-burguer.webp"
+                        alt="Cheeseburguer">
+                    <div class="dish-description">
+                        <h2>Cheeseburguer</h2>
+                        <p>Pão tostado, hamburguer angus 120g, queijo cheddar, cebolas caramelizadas e aioli. Acompanha
+                            de batata rústicas.</p>
+                        <p>R&dollar; 30</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
         <section class="main-category" id="dessert">
-            <section class="sub-category">
-                <h1>Sobremesa</h1>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/dessert/pudim-rapadura.webp" alt="Pudim rapadura">
-                    <figcaption class="fig-dish">
+            <h1>Sobremesa</h1>
+            <ul class="category-list">
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/dessert/pudim-rapadura.webp" alt="Pudim rapadura">
+                    <div class="dish-description">
                         <h2>Pudim de rapadura</h2>
                         <p>Releitura do clássico pudim com toque da rapadura do nosso nordeste.</p>
                         <p>R&dollar; 16</p>
-                    </figcaption>
-                </figure>
-                <figure class="cont-dish">
-                    <img src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real">
-                    <figcaption class="fig-dish">
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real">
+                    <div class="dish-description">
                         <h2>Delícia Real</h2>
                         <p>Brownie da casa acompanhado com sorvete e ganache.</p>
                         <p>R&dollar; 21</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+            </ul>
         </section>
 
         <section class="main-category" id="drinks">
-            <section class="sub-category">
-                <h1>Bebidas Não Alcoólicas</h1>
-                <div class="cont-drink">
+            <h1>Bebidas Não Alcoólicas</h1>
+            <ul class="category-list">
+                <li class="category-drink-item">
                     <h2>Refrigerante KS</h2>
                     <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
                     <p>R&dollar; 6</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Refrigerante Lata</h2>
                     <p>Coca-Cola, Coca Zero e Guaraná Antártica.</p>
                     <p>R&dollar; 7</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Suco de laranja copo</h2>
                     <p>R&dollar; 9</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Suco de laranja jarra</h2>
                     <p>R&dollar; 18</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Suco copo S/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 7</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Suco copo C/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 8</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Suco jarra S/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 15</p>
-                </div>
-                <div class="cont-drink">
+                </li>
+                <li class="category-drink-item">
                     <h2>Suco jarra C/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 16</p>
-                </div>
-            </section>
+                </li>
+            </ul>
         </section>
         <section class="main-category" id="cocktails">
-            <section class="sub-category">
-                <h1>Bebidas Não Alcoólicas</h1>
-                <figure class="cont-drink">
+            <h1>Bebidas Não Alcoólicas</h1>
+            <ul class="category-list">
+                <li class="cont-drink">
                     <img src="" alt="">
                     <h2>Refrigerante KS</h2>
                     <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
                     <p>R&dollar; 6</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <img src="" alt="">
                     <h2>Refrigerante Lata</h2>
                     <p>Coca-Cola, Coca Zero e Guaraná Antártica.</p>
                     <p>R&dollar; 7</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <img src="" alt="">
                     <h2>Suco de laranja copo</h2>
                     <p>R&dollar; 9</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <img src="" alt="">
                     <h2>Suco de laranja jarra</h2>
                     <p>R&dollar; 18</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <img src="" alt="">
                     <h2>Suco copo S/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 7</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <h2>Suco copo C/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 8</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <h2>Suco jarra S/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 15</p>
-                </figure>
-                <figure class="cont-drink">
+                </li>
+                <li class="cont-drink">
                     <img src="" alt="">
                     <h2>Suco jarra C/Leite</h2>
                     <p>Cajá, maracujá e acerola</p>
                     <p>R&dollar; 16</p>
-                </figure>
-            </section>
+                </li>
+            </ul>
         </section>
 
         <section class="main-category" id="distilled">
             <h1>Whisky´s</h1>
-            <section class="sub-category cont-distilled">
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/balla-12.webp" alt="ballatines 12">
-                    <figcaption class="distilled-fig">
+            <ul class="category-list category-beverage">
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/balla-12.webp" alt="ballatines 12">
+                    <div class="beverage-description">
                         <h2>Ballatines 12 anos</h2>
                         <p>R&dollar; 25</p>
                         <p>R&dollar; 18 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/balla-finest.webp" alt="ballatines finest">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/balla-finest.webp"
+                        alt="ballatines finest">
+                    <div class="beverage-description">
                         <h2>Ballatines Finest</h2>
                         <p>R&dollar; 12</p>
                         <p>R&dollar; 9 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/black.webp" alt="black label">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/black.webp" alt="black label">
+                    <div class="beverage-description">
                         <h2>Black Label</h2>
                         <p>R&dollar; 26</p>
                         <p>R&dollar; 18 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/buchanans.webp" alt="buchanans delux">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/buchanans.webp"
+                        alt="buchanans delux">
+                    <div class="beverage-description">
                         <h2>Buchanan´s Delux</h2>
                         <p>R&dollar; 30</p>
                         <p>R&dollar; 22 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/buffalo.webp" alt="buffalo trace">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/buffalo.webp" alt="buffalo trace">
+                    <div class="beverage-description">
                         <h2>Buffalo Trace</h2>
                         <p>R&dollar; 30</p>
                         <p>R&dollar; 22 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/chivas.webp" alt="chivas">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/chivas.webp" alt="chivas">
+                    <div class="beverage-description">
                         <h2>Chivas Regal</h2>
                         <p>R&dollar; 23</p>
                         <p>R&dollar; 16 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/double.webp" alt="double">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/double.webp" alt="double">
+                    <div class="beverage-description">
                         <h2>Double Black</h2>
                         <p>R&dollar; 30</p>
                         <p>R&dollar; 22 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/gentleman.webp" alt="gentleman">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/gentleman.webp" alt="gentleman">
+                    <div class="beverage-description">
                         <h2>Gentleman Jack</h2>
                         <p>R&dollar; 26</p>
                         <p>R&dollar; 19 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/gold.webp" alt="gold">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/gold.webp" alt="gold">
+                    <div class="beverage-description">
                         <h2>Gold Label</h2>
                         <p>R&dollar; 46</p>
                         <p>R&dollar; 33 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/jack-danielsn7.webp"
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/jack-danielsn7.webp"
                         alt="jack daniels n7">
-                    <figcaption class="distilled-fig">
+                    <div class="beverage-description">
                         <h2>Jack Daniels Tenesse</h2>
                         <p>R&dollar; 22</p>
                         <p>R&dollar; 16 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/jameson.webp" alt="jameson">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/jameson.webp" alt="jameson">
+                    <div class="beverage-description">
                         <h2>Jameson</h2>
                         <p>R&dollar; 21</p>
                         <p>R&dollar; 15 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/jim.webp" alt="jim">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/jim.webp" alt="jim">
+                    <div class="beverage-description">
                         <h2>Jim Beam</h2>
                         <p>R&dollar; 17</p>
                         <p>R&dollar; 12 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/makers.webp" alt="makers">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/makers.webp" alt="makers">
+                    <div class="beverage-description">
                         <h2>Maker´s Mask</h2>
                         <p>R&dollar; 32</p>
                         <p>R&dollar; 23 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/old.webp" alt="old">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/old.webp" alt="old">
+                    <div class="beverage-description">
                         <h2>Old Par</h2>
                         <p>R&dollar; 27</p>
                         <p>R&dollar; 20 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/red.webp" alt="red">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/red.webp" alt="red">
+                    <div class="beverage-description">
                         <h2>Red Label</h2>
                         <p>R&dollar; 15</p>
                         <p>R&dollar; 10 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/white.webp" alt="white">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/white.webp" alt="white">
+                    <div class="beverage-description">
                         <h2>White Horse</h2>
                         <p>R&dollar; 14</p>
                         <p>R&dollar; 10 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/wild.webp" alt="wild">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/wild.webp" alt="wild">
+                    <div class="beverage-description">
                         <h2>Wild Turkey</h2>
                         <p>R&dollar; 37</p>
                         <p>R&dollar; 27 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/whiskys/woodford.webp" alt="wood">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/woodford.webp" alt="wood">
+                    <div class="beverage-description">
                         <h2>Wooddford Reserve</h2>
                         <p>R&dollar; 39</p>
                         <p>R&dollar; 28 club</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+            </ul>
             <h1>Vodka</h1>
-            <section class="sub-category cont-distilled">
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/absolut.webp" alt="absolut">
-                    <figcaption class="distilled-fig">
+            <ul class="category-list category-beverage">
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut.webp" alt="absolut">
+                    <div class="beverage-description">
                         <h2>Absolut</h2>
                         <p>R&dollar; 16</p>
                         <p>R&dollar; 12 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/absolut-rasp.webp" alt="absolut raspberri">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut-rasp.webp"
+                        alt="absolut raspberri">
+                    <div class="beverage-description">
                         <h2>Absolut Raspberri</h2>
                         <p>R&dollar; 18</p>
                         <p>R&dollar; 13 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/absolut-citron.webp"
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut-citron.webp"
                         alt="absolut citron">
-                    <figcaption class="distilled-fig">
+                    <div class="beverage-description">
                         <h2>Absolut Citron</h2>
                         <p>R&dollar; 24</p>
                         <p>R&dollar; 17 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/absolut-vanilia.webp"
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut-vanilia.webp"
                         alt="absolut vanilia">
-                    <figcaption class="distilled-fig">
+                    <div class="beverage-description">
                         <h2>Absolut Vanilia</h2>
                         <p>R&dollar; 16</p>
                         <p>R&dollar; 12 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/belvedere.webp" alt="belvedere">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/belvedere.webp" alt="belvedere">
+                    <div class="beverage-description">
                         <h2>Belvedere</h2>
                         <p>R&dollar; 38</p>
                         <p>R&dollar; 27 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/orloff.webp" alt="orloff">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/orloff.webp" alt="orloff">
+                    <div class="beverage-description">
                         <h2>Orloff</h2>
                         <p>R&dollar; 8</p>
                         <p>R&dollar; 6 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/vodka/smirnoff.webp" alt="smirnoff">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/vodka/smirnoff.webp" alt="smirnoff">
+                    <div class="beverage-description">
                         <h2>Smirnoff</h2>
                         <p>R&dollar; 6</p>
                         <p>R&dollar; 4 club</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+            </ul>
             <h1>Gin</h1>
-            <section class="sub-category cont-distilled">
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/gin/beefeater.webp" alt="beefeater">
-                    <figcaption class="distilled-fig">
+            <ul class="category-list category-beverage">
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/gin/beefeater.webp" alt="beefeater">
+                    <div class="beverage-description">
                         <h2>Beefeater London</h2>
                         <p>R&dollar; 21</p>
                         <p>R&dollar; 15 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/gin/bulldog.webp" alt="bulldog">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/gin/bulldog.webp" alt="bulldog">
+                    <div class="beverage-description">
                         <h2>Bulldog</h2>
                         <p>R&dollar; 26</p>
                         <p>R&dollar; 18 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/gin/tanqueray.webp" alt="tanqueray">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/gin/tanqueray.webp" alt="tanqueray">
+                    <div class="beverage-description">
                         <h2>Tanqueray London</h2>
                         <p>R&dollar; 27</p>
                         <p>R&dollar; 19 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/gin/tanqueray-s.webp" alt="tanqueray sevilla">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/gin/tanqueray-s.webp"
+                        alt="tanqueray sevilla">
+                    <div class="beverage-description">
                         <h2>Tanqueray Sevilla</h2>
                         <p>R&dollar; 22</p>
                         <p>R&dollar; 16 club</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+            </ul>
             <h1>Diversos</h1>
-            <section class="sub-category cont-distilled">
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/bacardi-big.webp" alt="bacardi big">
-                    <figcaption class="distilled-fig">
+            <ul class="category-list category-beverage">
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/bacardi-big.webp" alt="bacardi big">
+                    <div class="beverage-description">
                         <h2>Bacardi Big Apple</h2>
                         <p>R&dollar; 9</p>
                         <p>R&dollar; 6 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/campari.webp" alt="campari">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/campari.webp" alt="campari">
+                    <div class="beverage-description">
                         <h2>Campari Bitter</h2>
                         <p>R&dollar; 11</p>
                         <p>R&dollar; 8 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/cointreau.webp" alt="cointreau">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/cointreau.webp" alt="cointreau">
+                    <div class="beverage-description">
                         <h2>Cointreau</h2>
                         <p>R&dollar; 29</p>
                         <p>R&dollar; 25 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/fireball.webp" alt="fireball">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/fireball.webp" alt="fireball">
+                    <div class="beverage-description">
                         <h2>Fire Ball</h2>
                         <p>R&dollar; 16</p>
                         <p>R&dollar; 14 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/licor-43.webp" alt="licor 43">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/licor-43.webp" alt="licor 43">
+                    <div class="beverage-description">
                         <h2>Licor 43</h2>
                         <p>R&dollar; 16</p>
                         <p>R&dollar; 14 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/sagatiba.webp" alt="sagatiba">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/sagatiba.webp" alt="sagatiba">
+                    <div class="beverage-description">
                         <h2>Sagatiba</h2>
                         <p>R&dollar; 6</p>
                         <p>R&dollar; 5 club</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/distilled/diverse/jose-cuervo.webp" alt="jose cuervo">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/distilled/diverse/jose-cuervo.webp" alt="jose cuervo">
+                    <div class="beverage-description">
                         <h2>Jose Cuervo</h2>
                         <p>R&dollar; 21</p>
                         <p>R&dollar; 18 club</p>
-                    </figcaption>
-                </figure>
-            </section>
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section class="main-category" id="wines">
+        <ul class="main-category" id="wines">
             <h1>Tintos</h1>
-            <section class="sub-category cont-distilled">
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/arte.webp" alt="arte">
-                    <figcaption class="distilled-fig">
+            <ul class="category-list category-beverage">
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/arte.webp" alt="arte">
+                    <div class="beverage-description">
                         <h2>Casa Valduga Arte</h2>
                         <p>Cabernet Sauvignon e Merlot</p>
                         <p>R&dollar; 0</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/astronauta.webp" alt="astronauta">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/astronauta.webp" alt="astronauta">
+                    <div class="beverage-description">
                         <h2>Astronauta</h2>
-                        <p>Touringa Nacional/p>
+                        <p>Touringa Nacional</p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/carta-vieja-caber.webp" alt="carta vieja caber">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-caber.webp"
+                        alt="carta vieja caber">
+                    <div class="beverage-description">
                         <h2>Carta Vieja</h2>
                         <p>Cabernet Sauvignon</p>
                         <p>R&dollar; 57</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/carta-vieja-carme.webp" alt="carta vieja carmenere">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-carme.webp"
+                        alt="carta vieja carmenere">
+                    <div class="beverage-description">
                         <h2>Carta Vieja</h2>
                         <p>Carmenere</p>
                         <p>R&dollar; 57</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/carta-vieja-merlot.webp" alt="carta vieja merlot">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-merlot.webp"
+                        alt="carta vieja merlot">
+                    <div class="beverage-description">
                         <h2>Carta Vieja</h2>
                         <p>Merlot</p>
                         <p>R&dollar; 57</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/carta-vieja-gran.webp" alt="carta vieja gran reserva">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-gran.webp"
+                        alt="carta vieja gran reserva">
+                    <div class="beverage-description">
                         <h2>Carta Vieja Gran Reserva</h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/casa-del-bosque-pinot.webp" alt="casa del bosque pinot">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/casa-del-bosque-pinot.webp"
+                        alt="casa del bosque pinot">
+                    <div class="beverage-description">
                         <h2>Casa Del Bosque Reserva</h2>
                         <p>Pinot Noir</p>
                         <p>R&dollar; 89</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/casi-caber.webp" alt="casillero cabernet sauvignon">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/casi-caber.webp"
+                        alt="casillero cabernet sauvignon">
+                    <div class="beverage-description">
                         <h2>Casillero Del Diablo</h2>
                         <p>Cabernet Sauvignon</p>
                         <p>R&dollar; 118</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/dao-casa-santar.webp" alt="casa de santar">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/dao-casa-santar.webp" alt="casa de santar">
+                    <div class="beverage-description">
                         <h2>Casa de Santar</h2>
                         <p>Alfrocheiro, Aragonês e Touriga Nacional</p>
                         <p>R&dollar; 199</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/felino.webp" alt="cobos felino">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/felino.webp" alt="cobos felino">
+                    <div class="beverage-description">
                         <h2>Cobos Felino</h2>
                         <p>Malbec</p>
                         <p>R&dollar; 199</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/gentileza.webp" alt="gentileza">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/gentileza.webp" alt="gentileza">
+                    <div class="beverage-description">
                         <h2>Gentileza</h2>
                         <p>Uvas não declaradas</p>
                         <p>R&dollar; 81</p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
-                <figure class="sub-distilled">
-                    <img class="distilled-img" src="assets/imgs/wine/red/" alt="">
-                    <figcaption class="distilled-fig">
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <div class="beverage-description">
                         <h2></h2>
                         <p></p>
                         <p>R&dollar; </p>
-                    </figcaption>
-                </figure>
+                    </div>
+                </li>
+            </ul>
             </section>
-        </section>
     </main>
 
     <footer>
@@ -911,14 +902,14 @@
         <div class="creator-social">
             <figure class="logo-creator">
                 <img class="img-creator" src="assets/imgs/icons/criador.jfif" alt="criador-perfil">
-                <figcaption>Pedro</figcaption>
+                <figcaption class="text-creator">Pedro</figcaption>
             </figure>
             <a href=""><img class="social-img sc1" src="assets/imgs/icons/github.webp" alt="github"></a>
             <a href=""><img class="social-img sc2" src="assets/imgs/icons/whatsapp.webp" alt="whatsapp"></a>
         </div>
-        <section class="title-footer">
+        <ul class="title-footer">
             <h3>OBRIGADO PELA PREFERÊNCIA!</h3>
-        </section>
+        </ul>
     </footer>
     <script src="js/script.js"></script>
 </body>
