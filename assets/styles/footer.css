@@ -2,8 +2,8 @@ footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas:
-        "social-rest social-criador"
-        "titulo titulo";
+        "restaurant-social creator-infor"
+        "thanks thanks";
 
     justify-content: center;
     align-items: center;
@@ -13,71 +13,71 @@ footer {
     padding: 10px 10px;
 }
 
-.social-rest {
+.restaurant-social {
     display: grid;
     grid-template-areas:
-        "logo-rest logo-rest"
+        "restaurant-logo restaurant-logo"
         "sr1 sr2";
     justify-content: center;
 
-    grid-area: social-rest;
+    grid-area: restaurant-social;
 
     margin-bottom: 10px;
 }
 
-.social-creator {
+.creator-infor {
     display: grid;
     grid-template-areas:
-        "logo-criador logo-criador"
-        "sc1 sc1";
+        "creator-profile creator-profile"
+        "github whatsapp2";
     justify-content: center;
 
-    grid-area: social-criador;
+    grid-area: creator-infor;
 
     margin-bottom: 10px;
 }
 
-.logo-footer {
+.restaurant-logo-footer {
     margin-bottom: 20px;
 
     width: 8rem;
 
-    grid-area: logo-rest;
+    grid-area: restaurant-logo;
 }
 
-.social-img {
+.social-icon {
     width: 3rem;
 }
 
-.sr1 {
-    grid-area: sr1;
+.instagram {
+    grid-area: instagram;
 }
 
-.sr2 {
-    grid-area: sr2;
+.whatsapp1 {
+    grid-area: whatsapp1;
 }
 
-.sc1 {
-    grid-area: sc1;
+.github {
+    grid-area: github;
     justify-self: flex-start;
 }
 
-.sc2 {
-    grid-area: sc2;
+.whatsapp2 {
+    grid-area: whatsapp2;
     margin-left: 6px;
 }
 
-.logo-creator {
+.creator-profile {
     display: flex;
     align-items: center;
-    grid-area: logo-criador;
+    grid-area: creator-profile;
 
     width: 128px;
 
     margin-bottom: 20px;
 }
 
-.img-creator {
+.creator-image {
     width: 2.49rem;
 
     margin-right: 8px;
@@ -85,10 +85,10 @@ footer {
     border-radius: 50%;
 }
 
-.title-footer {
+.footer-thanks {
     text-align: center;
 
     border-top: 1px solid #d6d6d6;
 
-    grid-area: titulo;
+    grid-area: thanks;
 }

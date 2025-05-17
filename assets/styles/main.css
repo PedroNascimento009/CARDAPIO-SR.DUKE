@@ -11,6 +11,10 @@ main {
     box-shadow: inset 0px -111px 95px -24px rgba(0, 0, 0, 0.32);
 }
 
+ul {
+    list-style: none;
+}
+
 .intro {
     text-align: center;
     position: absolute;
@@ -124,4 +128,8 @@ main {
 
 .beverage-description {
     max-width: 100px;
+}
+
+.beverage-description>p {
+    margin: 10px 0px;
 }

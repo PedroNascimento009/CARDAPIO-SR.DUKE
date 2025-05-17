@@ -15,7 +15,7 @@
 
 /* Header */
 
-button,
+.category-button,
 .cont-profile>p {
     color: #d6d6d6;
 
@@ -33,16 +33,16 @@ h1 {
     font-size: 1.8rem;
 }
 
-.fig-dish>h2,
-.cont-drink>h2 {
+.dish-description>h2,
+.category-drink-item>h2 {
     color: #1b1b1b;
 
     font-family: Roboto-SemiBold;
     font-size: 1.4rem;
 }
 
-.fig-dish>p:first-child,
-.cont-drink>p {
+.dish-description>p:first-child,
+.category-drink-item>p, .beverage-description>p {
     color: #1b1b1b;
 
     font-family: Poppins;
@@ -51,24 +51,32 @@ h1 {
     line-height: 17px;
 }
 
-.fig-dish>p:last-child,
-.cont-drink>p:last-child {
+.dish-description>p:last-child,
+.category-drink-item>p:last-child {
     font-size: 1rem;
 }
 
+.beverage-description>h2 {
+    font-size: 1.6rem;
+}
+
+.beverage-description>p {
+    font-size: 0.9rem;
+}
+
 /* Footer */
-.title-footer>h3 {
+.creator-name {
+    color: #d6d6d6;
+
+    font-family: Roboto;
+    font-size: 1.1rem;
+}
+
+.footer-thanks>span {
     color: #d6d6d6;
 
     font-family: Roboto;
     font-size: 0.8rem;
 
     line-height: 38px;
-}
-
-.logo-creator>figcaption {
-    color: #d6d6d6;
-
-    font-family: Roboto;
-    font-size: 1.1rem;
 }
