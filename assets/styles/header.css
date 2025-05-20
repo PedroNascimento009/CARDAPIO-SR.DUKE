@@ -41,7 +41,7 @@ header {
     height: 10vh;
 }
 
-.cont-profile {
+.container-profile {
     border-bottom: 2px solid #000000;
 }
 
@@ -52,7 +52,7 @@ header {
     margin-bottom: 10px;
 }
 
-.cont-category {
+.container-category {
     padding: 7px 10px;
 
     border-bottom: 2px solid #000000;
@@ -61,7 +61,7 @@ header {
     white-space: nowrap;
 }
 
-.cont-category::-webkit-scrollbar {
+.container-category::-webkit-scrollbar {
     display: none;
 }
 

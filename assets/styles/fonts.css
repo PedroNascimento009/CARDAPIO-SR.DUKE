@@ -16,7 +16,7 @@
 /* Header */
 
 .category-button,
-.cont-profile>p {
+.container-profile>p {
     color: #d6d6d6;
 
     font-family: Roboto;
@@ -42,7 +42,8 @@ h1 {
 }
 
 .dish-description>p:first-child,
-.category-drink-item>p, .beverage-description>p {
+.category-drink-item>p,
+.beverage-description>p {
     color: #1b1b1b;
 
     font-family: Poppins;

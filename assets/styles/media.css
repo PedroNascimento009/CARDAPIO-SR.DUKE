@@ -1,7 +1,19 @@
+@media only screen and (min-width: 350px) {
+    /* Main */
+    .main-category {
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+
+    .category-dish-item.visible img {
+        height: 360px;
+    }
+}
+
 @media only screen and (max-width: 350px) {
 
     /* Header */
-    .categorias {
+    .category {
         gap: 4px;
     }
 
@@ -10,17 +22,17 @@
         width: 7rem;
     }
 
-    .img-criador {
+    .creator-image {
         width: 2rem;
     }
 
-    .social-img {
+    .social-image {
         width: 2rem;
     }
 
     /* Fontes */
-    .categorias>button,
-    .titulo-perfil>p {
+    .category-button,
+    .container-profile>p {
         font-size: 0.9 !important;
     }
 
@@ -36,12 +48,12 @@
         font-size: 0.7rem !important;
     }
 
-    .titulo-footer>h3 {
+    .footer-thanks>h3 {
         font-size: 0.6rem !important;
         line-height: 30px !important;
     }
 
-    .logo-criador>figcaption {
+    .creator-image>figcaption {
         font-size: 1rem !important;
     }
 }

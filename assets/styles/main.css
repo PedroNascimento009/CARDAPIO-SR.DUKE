@@ -90,6 +90,10 @@ ul {
     height: 220px;
 }
 
+.category-dish-item.visible img {
+    height: 220px;
+}
+
 .dish-description,
 .category-drink-item {
     margin: 0px 30px;
@@ -127,7 +131,7 @@ ul {
 }
 
 .beverage-description {
-    max-width: 100px;
+    max-width: 115px;
 }
 
 .beverage-description>p {
