@@ -18,11 +18,11 @@
         <figure id="introdution">
             <img class="introdution-image" src="assets/imgs/icons/logo.webp" alt="logo abertura">
         </figure>
-        <figure class="cont-profile">
+        <figure class="container-profile">
             <img class="profile-img" src="assets/imgs/icons/logo.webp" alt="logo">
             <p>&#9906 Praça Marechal Deodoro, Centro</p>
         </figure>
-        <nav class="cont-category">
+        <nav class="container-category">
             <button class="category-button" onclick="openTabs('entrance')">Entradas</button>
             <button class="category-button" onclick="openTabs('mainDish')">Prato-Principal</button>
             <button class="category-button" onclick="openTabs('salad')">Saladas</button>
@@ -80,6 +80,24 @@
                     </div>
                 </li>
                 <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/croquetes.webp"
+                        alt="Croquete nordestina">
+                    <div class="dish-description">
+                        <h2>Croquete nordestina</h2>
+                        <p>Croquetes com massa de macaxeira recheada com carne do sol e queijo coalho.</p>
+                        <p class="price">R&dollar; 30</p>
+                    </div>
+                </li>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/dishes/prohibited/bolinho-queijo.webp"
+                        alt="Bolinho de queijo">
+                    <div class="dish-description">
+                        <h2>Bolinhos de queijo coalho</h2>
+                        <p>Bolinhos de massa de macaxeira recheados com queijo coalho.</p>
+                        <p class="price">R&dollar; 25</p>
+                    </div>
+                </li>
+                <li class="category-dish-item">
                     <!--img class="dish-image" src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios"-->
                     <div class="dish-description">
                         <h2>Tabua de queijos e frios(serve 4p)</h2>
@@ -101,14 +119,6 @@
                         <h2>Batata Rustica com cheddar e bacon(P)</h2>
                         <p>Porção de batata rústicas(200g) com queijo cheddar e bacon crocante(50g).</p>
                         <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="category-dish-item">
-                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/bolinho-queijo" alt="Bolinho de queijo"-->
-                    <div class="dish-description">
-                        <h2>Bolinhos de queijo coalho</h2>
-                        <p>Bolinhos de massa de macaxeira recheados com queijo coalho.</p>
-                        <p class="price">R&dollar; 25</p>
                     </div>
                 </li>
                 <li class="category-dish-item">
@@ -144,14 +154,6 @@
                         <p>Tentaculos de polvo cozidos envolvidos em uma mistura de tomate, cebola, pimentão e ervas
                             frescas, regados com azeita e toque de limão siciliano.</p>
                         <p class="price">R&dollar; 20</p>
-                    </div>
-                </li>
-                <li class="category-dish-item">
-                    <!--img class="dish-image" src="assets/imgs/dishes/prohibited/croquete-nordestina" alt="Croquete nordestina-->
-                    <div class="dish-description">
-                        <h2>Croquete nordestina</h2>
-                        <p>Croquetes com massa de macaxeira recheada com carne do sol e queijo coalho.</p>
-                        <p class="price">R&dollar; 30</p>
                     </div>
                 </li>
                 <li class="category-dish-item">
@@ -275,7 +277,7 @@
                     </div>
                 </li>
                 <li class="category-dish-item">
-                    <!--img class="dish-image" src="assets/imgs/dishes/salad/niçoise-duke.wepb" alt="Niçoise do Duke"-->
+                    <img class="dish-image" src="assets/imgs/dishes/salad/niçoise-duke.webp" alt="Niçoise do Duke">
                     <div class="dish-description">
                         <h2>Niçoise do Duke</h2>
                         <p>Folhas frescas, ovos cozidos, tomatinho, azeitonas, batatatinhas grelhadas e peixe branco
@@ -290,8 +292,7 @@
             <h1>Kid´s</h1>
             <ul class="category-list">
                 <li class="category-dish-item">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/cheese-burguer.webp"
-                        alt="Cheeseburguer">
+                    <img class="dish-image" src="assets/imgs/dishes/kids/cheese-burguer.webp" alt="Cheeseburguer">
                     <div class="dish-description">
                         <h2>Cheeseburguer</h2>
                         <p>Pão tostado, hamburguer angus 120g, queijo cheddar, cebolas caramelizadas e aioli. Acompanha
@@ -371,11 +372,13 @@
         <section class="main-category" id="cocktails">
             <h1>Bebidas Não Alcoólicas</h1>
             <ul class="category-list">
-                <li class="cont-drink">
-                    <img src="" alt="">
-                    <h2>Refrigerante KS</h2>
-                    <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
-                    <p class="price">R&dollar; 6</p>
+                <li class="category-dish-item">
+                    <img class="dish-image" src="assets/imgs/cocktails/aperol-spritz.webp" alt="Croquete nordestina">
+                    <div class="dish-description">
+                        <h2>Croquete nordestina</h2>
+                        <p>Croquetes com massa de macaxeira recheada com carne do sol e queijo coalho.</p>
+                        <p class="price">R&dollar; 30</p>
+                    </div>
                 </li>
                 <li class="cont-drink">
                     <img src="" alt="">
@@ -727,23 +730,23 @@
                 </li>
             </ul>
         </section>
-        <ul class="main-category" id="wines">
+        <section class="main-category" id="wines">
             <h1>Tintos</h1>
             <ul class="category-list category-beverage">
                 <li class="category-beverage-item">
                     <img class="beverage-image" src="assets/imgs/wine/red/arte.webp" alt="arte">
                     <div class="beverage-description">
                         <h2>Casa Valduga Arte</h2>
-                        <p>Cabernet Sauvignon e Merlot</p>
-                        <p class="price">R&dollar; 0</p>
+                        <p>Cabernet Sauvignon e Merlot.</p>
+                        <p class="price">R&dollar; 98</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
                     <img class="beverage-image" src="assets/imgs/wine/red/astronauta.webp" alt="astronauta">
                     <div class="beverage-description">
                         <h2>Astronauta</h2>
-                        <p>Touringa Nacional</p>
-                        <p class="price">R&dollar; </p>
+                        <p>Touringa Nacional.</p>
+                        <p class="price">R&dollar; 166</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
@@ -751,7 +754,7 @@
                         alt="carta vieja caber">
                     <div class="beverage-description">
                         <h2>Carta Vieja</h2>
-                        <p>Cabernet Sauvignon</p>
+                        <p>Cabernet Sauvignon.</p>
                         <p class="price">R&dollar; 57</p>
                     </div>
                 </li>
@@ -760,7 +763,7 @@
                         alt="carta vieja carmenere">
                     <div class="beverage-description">
                         <h2>Carta Vieja</h2>
-                        <p>Carmenere</p>
+                        <p>Carmenere.</p>
                         <p class="price">R&dollar; 57</p>
                     </div>
                 </li>
@@ -769,7 +772,7 @@
                         alt="carta vieja merlot">
                     <div class="beverage-description">
                         <h2>Carta Vieja</h2>
-                        <p>Merlot</p>
+                        <p>Merlot.</p>
                         <p class="price">R&dollar; 57</p>
                     </div>
                 </li>
@@ -778,8 +781,8 @@
                         alt="carta vieja gran reserva">
                     <div class="beverage-description">
                         <h2>Carta Vieja Gran Reserva</h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <p>Cabernet Sauvignon.</p>
+                        <p class="price">R&dollar; 158</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
@@ -787,7 +790,7 @@
                         alt="casa del bosque pinot">
                     <div class="beverage-description">
                         <h2>Casa Del Bosque Reserva</h2>
-                        <p>Pinot Noir</p>
+                        <p>Pinot Noir.</p>
                         <p class="price">R&dollar; 89</p>
                     </div>
                 </li>
@@ -796,7 +799,7 @@
                         alt="casillero cabernet sauvignon">
                     <div class="beverage-description">
                         <h2>Casillero Del Diablo</h2>
-                        <p>Cabernet Sauvignon</p>
+                        <p>Cabernet Sauvignon.</p>
                         <p class="price">R&dollar; 118</p>
                     </div>
                 </li>
@@ -804,7 +807,7 @@
                     <img class="beverage-image" src="assets/imgs/wine/red/dao-casa-santar.webp" alt="casa de santar">
                     <div class="beverage-description">
                         <h2>Casa de Santar</h2>
-                        <p>Alfrocheiro, Aragonês e Touriga Nacional</p>
+                        <p>Alfrocheiro, Aragonês e Touriga Nacional.</p>
                         <p class="price">R&dollar; 199</p>
                     </div>
                 </li>
@@ -812,7 +815,7 @@
                     <img class="beverage-image" src="assets/imgs/wine/red/felino.webp" alt="cobos felino">
                     <div class="beverage-description">
                         <h2>Cobos Felino</h2>
-                        <p>Malbec</p>
+                        <p>Malbec.</p>
                         <p class="price">R&dollar; 199</p>
                     </div>
                 </li>
@@ -820,76 +823,197 @@
                     <img class="beverage-image" src="assets/imgs/wine/red/gentileza.webp" alt="gentileza">
                     <div class="beverage-description">
                         <h2>Gentileza</h2>
-                        <p>Uvas não declaradas</p>
+                        <p>Uvas viníferas.</p>
                         <p class="price">R&dollar; 81</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/jose-piteira-syrah.webp"
+                        alt="jose piteira syrah">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>José Piteira</h2>
+                        <p>Syrah.</p>
+                        <p class="price">R&dollar; 149</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/latitud-33-caber.webp"
+                        alt="latitud 33 cabernet sauvignon">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Latitud 33</h2>
+                        <p>Cabernet Sauvignon.</p>
+                        <p class="price">R&dollar; 98</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/latitud-33-mal.webp" alt="latitud 33 malbec">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Latitud 33</h2>
+                        <p>Malbec.</p>
+                        <p class="price">R&dollar; 98</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/mar-salgado-tinto.webp" alt="mar salgado">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Mar Salgado</h2>
+                        <p>Castelão, Aragonez e Touriga Nacional.</p>
+                        <p class="price">R&dollar; 98</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/marques.webp" alt="marques de casa concha">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Marques de Casa Concha</h2>
+                        <p>Cabernet Sauvignon.</p>
+                        <p class="price">R&dollar; 220</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/monte-cal-tinto.webp"
+                        alt="monte da cal tinto">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Monte da Cal</h2>
+                        <p>Alicante Bouschet, Touriga Nacional, Alfrocheiro, Aragonez.</p>
+                        <p class="price">R&dollar; 114</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/origem-caber.webp"
+                        alt="origem cabernet sauvignon">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Origem</h2>
+                        <p>Cabernet Sauvignon.</p>
+                        <p class="price">R&dollar; 130</p>
                     </div>
                 </li>
                 <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/" alt="">
+                    <img class="beverage-image" src="assets/imgs/wine/red/periquita.webp" alt="periquita">
                     <div class="beverage-description">
-                        <h2></h2>
-                        <p></p>
-                        <p class="price">R&dollar; </p>
+                        <h2>Periquita</h2>
+                        <p>Castelão, Trincadeira e Alicante Bouschet.</p>
+                        <p class="price">R&dollar; 140</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/red/trivento-mal.webp" alt="trivento malbec">
+                    <div class="beverage-description">
+                        <h2>Trivento</h2>
+                        <p>Malbec.</p>
+                        <p class="price">R&dollar; 123</p>
                     </div>
                 </li>
             </ul>
-            </section>
+            <h1>Brancos e rosé</h1>
+            <ul class="category-list category-beverage">
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/almaden-resling.webp"
+                        alt="almaden resling">
+                    <div class="beverage-description">
+                        <h2>Almaden</h2>
+                        <p>Resling.</p>
+                        <p class="price">R&dollar; 63</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/carta-vieja-char.webp"
+                        alt="carta vieja chardonnay">
+                    <div class="beverage-description">
+                        <h2>Carta Vieja</h2>
+                        <p>Chardonnay.</p>
+                        <p class="price">R&dollar; 57</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/casal-garcia-rose.webp"
+                        alt="casal garcia rose">
+                    <div class="beverage-description">
+                        <h2>Casal Garcia</h2>
+                        <p>Uvas viníferas.</p>
+                        <p class="price">R&dollar; 128</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/casi-branco.webp"
+                        alt="casillero sauvignon blanc">
+                    <div class="beverage-description">
+                        <h2>Casillero Del Diablo Belight</h2>
+                        <p>Sauvignon Blanc.</p>
+                        <p class="price">R&dollar; 91</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/casi-cha.webp"
+                        alt="casillero chardonnay">
+                    <div class="beverage-description">
+                        <h2>Casillero Del Diablo</h2>
+                        <p>Chardonnay.</p>
+                        <p class="price">R&dollar; 104</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/jose-piteira-branco.webp"
+                        alt="jose piteira branco">
+                    <div class="beverage-description">
+                        <h2>José Piteira</h2>
+                        <p>Roupeiro, Diagalves.</p>
+                        <p class="price">R&dollar; 92</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-branco.webp"
+                        alt="la belle branco">
+                    <div class="beverage-description">
+                        <h2>La Belle de Jour</h2>
+                        <p>Fernão Pires, Arinto, Sauvignon Blanc, Gewurztraminer.</p>
+                        <p class="price">R&dollar; 118</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-rose.webp"
+                        alt="la belle rose">
+                    <div class="beverage-description">
+                        <h2>La Belle de Jour</h2>
+                        <p>Castelão.</p>
+                        <p class="price">R&dollar; 109</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/los-incas.webp" alt="los incas">
+                    <div class="beverage-description">
+                        <h2>Los Incas</h2>
+                        <p>Chardonnay.</p>
+                        <p class="price">R&dollar; 67</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/marioa-chardo.webp" alt="mario branco">
+                    <div class="beverage-description">
+                        <h2>Mario</h2>
+                        <p>Chardonnay.</p>
+                        <p class="price">R&dollar; 66</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/monte-cal-branco.webp"
+                        alt="monte da cal branco">
+                    <div class="beverage-description">
+                        <h2>Monte da Cal</h2>
+                        <p> Viognier, Alvarinho, Arinto, Antão Vaz.</p>
+                        <p class="price">R&dollar; 87</p>
+                    </div>
+                </li>
+                <li class="category-beverage-item">
+                    <img class="beverage-image" src="assets/imgs/wine/white-rose/rose-piscine.webp"
+                        alt="frances piscine">
+                    <div class="beverage-description">
+                        <h2>Francês Piscine</h2>
+                        <p>Négrette.</p>
+                        <p class="price">R&dollar; 139</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <footer>
