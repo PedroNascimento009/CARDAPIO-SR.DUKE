@@ -11,7 +11,7 @@ function abrirTabs(id) {
 }
 
 function verificarVisibilidade() {
-    const dishes = document.querySelectorAll(".category-dish-item");
+    const dishes = document.querySelectorAll(".category-dish-item, .cocktail-item");
     const windowHeight = window.innerHeight;
 
     dishes.forEach(dish => {
