@@ -1,17 +1,17 @@
 @font-face {
-    font-family: Roboto-Bold;
+    font-family: 'Roboto-Bold';
     src: url(/assets/fonts/RobotoCondensed-Bold.ttf) format(truetype);
     font-display: swap;
 }
 
 @font-face {
-    font-family: Roboto-SemiBold;
+    font-family: 'Roboto-SemiBold';
     src: url(/assets/fonts/RobotoCondensed-SemiBold.ttf) format(truetype);
     font-display: swap;
 }
 
 @font-face {
-    font-family: Poppins;
+    font-family: 'Poppins';
     src: url(/assets/fonts/Poppins-Regular.ttf) format(truetype);
     font-display: swap;
 }
@@ -22,7 +22,7 @@
 .container-profile>p {
     color: #d6d6d6;
 
-    font-family: Roboto;
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-style: italic;
     font-size: 0.9rem;
 }
@@ -32,7 +32,7 @@
 h1 {
     color: #1b1b1b;
 
-    font-family: Roboto-Bold;
+    font-family: 'Roboto-Bold', Arial, sans-serif;
     font-size: 1.8rem;
 }
 
@@ -40,7 +40,7 @@ h1 {
 .category-drink-item>h2 {
     color: #1b1b1b;
 
-    font-family: Roboto-SemiBold;
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-size: 1.4rem;
 }
 
@@ -49,7 +49,7 @@ h1 {
 .beverage-description>p {
     color: #1b1b1b;
 
-    font-family: Poppins;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 0.8rem;
 
     line-height: 17px;
@@ -72,14 +72,14 @@ h1 {
 .creator-name {
     color: #d6d6d6;
 
-    font-family: Roboto;
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-size: 1.1rem;
 }
 
 .footer-thanks>span {
     color: #d6d6d6;
 
-    font-family: Roboto;
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-size: 0.8rem;
 
     line-height: 38px;
