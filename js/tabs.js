@@ -11,6 +11,8 @@ export function abrirTabs(id) {
     verificarVisibilidade();
 }
 
+window.abrirTabs = abrirTabs;
+
 export function openTabs(IdTab) {
     var category = document.getElementsByClassName('main-category');
 
@@ -20,3 +22,5 @@ export function openTabs(IdTab) {
 
     document.getElementById(IdTab).style.display = "block";
 }
+
+window.openTabs = openTabs;
