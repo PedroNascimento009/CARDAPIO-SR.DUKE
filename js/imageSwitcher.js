@@ -1,12 +1,18 @@
-const figuras = [document.getElementById("imagem1"), document.getElementById("imagem2")];
-let indice = 0;
+export function iniciarTrocaDeImagens() {
+    const figuras = [
+        document.getElementById("imagem1"),
+        document.getElementById("imagem2")
+    ];
 
-setInterval(() => {
-    const atual = figuras[indice];
-    const proxima = figuras[(indice + 1) % figuras.length];
+    let indice = 0;
 
-    atual.classList.remove("visivel");
-    proxima.classList.add("visivel");
+    setInterval(() => {
+        const atual = figuras[indice];
+        const proxima = figuras[(indice + 1) % figuras.length];
 
-    indice = (indice + 1) % figuras.length;
-}, 4000);
+        atual.classList.remove("visivel");
+        proxima.classList.add("visivel");
+
+        indice = (indice + 1) % figuras.length;
+    }, 4000);
+}
