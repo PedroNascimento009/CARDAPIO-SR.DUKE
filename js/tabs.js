@@ -1,26 +1,25 @@
-import { verificarVisibilidade } from 'js/scrollReveal.js';
+import { verificarVisibilidade } from './scrollReveal.js';
 
 export function abrirTabs(id) {
-    document.querySelectorAll('.main-category').forEach(sec => {
-        sec.style.display = 'none';
-    });
+  document.querySelectorAll('.main-category').forEach(sec => {
+    sec.style.display = 'none';
+  });
 
-    const secAtual = document.getElementById(id);
-    secAtual.style.display = 'block';
+  const secAtual = document.getElementById(id);
+  secAtual.style.display = 'block';
 
-    verificarVisibilidade();
+  verificarVisibilidade();
 }
 
-window.abrirTabs = abrirTabs;
-
 export function openTabs(IdTab) {
-    var category = document.getElementsByClassName('main-category');
+  const category = document.getElementsByClassName('main-category');
 
-    for (var i = 0; i < category.length; i++) {
-        category[i].style.display = 'none';
-    }
+  for (let i = 0; i < category.length; i++) {
+    category[i].style.display = 'none';
+  }
 
-    document.getElementById(IdTab).style.display = "block";
+  document.getElementById(IdTab).style.display = "block";
 }
 
 window.openTabs = openTabs;
+window.abrirTabs = abrirTabs;
