@@ -1,15 +1,4 @@
-function abrirTabs(id) {
-    document.querySelectorAll('.main-category').forEach(sec => {
-        sec.style.display = 'none';
-    });
-
-    const secAtual = document.getElementById(id);
-    secAtual.style.display = 'block';
-
-    verificarVisibilidade();
-}
-
-function verificarVisibilidade() {
+export function verificarVisibilidade() {
     const dishes = document.querySelectorAll(".category-dish-item, .cocktail-item");
     const windowHeight = window.innerHeight;
 
@@ -27,6 +16,7 @@ function verificarVisibilidade() {
     });
 }
 
-document.addEventListener("scroll", verificarVisibilidade);
-
-document.addEventListener("DOMContentLoaded", verificarVisibilidade);
+export function iniciarScrollReveal() {
+    document.addEventListener("scroll", verificarVisibilidade);
+    document.addEventListener("DOMContentLoaded", verificarVisibilidade);
+}
