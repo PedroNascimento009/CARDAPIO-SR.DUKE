@@ -1,4 +1,4 @@
-import { verificarVisibilidade } from 'js/scrollReveal.js';
+import { verificarVisibilidade } from './scrollReveal.js';
 
 export function abrirTabs(id) {
   document.querySelectorAll('.main-category').forEach(sec => {
