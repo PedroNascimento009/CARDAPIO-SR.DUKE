@@ -1,5 +1,5 @@
-import { iniciarScrollReveal } from './scrollReveal.js';
-import { iniciarTrocaDeImagens } from './imageSwitcher.js';
+import { iniciarScrollReveal } from 'js/scrollReveal.js';
+import { iniciarTrocaDeImagens } from 'js/imageSwitcher.js';
 
 iniciarScrollReveal();
 iniciarTrocaDeImagens();
