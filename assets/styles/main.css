@@ -72,11 +72,13 @@ ul {
     gap: 40px;
 }
 
-.category-dish-item:last-child {
+.category-dish-item:last-child,
+.cocktail-item>:last-child {
     padding-bottom: 10px;
 }
 
-.dish-image {
+.dish-image,
+.cocktail-image {
     width: 100%;
     height: 110px;
 
@@ -86,21 +88,23 @@ ul {
     transition: height 0.7s ease-out;
 }
 
-.category-dish-item.visible img {
+.category-dish-item.visible>img {
     height: 220px;
 }
 
-.category-dish-item.visible img {
-    height: 220px;
+.cocktail-item.visible>img {
+    height: 230px;
 }
 
 .dish-description,
-.category-drink-item {
+.drink-item,
+.cocktail-description {
     margin: 0px 30px;
 }
 
 .dish-description>h2,
-.category-drink-item>h2 {
+.drink-item>h2,
+.cocktail-description>h2 {
     border-bottom: 2px solid #1b1b1b;
 }
 
