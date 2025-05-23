@@ -15,33 +15,6 @@ ul {
     list-style: none;
 }
 
-.intro {
-    text-align: center;
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 1s ease;
-    pointer-events: none;
-}
-
-.intro.visivel {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.intro>img {
-    width: 300px;
-    height: auto;
-}
-
-.intro {
-    height: 100vh;
-    background-color: #f0f0f0;
-    overflow: hidden;
-}
-
 .main-category {
     display: none;
 
@@ -74,13 +47,12 @@ ul {
 
 .category-dish-item:last-child,
 .cocktail-item>:last-child {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
-.dish-image,
-.cocktail-image {
+.dish-image, .cocktail-image {
     width: 100%;
-    height: 110px;
+    height: 30vw;
 
     object-fit: cover;
     overflow: hidden;
@@ -89,11 +61,11 @@ ul {
 }
 
 .category-dish-item.visible>img {
-    height: 220px;
+    height: 70vw;
 }
 
 .cocktail-item.visible>img {
-    height: 230px;
+    height: 80vw;
 }
 
 .dish-description,
@@ -106,6 +78,11 @@ ul {
 .drink-item>h2,
 .cocktail-description>h2 {
     border-bottom: 2px solid #1b1b1b;
+}
+
+.club-description {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .category-beverage {

@@ -1,17 +1,58 @@
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 600px) {
+    /* Desktop */
     /* Main */
     .main-category {
-        max-width: 50rem;
+        max-width: 700px;
         margin: 0 auto;
     }
 
-    .category-dish-item.visible img {
-        height: 360px;
+    .dish-image, .cocktail-image {
+        height: 200px;
+    }
+    
+    .category-dish-item.visible>img {
+        height: 350px;
+    }
+    
+    .cocktail-item.visible>img {
+        height: 500px;
+    }
+
+    .category-dish-item:last-child,
+    .cocktail-item>:last-child {
+        padding-bottom: 65px;
+    }
+
+    /* Fontes */
+    .category-button,
+    .container-profile>p {
+        font-size: 1.2 !important;
+    }
+
+    h1 {
+        font-size: 1.9rem !important;
+    }
+
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    p {
+        font-size: 1rem !important;
+    }
+
+    .footer-thanks>h3 {
+        font-size: 0.8rem !important;
+        line-height: 30px !important;
+    }
+
+    .creator-image>figcaption {
+        font-size: 1.3rem !important;
     }
 }
 
 @media only screen and (max-width: 350px) {
-
+    /* Mobile */
     /* Header */
     .category {
         gap: 4px;

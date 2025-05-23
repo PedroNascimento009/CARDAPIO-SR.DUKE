@@ -68,6 +68,10 @@ h1 {
     font-size: 0.9rem;
 }
 
+.price {
+    font-size: 1rem;
+}
+
 /* Footer */
 .creator-name {
     color: #d6d6d6;
