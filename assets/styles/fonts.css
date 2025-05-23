@@ -46,7 +46,7 @@ h1 {
 
 .dish-description>p:first-child,
 .category-drink-item>p,
-.beverage-description>p {
+.beverage-description>p, .coffe-description, .club-description {
     color: #1b1b1b;
 
     font-family: 'Poppins', Arial, sans-serif;
