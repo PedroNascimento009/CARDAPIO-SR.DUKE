@@ -118,3 +118,8 @@ ul {
 .beverage-description>p {
     margin: 10px 0px;
 }
+
+.club-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
