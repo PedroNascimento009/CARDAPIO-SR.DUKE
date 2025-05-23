@@ -8,7 +8,7 @@ export function verificarVisibilidade() {
 
         const rect = img.getBoundingClientRect();
 
-        if (rect.top > windowHeight / 5 && rect.bottom < windowHeight * 3.8 / 4.7) {
+        if (rect.top > windowHeight / 5 && rect.bottom < windowHeight * 4.8 / 4.7) {
             dish.classList.add("visible");
         } else {
             dish.classList.remove("visible");
