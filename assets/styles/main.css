@@ -119,7 +119,7 @@ ul {
     margin: 10px 0px;
 }
 
-.club-description {
+.club-description, .coffe-description {
     text-align: center;
     margin-bottom: 20px;
 }
