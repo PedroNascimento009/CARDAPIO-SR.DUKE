@@ -40,6 +40,10 @@ ul {
     }
 }
 
+.main-category.active {
+  display: block;
+}
+
 .category-list {
     display: grid;
     gap: 40px;
