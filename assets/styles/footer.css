@@ -37,14 +37,6 @@ footer {
     margin-bottom: 10px;
 }
 
-.restaurant-logo-footer {
-    margin-bottom: 20px;
-
-    width: 8rem;
-
-    grid-area: restaurant-logo;
-}
-
 .social-icon {
     width: 3rem;
 }
@@ -75,14 +67,6 @@ footer {
     width: 128px;
 
     margin-bottom: 20px;
-}
-
-.creator-image {
-    width: 2.49rem;
-
-    margin-right: 8px;
-
-    border-radius: 50%;
 }
 
 .footer-thanks {

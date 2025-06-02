@@ -12,7 +12,7 @@ header {
     text-align: center;
 }
 
-#introdution {
+#introduction {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,23 +37,12 @@ header {
     }
 }
 
-.introdution-image {
-    height: 10vh;
-}
-
 .container-profile {
     border-bottom: 2px solid #000000;
 }
 
-.profile-img {
-    width: 9.9rem;
-    opacity: 0.8;
-
-    margin-bottom: 10px;
-}
-
 .container-category {
-    padding: 7px 10px;
+    padding: 8px 10px;
 
     border-bottom: 2px solid #000000;
 

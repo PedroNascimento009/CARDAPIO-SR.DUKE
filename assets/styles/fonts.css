@@ -24,40 +24,40 @@
 
     font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 1rem;
+}
+
+.category-button {
+    font-size: 1.1rem;
 }
 
 /* Main */
-
 h1 {
     color: #1b1b1b;
 
     font-family: 'Roboto-Bold', Arial, sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .dish-description>h2,
-.category-drink-item>h2 {
+.category-drink-item>h2,
+.beverage-description>h2 {
     color: #1b1b1b;
 
     font-family: 'Roboto-SemiBold', Arial, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
-.dish-description>p:first-child,
+.dish-description>p,
 .category-drink-item>p,
-.beverage-description>p, .coffe-description, .club-description {
+.beverage-description>p,
+.happy-description {
     color: #1b1b1b;
 
     font-family: 'Poppins', Arial, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 
     line-height: 17px;
-}
-
-.dish-description>p:last-child,
-.category-drink-item>p:last-child {
-    font-size: 1rem;
 }
 
 .beverage-description>h2 {

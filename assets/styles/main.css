@@ -11,10 +11,6 @@ main {
     box-shadow: inset 0px -111px 95px -24px rgba(0, 0, 0, 0.32);
 }
 
-ul {
-    list-style: none;
-}
-
 .main-category {
     display: none;
 
@@ -26,6 +22,10 @@ ul {
 .main-category>h1 {
     text-align: center;
     padding: 20px 0px;
+}
+
+.main-category.active {
+    display: block;
 }
 
 @keyframes fadeIn {
@@ -40,45 +40,67 @@ ul {
     }
 }
 
-.main-category.active {
-  display: block;
+@keyframes fadeIn2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
-.category-list {
-    display: grid;
-    gap: 40px;
+@keyframes fadeOut2 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
-.category-dish-item:last-child,
-.cocktail-item>:last-child {
+.category-happy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+    flex-wrap: nowrap;
+}
+
+.happy-description {
+    text-align: center;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 
-.dish-image, .cocktail-image {
-    width: 100%;
-    height: 30vw;
-
-    object-fit: cover;
-    overflow: hidden;
-
-    transition: height 0.7s ease-out;
+.category-list,
+.slider-container {
+    display: grid;
+    gap: 40px;
+    list-style: none;
 }
 
-.category-dish-item.visible>img {
-    height: 70vw;
+.category-dish-item {
+    list-style: none;
 }
 
-.cocktail-item.visible>img {
-    height: 80vw;
+.category-dish-item:last-child,
+.cocktail-item>:last-child,
+.drink-item:last-child {
+    padding-bottom: 40px;
 }
 
 .dish-description,
 .drink-item,
-.cocktail-description {
+.cocktail-description,
+.happy-description {
     margin: 0px 30px;
 }
 
 .dish-description>h2,
+.slide-description>h2,
 .drink-item>h2,
 .cocktail-description>h2 {
     border-bottom: 2px solid #1b1b1b;
@@ -108,13 +130,6 @@ ul {
     padding: 0px 20px;
 }
 
-.beverage-image {
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-}
-
 .beverage-description {
     max-width: 115px;
 }
@@ -123,7 +138,8 @@ ul {
     margin: 10px 0px;
 }
 
-.club-description, .coffe-description {
+.club-description,
+.coffe-description {
     text-align: center;
     margin-bottom: 20px;
 }
