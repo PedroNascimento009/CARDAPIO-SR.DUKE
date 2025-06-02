@@ -1,18 +1,12 @@
 export function iniciarTrocaDeImagens() {
-    const figuras = [
-        document.getElementById("imagem1"),
-        document.getElementById("imagem2")
-    ];
-
-    let indice = 0;
+    const slides = document.querySelectorAll(".slide");
+    let currentIndex = 0;
 
     setInterval(() => {
-        const atual = figuras[indice];
-        const proxima = figuras[(indice + 1) % figuras.length];
+        slides[currentIndex].classList.remove("active");
 
-        atual.classList.remove("visivel");
-        proxima.classList.add("visivel");
+        currentIndex = (currentIndex + 1) % slides.length;
 
-        indice = (indice + 1) % figuras.length;
-    }, 4000);
+        slides[currentIndex].classList.add("active");
+    }, 5000);
 }
