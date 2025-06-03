@@ -20,7 +20,7 @@
 
 .category-button,
 .container-profile>p {
-    color: #d6d6d6;
+    color: var(--second-font-color);
 
     font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-style: italic;
@@ -33,7 +33,7 @@
 
 /* Main */
 h1 {
-    color: #1b1b1b;
+    color: var(--first-font-color);
 
     font-family: 'Roboto-Bold', Arial, sans-serif;
     font-size: 2rem;
@@ -42,7 +42,7 @@ h1 {
 .dish-description>h2,
 .category-drink-item>h2,
 .beverage-description>h2 {
-    color: #1b1b1b;
+    color: var(--first-font-color);
 
     font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-size: 1.6rem;
@@ -52,7 +52,7 @@ h1 {
 .category-drink-item>p,
 .beverage-description>p,
 .happy-description {
-    color: #1b1b1b;
+    color: var(--first-font-color);
 
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 1.1rem;
@@ -74,14 +74,14 @@ h1 {
 
 /* Footer */
 .creator-name {
-    color: #d6d6d6;
+    color: var(--second-font-color);
 
     font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-size: 1.1rem;
 }
 
 .footer-thanks>span {
-    color: #d6d6d6;
+    color: var(--second-font-color);
 
     font-family: 'Roboto-SemiBold', Arial, sans-serif;
     font-size: 0.8rem;

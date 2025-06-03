@@ -1,3 +1,4 @@
+/* General Footer */
 footer {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -8,9 +9,20 @@ footer {
     justify-content: center;
     align-items: center;
 
-    background-color: #1b1b1b;
+    background-color: var(--main-bg-color);
 
     padding: 10px 10px;
+}
+
+/* Profiles */
+.creator-profile {
+    display: flex;
+    align-items: center;
+    grid-area: creator-profile;
+
+    width: 128px;
+
+    margin-bottom: 20px;
 }
 
 .restaurant-social {
@@ -37,6 +49,7 @@ footer {
     margin-bottom: 10px;
 }
 
+/* Icons */
 .social-icon {
     width: 3rem;
 }
@@ -59,20 +72,10 @@ footer {
     margin-left: 6px;
 }
 
-.creator-profile {
-    display: flex;
-    align-items: center;
-    grid-area: creator-profile;
-
-    width: 128px;
-
-    margin-bottom: 20px;
-}
-
 .footer-thanks {
     text-align: center;
 
-    border-top: 1px solid #d6d6d6;
+    border-top: 1px solid var(--second-border-color);
 
     grid-area: thanks;
 }

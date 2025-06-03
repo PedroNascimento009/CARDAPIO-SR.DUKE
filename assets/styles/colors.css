@@ -1,0 +1,16 @@
+/* Colors */
+:root {
+    /* Fonts */
+    --first-font-color: #1b1b1b;
+    --second-font-color: #d6d6d6;
+
+    /* Background */
+    --main-bg-color: #1b1b1b;
+
+    /* Border */
+    --first-border-color: #000000;
+    --second-border-color: ;
+
+    /* Box-Shadow */
+    --box-shadow-color: #00000052;
+}

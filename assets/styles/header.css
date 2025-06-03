@@ -1,17 +1,20 @@
+/* Joker */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* General Header */
 header {
-    background: #1b1b1b;
+    background: var(--main-bg-color);
 
     padding-top: 30px;
 
     text-align: center;
 }
 
+/* Introduciton Menu */
 #introduction {
     position: fixed;
     top: 0;
@@ -20,7 +23,7 @@ header {
     width: 100vw;
     height: 100vh;
 
-    background-color: #1b1b1b;
+    background-color: var(--main-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,14 +40,16 @@ header {
     }
 }
 
+/* Restaurant */
 .container-profile {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--first-border-color);
 }
 
+/* Category */
 .container-category {
     padding: 8px 10px;
 
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--first-border-color);
 
     overflow-x: scroll;
     white-space: nowrap;
@@ -63,5 +68,5 @@ header {
 }
 
 .category-button:hover {
-    border-bottom: 2px solid #d6d6d6;
+    border-bottom: 2px solid var(--second-border-color);
 }

@@ -1,4 +1,4 @@
-/* Header */
+/* Header Images */
 .introduction-image {
     max-height: 10vh;
 }
@@ -9,7 +9,7 @@
     margin-bottom: 10px;
 }
 
-/* Main */
+/* Main Images */
 .happy-image {
     height: 60vw;
     width: auto;
@@ -54,7 +54,7 @@
     height: auto;
 }
 
-/* Footer */
+/* Footer Images */
 .restaurant-logo-footer {
     margin-bottom: 20px;
 
