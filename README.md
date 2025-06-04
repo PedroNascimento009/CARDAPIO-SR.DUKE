@@ -5,7 +5,7 @@ Cardápio sendo produzido para o bistrô Sr.Duke, feito inspirado pela identidad
 
 ## Atualizações
 
-Arquivos css organizados.
+Adiçao de pratos.
 
 ## Autor e Deploy
 
