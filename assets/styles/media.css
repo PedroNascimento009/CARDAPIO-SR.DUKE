@@ -17,15 +17,15 @@
 
     .dish-image,
     .cocktail-image {
-        height: 23vw !important;
+        height: 25vw !important;
     }
 
     .category-dish-item.visible>img {
-        height: 30vw !important;
+        height: 35vw !important;
     }
 
     .cocktail-item.visible>img {
-        height: 35vw !important;
+        height: 40vw !important;
     }
 
     .category-dish-item:last-child,
