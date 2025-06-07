@@ -1,9 +1,9 @@
 export function exibirPratoDaSemana() {
     const pratosSemana = {
         1: 'arroz-duke',
-        2: 'peixe-branco',
-        3: 'polvo grelhado',
-        4: 'risoto-nordestino'
+        2: 'linguine-camarao',
+        3: 'prime-rib',
+        4: 'polvo-grelhado'
     };
 
     const container = document.getElementById('week-dish');
