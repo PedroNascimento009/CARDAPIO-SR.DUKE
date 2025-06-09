@@ -1,202 +1,334 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+      rel="icon"
+      href="assets/imgs/icons/logo-restaurant.ico"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="assets/imgs/icons/logo-restaurant.ico" />
 
+    <link rel="stylesheet" href="assets/styles/header.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <link rel="stylesheet" href="assets/styles/media.css" />
+    <link rel="stylesheet" href="assets/styles/fonts.css" />
+    <link rel="stylesheet" href="assets/styles/imgs.css" />
+    <link rel="stylesheet" href="assets/styles/colors.css" />
 
-    <link rel="icon" href="assets/imgs/icons/logo-restaurant.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="assets/imgs/icons/logo-restaurant.ico">
+    <link
+      rel="preload"
+      href="assets/fonts/Poppins-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/RobotoCondensed-Bold.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/RobotoCondensed-SemiBold.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/media.css">
-    <link rel="stylesheet" href="assets/styles/fonts.css">
-    <link rel="stylesheet" href="assets/styles/imgs.css">
-    <link rel="stylesheet" href="assets/styles/colors.css">
-
-    <link rel="preload" href="assets/fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" href="assets/fonts/RobotoCondensed-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" href="assets/fonts/RobotoCondensed-SemiBold.ttf" as="font" type="font/ttf"
-        crossorigin="anonymous">
-
-    <meta name="author" content="Pedro">
+    <meta name="author" content="Pedro" />
 
     <title>Cardápio Sr.Duke</title>
-    <meta name="description"
-        content="Conheça o bistrô Sr.Duke, com seu cardápio especialmente desenvolvido para utilizar a cozinha regional de uma forma mais elaborada.">
-    <meta name="keywords" content="restaurante, drinks, culinária, coquetéis, cardápio">
-</head>
+    <meta
+      name="description"
+      content="Conheça o bistrô Sr.Duke, com seu cardápio especialmente desenvolvido para utilizar a cozinha regional de uma forma mais elaborada."
+    />
+    <meta
+      name="keywords"
+      content="restaurante, drinks, culinária, coquetéis, cardápio"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <figure id="introduction">
-            <img class="introduction-image" src="assets/imgs/icons/logo.webp" alt="logo abertura" width="230"
-                height="300">
-        </figure>
-        <figure class="container-profile">
-            <img class="profile-img" src="assets/imgs/icons/logo.webp" alt="logo" width="158" height="50">
-            <p>&#9906; Praça Marechal Deodoro, Centro</p>
-        </figure>
-        <nav class="container-category">
-            <button class="category-button" onclick="openTabs('promotions')">Promoções</button>
-            <button class="category-button" onclick="openTabs('entrance')">Entradas</button>
-            <button class="category-button" onclick="openTabs('mainDish')">Prato-Principal</button>
-            <button class="category-button" onclick="openTabs('salad')">Saladas</button>
-            <button class="category-button" onclick="openTabs('kids')">Kid´s</button>
-            <button class="category-button" onclick="openTabs('dessert')">Sobremesas</button>
-            <button class="category-button" onclick="openTabs('drinks')">Bebidas</button>
-            <button class="category-button" onclick="openTabs('cocktails')">Drinks</button>
-            <button class="category-button" onclick="openTabs('distilled')">Destilados</button>
-            <button class="category-button" onclick="openTabs('wines')">Vinhos</button>
-        </nav>
+      <figure id="introduction">
+        <img
+          class="introduction-image"
+          src="assets/imgs/icons/logo.webp"
+          alt="logo abertura"
+          width="230"
+          height="300"
+        />
+      </figure>
+      <figure class="container-profile">
+        <img
+          class="profile-img"
+          src="assets/imgs/icons/logo.webp"
+          alt="logo"
+          width="158"
+          height="50"
+        />
+        <p>&#9906; Praça Marechal Deodoro, Centro</p>
+      </figure>
+      <nav class="container-category">
+        <button class="category-button" onclick="openTabs('promotions')">
+          Promoções
+        </button>
+        <button class="category-button" onclick="openTabs('entrance')">
+          Entradas
+        </button>
+        <button class="category-button" onclick="openTabs('mainDish')">
+          Prato-Principal
+        </button>
+        <button class="category-button" onclick="openTabs('salad')">
+          Saladas
+        </button>
+        <button class="category-button" onclick="openTabs('kids')">
+          Kid´s
+        </button>
+        <button class="category-button" onclick="openTabs('dessert')">
+          Sobremesas
+        </button>
+        <button class="category-button" onclick="openTabs('drinks')">
+          Bebidas
+        </button>
+        <button class="category-button" onclick="openTabs('cocktails')">
+          Drinks
+        </button>
+        <button class="category-button" onclick="openTabs('distilled')">
+          Destilados
+        </button>
+        <button class="category-button" onclick="openTabs('wines')">
+          Vinhos
+        </button>
+      </nav>
     </header>
 
     <main>
-        <section class="main-category active" id="promotions">
-            <h1>Prato da Semana</h1>
-            <div id="week-dish"></div>
-            <h1>Happy Hour</h1>
-            <div>
-                <figure class="category-happy">
-                    <img class="happy-image" src="assets/imgs/happy-hour/happy-caip.webp" alt="happy caipirinha"
-                        width="300" height="670">
-                    <video class="happy-video" autoplay loop muted playsinline>
-                        <source src="assets/imgs/happy-hour/happy-hour.mp4" type="video/mp4">
-                    </video>
-                    <img class="happy-image" src="assets/imgs/happy-hour/happy-choop.webp" alt="happy choop" width="300"
-                        height="670">
-                </figure>
-                <p class="happy-description"><strong>Quarta e quinta</strong>, das <strong>17h às 20h</strong>, curta
-                    nosso <strong>happy hour</strong> em qualquer lugar
-                    do salão!
-                    E tem mais: <strong>todos os dias</strong>, <strong>sem limite de horário</strong>, o happy hour é
-                    garantido nos balcões. <strong>Caipirinha e
-                        Choop</strong> por valor <strong>especial!</strong></p>
-            </div>
-        </section>
+      <section class="main-category active" id="promotions">
+        <h1>Prato da Semana</h1>
+        <div id="week-dish"></div>
+        <h1>Happy Hour</h1>
+        <div>
+          <figure class="category-happy">
+            <img
+              class="happy-image"
+              src="assets/imgs/happy-hour/happy-caip.webp"
+              alt="happy caipirinha"
+              width="300"
+              height="670"
+            />
+            <video class="happy-video" autoplay loop muted playsinline>
+              <source
+                src="assets/imgs/happy-hour/happy-hour.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <img
+              class="happy-image"
+              src="assets/imgs/happy-hour/happy-choop.webp"
+              alt="happy choop"
+              width="300"
+              height="670"
+            />
+          </figure>
+          <p class="happy-description">
+            <strong>Quarta e quinta</strong>, das <strong>17h às 20h</strong>,
+            curta nosso <strong>happy hour</strong> em qualquer lugar do salão!
+            E tem mais: <strong>todos os dias</strong>,
+            <strong>sem limite de horário</strong>, o happy hour é garantido nos
+            balcões. <strong>Caipirinha e Choop</strong> por valor
+            <strong>especial!</strong>
+          </p>
+        </div>
+      </section>
 
-        <section class="main-category" id="entrance">
-            <h1>Entradas</h1>
-            <ul class="category-list">
-                <li class="category-dish-item" id="pastel-nordestino">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Pastel nordestino(6 uni.)</h2>
-                        <p>Massa de pastel recheada com nossa carne do sol e queijo coalho.</p>
-                        <p class="price">R&dollar; 38</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="pastel-siri">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel siri"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Pastel de siri(6 uni.)</h2>
-                        <p>Massa de pastel recheada com file de siri.</p>
-                        <p class="price">R&dollar; 42</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="coxinha-siri">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Coxinha de siri(6 uni.)</h2>
-                        <p>Filé de siri ao coco acompanhado de molho de acerola picante.</p>
-                        <p class="price">R&dollar; 38</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="camarao-coco">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Camarão ao coco</h2>
-                        <p>Camarões empanados com coco e fritos, servidos com Aioli de dendê cítrico.</p>
-                        <p class="price">R&dollar; 40</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="dueto">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto" width="700"
-                        height="670">
-                    <div class="dish-description">
-                        <h2>Dueto</h2>
-                        <p>Cubos de filé grelhados ao molho roti acompanhado de fritas da casa</p>
-                        <p class="price">R&dollar; 70</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="croquete-nordestina">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/croquetes.webp" alt="Croquete nordestina"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Croquete nordestina(5 uni.)</h2>
-                        <p>Croquetes com massa de macaxeira recheada com carne do sol e queijo coalho.</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="bolinhos-queijo">
-                    <img class="dish-image" src="assets/imgs/dishes/prohibited/bolinho-queijo.webp"
-                        alt="Bolinho de queijo" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Bolinhos de queijo coalho</h2>
-                        <p>Bolinhos de massa de macaxeira recheados com queijo coalho.</p>
-                        <p class="price">R&dollar; 25</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="tabua-frios">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Tabua de queijos e frios(serve 4p)</h2>
-                        <p>Queijo coalho, queijo parmesão, gorgonzola, salaminho, azeitonas, uva, morango, kiwi,
-                            castanha.</p>
-                        <p class="price">R&dollar; 120</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="batata-g">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/batata-g" alt="Batata G" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Batata com cheddar e bacon(G)</h2>
-                        <p>Porção de batata(400g) com queijo cheddar e bacon crocante(100g).</p>
-                        <p class="price">R&dollar; 60</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="batata-p">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/batata-g" alt="Batata G" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Batata com cheddar e bacon(P)</h2>
-                        <p>Porção de batata(200g) com queijo cheddar e bacon crocante(50g).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="brusqueta-classica">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-classica" alt="Brusqueta classica" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Brusqueta Clássica(6 uni.)</h2>
-                        <p>Fatias de pão tostados servidas com tomates frescos temperados, manjericão, queijo coalho
-                            grelhado e finalizado com azeite.</p>
-                        <p class="price">R&dollar; 24</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="brusqueta-camarao">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-camarao" alt="Brusqueta de camarão" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Brusqueta de camarão(6 uni.)</h2>
-                        <p>Fatias de pão tostados servidas com camarões salteados ao alho e limão siciliano.</p>
-                        <p class="price">R&dollar; 36</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="brusqueta-siri">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-siri" alt="Brusqueta de siri" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Brusqueta de siri cremoso(6 uni.)</h2>
-                        <p>Fatias de pão tostados servidas com um creme de siri cororados com folhas frescas de rucula.
-                        </p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <!-- li class="category-dish-item" id="caldinho-polvo">
+      <section class="main-category" id="entrance">
+        <h1>Entradas</h1>
+        <ul class="category-list">
+          <li class="category-dish-item" id="pastel-nordestino">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/pastel.webp"
+              alt="Pastel nordestino"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Pastel nordestino(6 uni.)</h2>
+              <p>
+                Massa de pastel recheada com nossa carne do sol e queijo coalho.
+              </p>
+              <p class="price">R&dollar; 38</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="pastel-siri">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/pastel.webp"
+              alt="Pastel siri"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Pastel de siri(6 uni.)</h2>
+              <p>Massa de pastel recheada com file de siri.</p>
+              <p class="price">R&dollar; 42</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="coxinha-siri">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/coxinha.webp"
+              alt="Coxinha de siri"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Coxinha de siri(6 uni.)</h2>
+              <p>
+                Filé de siri ao coco acompanhado de molho de acerola picante.
+              </p>
+              <p class="price">R&dollar; 38</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="camarao-coco">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/comarão.webp"
+              alt="Camarão ao coco"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Camarão ao coco</h2>
+              <p>
+                Camarões empanados com coco e fritos, servidos com Aioli de
+                dendê cítrico.
+              </p>
+              <p class="price">R&dollar; 40</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="dueto">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/dueto.webp"
+              alt="Dueto"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Dueto</h2>
+              <p>
+                Cubos de filé grelhados ao molho roti acompanhado de fritas da
+                casa
+              </p>
+              <p class="price">R&dollar; 70</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="croquete-nordestina">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/croquetes.webp"
+              alt="Croquete nordestina"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Croquete nordestina(5 uni.)</h2>
+              <p>
+                Croquetes com massa de macaxeira recheada com carne do sol e
+                queijo coalho.
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="bolinhos-queijo">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/prohibited/bolinho-queijo.webp"
+              alt="Bolinho de queijo"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Bolinhos de queijo coalho</h2>
+              <p>Bolinhos de massa de macaxeira recheados com queijo coalho.</p>
+              <p class="price">R&dollar; 25</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="tabua-frios">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/tabua-frios.webp" alt="Tabua de queijos e frios" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Tabua de queijos e frios(serve 4p)</h2>
+              <p>
+                Queijo coalho, queijo parmesão, gorgonzola, salaminho,
+                azeitonas, uva, morango, kiwi, castanha.
+              </p>
+              <p class="price">R&dollar; 120</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="batata-g">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/batata-g" alt="Batata G" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Batata com cheddar e bacon(G)</h2>
+              <p>
+                Porção de batata(400g) com queijo cheddar e bacon
+                crocante(100g).
+              </p>
+              <p class="price">R&dollar; 60</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="batata-p">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/batata-g" alt="Batata G" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Batata com cheddar e bacon(P)</h2>
+              <p>
+                Porção de batata(200g) com queijo cheddar e bacon crocante(50g).
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="brusqueta-classica">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-classica" alt="Brusqueta classica" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Brusqueta Clássica(6 uni.)</h2>
+              <p>
+                Fatias de pão tostados servidas com tomates frescos temperados,
+                manjericão, queijo coalho grelhado e finalizado com azeite.
+              </p>
+              <p class="price">R&dollar; 24</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="brusqueta-camarao">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-camarao" alt="Brusqueta de camarão" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Brusqueta de camarão(6 uni.)</h2>
+              <p>
+                Fatias de pão tostados servidas com camarões salteados ao alho e
+                limão siciliano.
+              </p>
+              <p class="price">R&dollar; 36</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="brusqueta-siri">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/brusqueta-siri" alt="Brusqueta de siri" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Brusqueta de siri cremoso(6 uni.)</h2>
+              <p>
+                Fatias de pão tostados servidas com um creme de siri cororados
+                com folhas frescas de rucula.
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <!-- li class="category-dish-item" id="caldinho-polvo">
                     <img class="dish-image" src="assets/imgs/dishes/prohibited/caldinho-polvo" alt="Caldinho de polvo" width="700" height="670">
                     <div class="dish-description">
                         <h2>Caldinho de polvo</h2>
@@ -205,7 +337,7 @@
                         <p class="price">R&dollar; 20</p>
                     </div>
                 </li-->
-                <!-- li class="category-dish-item" id="panelinha-camarao">
+          <!-- li class="category-dish-item" id="panelinha-camarao">
                     <img class="dish-image" src="assets/imgs/dishes/prohibited/panelinha-camarão" alt="Panelinha de camarão" width="700" height="670">
                     <div class="dish-description">
                         <h2>Panelinha de camarão</h2>
@@ -214,1298 +346,2056 @@
                         <p class="price">R&dollar; 42</p>
                     </div>
                 </li-->
-                <li class="category-dish-item" id="torrada-pate">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/torrada-pate" alt="Torrada com patê" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Torrada com patê</h2>
-                        <p>Pão tostado servidos com patê de queijo mussarela.</p>
-                        <p class="price">R&dollar; 15</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="vinagrete-polvo">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/vinagrete-polvo" alt="Vinagrete de polvo" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Vinagrete de polvo</h2>
-                        <p>Tentaculos de polvo cozidos envolvidos em uma mistura de tomate, cebola roxa, pimentão e
-                            ervas frescas, regados com azeita e toque de limão siciliano.</p>
-                        <p class="price">R&dollar; 28</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+          <li class="category-dish-item" id="torrada-pate">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/torrada-pate" alt="Torrada com patê" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Torrada com patê</h2>
+              <p>Pão tostado servidos com patê de queijo mussarela.</p>
+              <p class="price">R&dollar; 15</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="vinagrete-polvo">
+            <!-- img class="dish-image" src="assets/imgs/dishes/prohibited/vinagrete-polvo" alt="Vinagrete de polvo" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Vinagrete de polvo</h2>
+              <p>
+                Tentaculos de polvo cozidos envolvidos em uma mistura de tomate,
+                cebola roxa, pimentão e ervas frescas, regados com azeita e
+                toque de limão siciliano.
+              </p>
+              <p class="price">R&dollar; 28</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <section class="main-category" id="mainDish">
-            <h1>Prato-Principal</h1>
-            <ul class="category-list">
-                <li class="category-dish-item" id="arroz-duke">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Arroz do Duke</h2>
-                        <p>Arroz negro cremoso, puxados com mix de pimentão, filé de siri, camarão e polvo.</p>
-                        <p class="price">R&dollar; 85</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="linguine-camarao">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/linguine-camarao.webp"
-                        alt="Linguine camarao" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
-                        <p>Linguine grano duro, feitos com leite de coco e caldo de camarão da casa com camarão,
-                            abobrinhas e cogumelos refogados.</p>
-                        <p class="price">R&dollar; 55</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="carbonara">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/carbonara.webp"
-                        alt="Tabua de queijos e frios" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Carbonara</h2>
-                        <p>Linguine grano duro, envolto em molho cremoso de ovos e bacon finalizado com parmesão.
-                        </p>
-                        <p class="price">R&dollar; 55</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="prime-rib">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Prime rib suíno</h2>
-                        <p>Corte nobre suíno ao dry rub grelhado em um molho cremoso de laranja e mostarda, servido com
-                            purê de abóbora salteado de milho fresco com coentro.</p>
-                        <p class="price">R&dollar; 40</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="prime-risoto">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/prime-risoto.webp" alt="Prime risoto"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Prime rib com risoto de limão siciliano</h2>
-                        <p>Corte nobre suíno ao dry rub grelhado em um molho cremoso de laranja e mostarda, servido com
-                            risoto de limão siciliano.</p>
-                        <p class="price">R&dollar; 45</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="polvo-grelhado">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/polvo-grelhado.webp"
-                        alt="Polvo grelhado" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Polvo grelhado</h2>
-                        <p>Polvo grelhado servido com mousseline de batata e aioli roxo finalizado com chimichurri.
-                        </p>
-                        <p class="price">R&dollar; 79</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="file-risoto">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Filé com risoto</h2>
-                        <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
-                        <p class="price">R&dollar; 69</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="file-vinho">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/file-ao-vinho.webp" alt="Filé ao vinho"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Filé ao vinho com linguine de gorgonzola.</h2>
-                        <p>Medalhão de filé grelhado acompanhado com linguine ao molho de gorgonzola.</p>
-                        <p class="price">R&dollar; 75</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="risoto-camarao">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/risoto-camarao.webp"
-                        alt="risoto de camarão" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Risoto de camarão</h2>
-                        <p>Camarões selados acompanhados de arroz arbóreo com caldo de camarão e mix de pimentões.</p>
-                        <p class="price">R&dollar; 69</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="peixe-branco">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/peixe-branco.webp" alt="Peixe branco"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Peixe branco</h2>
-                        <p>Peixe branco com crosta de de pão, purê de banana da terra e legumes do dia salteados.
-                        </p>
-                        <p class="price">R&dollar; 65</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="peixe-maracuja">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/peixe-maracuja.webp"
-                        alt="Peixe maracuja" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Peixe branco ao molho de maracujá</h2>
-                        <p>Filé peixe selado finalizado com molho agridoce de maracujá sevido com arroz branco e purê.
-                        </p>
-                        <p class="price">R&dollar; 65</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="risoto-nordestino">
-                    <img class="dish-image" src="assets/imgs/dishes/main-course/risoto-nordestino.webp"
-                        alt="Risoto nordestino" width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Risoto Nordestino</h2>
-                        <p>Arroz italiano, abobóra, queijo coalho e carne do sol, finalizado com parmesão e
-                            manteiga.</p>
-                        <p class="price">R&dollar; 59</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="linguine-sugo">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/main-course/linguine-sugo.webp"
+      <section class="main-category" id="mainDish">
+        <h1>Prato-Principal</h1>
+        <ul class="category-list">
+          <li class="category-dish-item" id="arroz-duke">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/arroz-duke.webp"
+              alt="Arroz duke"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Arroz do Duke</h2>
+              <p>
+                Arroz negro cremoso, puxados com mix de pimentão, filé de siri,
+                camarão e polvo.
+              </p>
+              <p class="price">R&dollar; 85</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="linguine-camarao">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/linguine-camarao.webp"
+              alt="Linguine camarao"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
+              <p>
+                Linguine grano duro, feitos com leite de coco e caldo de camarão
+                da casa com camarão, abobrinhas e cogumelos refogados.
+              </p>
+              <p class="price">R&dollar; 55</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="carbonara">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/carbonara.webp"
+              alt="Tabua de queijos e frios"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Carbonara</h2>
+              <p>
+                Linguine grano duro, envolto em molho cremoso de ovos e bacon
+                finalizado com parmesão.
+              </p>
+              <p class="price">R&dollar; 55</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="prime-rib">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/prime-rib.webp"
+              alt="Prime rib"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Prime rib suíno</h2>
+              <p>
+                Corte nobre suíno ao dry rub grelhado em um molho cremoso de
+                laranja e mostarda, servido com purê de abóbora salteado de
+                milho fresco com coentro.
+              </p>
+              <p class="price">R&dollar; 40</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="prime-risoto">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/prime-risoto.webp"
+              alt="Prime risoto"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Prime rib com risoto de limão siciliano</h2>
+              <p>
+                Corte nobre suíno ao dry rub grelhado em um molho cremoso de
+                laranja e mostarda, servido com risoto de limão siciliano.
+              </p>
+              <p class="price">R&dollar; 45</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="polvo-grelhado">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/polvo-grelhado.webp"
+              alt="Polvo grelhado"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Polvo grelhado</h2>
+              <p>
+                Polvo grelhado servido com mousseline de batata e aioli roxo
+                finalizado com chimichurri.
+              </p>
+              <p class="price">R&dollar; 79</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="file-risoto">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/file-risoto.webp"
+              alt="Filé com risoto"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Filé com risoto</h2>
+              <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
+              <p class="price">R&dollar; 69</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="file-vinho">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/file-ao-vinho.webp"
+              alt="Filé ao vinho"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Filé ao vinho com linguine de gorgonzola.</h2>
+              <p>
+                Medalhão de filé grelhado acompanhado com linguine ao molho de
+                gorgonzola.
+              </p>
+              <p class="price">R&dollar; 75</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="risoto-camarao">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/risoto-camarao.webp"
+              alt="risoto de camarão"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Risoto de camarão</h2>
+              <p>
+                Camarões selados acompanhados de arroz arbóreo com caldo de
+                camarão e mix de pimentões.
+              </p>
+              <p class="price">R&dollar; 69</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="peixe-branco">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/peixe-branco.webp"
+              alt="Peixe branco"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Peixe branco</h2>
+              <p>
+                Peixe branco com crosta de de pão, purê de banana da terra e
+                legumes do dia salteados.
+              </p>
+              <p class="price">R&dollar; 65</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="peixe-maracuja">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/peixe-maracuja.webp"
+              alt="Peixe maracuja"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Peixe branco ao molho de maracujá</h2>
+              <p>
+                Filé peixe selado finalizado com molho agridoce de maracujá
+                sevido com arroz branco e purê.
+              </p>
+              <p class="price">R&dollar; 65</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="risoto-nordestino">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/main-course/risoto-nordestino.webp"
+              alt="Risoto nordestino"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Risoto Nordestino</h2>
+              <p>
+                Arroz italiano, abobóra, queijo coalho e carne do sol,
+                finalizado com parmesão e manteiga.
+              </p>
+              <p class="price">R&dollar; 59</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="linguine-sugo">
+            <!-- img class="dish-image" src="assets/imgs/dishes/main-course/linguine-sugo.webp"
                         alt="Linguine ao sugo" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Linguine de camrão ao molho sugo</h2>
-                        <p>Linguine grano duro ao molho sugo com camarão.</p>
-                        <p class="price">R&dollar; 62</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="linguine-branco">
-                    <!-- img class="dish-image" src="assets/imgs/dishes/main-course/linguine-branco.webp"
+            <div class="dish-description">
+              <h2>Linguine de camrão ao molho sugo</h2>
+              <p>Linguine grano duro ao molho sugo com camarão.</p>
+              <p class="price">R&dollar; 62</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="linguine-branco">
+            <!-- img class="dish-image" src="assets/imgs/dishes/main-course/linguine-branco.webp"
                         alt="Linguine ao molho branco" width="700" height="670"-->
-                    <div class="dish-description">
-                        <h2>Linguine de camrão ao molho branco</h2>
-                        <p>Linguine grano duro ao molho branco com camarão.</p>
-                        <p class="price">R&dollar; 65</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+            <div class="dish-description">
+              <h2>Linguine de camrão ao molho branco</h2>
+              <p>Linguine grano duro ao molho branco com camarão.</p>
+              <p class="price">R&dollar; 65</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="linguine-polvo">
+            <!-- img class="dish-image" src="assets/imgs/dishes/main-course/linguine-polvo.webp"
+                        alt="Linguine de polvo" width="700" height="670"-->
+            <div class="dish-description">
+              <h2>Polvo grelhado com linguine ao molho de gorgonzola</h2>
+              <p>
+                Luingue grano duro ao molho de gorgonzola com polvo grelhado
+                regado ao chimichurri.
+              </p>
+              <p class="price">R&dollar; 82</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <section class="main-category" id="salad">
-            <h1>Salada</h1>
-            <ul class="category-list">
-                <li class="category-dish-item" id="salada-ceasar">
-                    <img class="dish-image" src="assets/imgs/dishes/salad/salada-ceasar.webp" alt="Salada Ceasar"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Salada Ceasar</h2>
-                        <p>Folhas frescas, peito de frango em tiras, queijo parmesão, molho ceasar finalizado com
-                            croutons.</p>
-                        <p class="price">R&dollar; 40</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="niçoise-duke">
-                    <img class="dish-image" src="assets/imgs/dishes/salad/niçoise-duke.webp" alt="Niçoise do Duke"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Niçoise do Duke</h2>
-                        <p>Folhas frescas, ovos cozidos, tomatinho, azeitonas, batatatinhas grelhadas e peixe branco
-                            servidos com molho citronete.</p>
-                        <p class="price">R&dollar; 59</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+      <section class="main-category" id="salad">
+        <h1>Salada</h1>
+        <ul class="category-list">
+          <li class="category-dish-item" id="salada-ceasar">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/salad/salada-ceasar.webp"
+              alt="Salada Ceasar"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Salada Ceasar</h2>
+              <p>
+                Folhas frescas, peito de frango em tiras, queijo parmesão, molho
+                ceasar finalizado com croutons.
+              </p>
+              <p class="price">R&dollar; 40</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="niçoise-duke">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/salad/niçoise-duke.webp"
+              alt="Niçoise do Duke"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Niçoise do Duke</h2>
+              <p>
+                Folhas frescas, ovos cozidos, tomatinho, azeitonas, batatatinhas
+                grelhadas e peixe branco servidos com molho citronete.
+              </p>
+              <p class="price">R&dollar; 59</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <section class="main-category" id="kids">
-            <h1>Kid´s</h1>
-            <ul class="category-list">
-                <li class="category-dish-item" id="cheese-burguer">
-                    <img class="dish-image" src="assets/imgs/dishes/kids/cheese-burguer.webp" alt="Cheeseburguer"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Cheeseburguer</h2>
-                        <p>Pão tostado, hamburguer angus 120g, queijo cheddar, cebolas caramelizadas e aioli. Acompanha
-                            de batata rústicas.</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+      <section class="main-category" id="kids">
+        <h1>Kid's</h1>
+        <ul class="category-list">
+          <li class="category-dish-item" id="cheese-burguer">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/kids/cheese-burguer.webp"
+              alt="Cheeseburguer"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Cheeseburguer</h2>
+              <p>
+                Pão tostado, hamburguer angus 120g, queijo cheddar, cebolas
+                caramelizadas e aioli. Acompanha de batata rústicas.
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="risoto-kids">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/kids/risoto-kids"
+              alt="Risoto nordestino kids"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Risoto nordestino kid's</h2>
+              <p>
+                Arroz arbóreo com carne do sol desfiada e queijo coalho
+                finalizado com parmesão e manteiga.
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="linguine-branco-kids">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/kids/linguine-branco-kids.webp"
+              alt="Linguine ao molho branco kids"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Linguine de camarão ao molho branco kid's</h2>
+              <p>Linguine grano duro servido ao molho branco e camarão.</p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
+      <section class="main-category" id="dessert">
+        <h1>Sobremesa</h1>
+        <ul class="category-list">
+          <li class="category-dish-item" id="pudim-rapadura">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/dessert/pudim-rapadura.webp"
+              alt="Pudim rapadura"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Pudim de rapadura</h2>
+              <p class="price">
+                Releitura do clássico pudim com toque da rapadura do nosso
+                nordeste.
+              </p>
+              <p class="price">R&dollar; 16</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="delicia-real">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/dessert/delicia-real.webp"
+              alt="Delicia real"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Delícia Real</h2>
+              <p>Brownie da casa acompanhado com sorvete e ganache.</p>
+              <p class="price">R&dollar; 21</p>
+            </div>
+          </li>
+          <li class="category-dish-item" id="perola">
+            <img
+              class="dish-image"
+              src="assets/imgs/dishes/dessert/perola.webp"
+              alt="Perola"
+              width="700"
+              height="670"
+            />
+            <div class="dish-description">
+              <h2>Perola do São Francisco</h2>
+              <p>
+                Cocada mole com crocantes de coco, sorvete de limão e raspas de
+                limão siciliano.
+              </p>
+              <p class="price">R&dollar; 25</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <section class="main-category" id="dessert">
-            <h1>Sobremesa</h1>
-            <ul class="category-list">
-                <li class="category-dish-item" id="pudim-rapadura">
-                    <img class="dish-image" src="assets/imgs/dishes/dessert/pudim-rapadura.webp" alt="Pudim rapadura"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Pudim de rapadura</h2>
-                        <p class="price">Releitura do clássico pudim com toque da rapadura do nosso nordeste.</p>
-                        <p class="price">R&dollar; 16</p>
-                    </div>
-                </li>
-                <li class="category-dish-item" id="delicia-real">
-                    <img class="dish-image" src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real"
-                        width="700" height="670">
-                    <div class="dish-description">
-                        <h2>Delícia Real</h2>
-                        <p>Brownie da casa acompanhado com sorvete e ganache.</p>
-                        <p class="price">R&dollar; 21</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+      <section class="main-category" id="drinks">
+        <h1>Bebidas Não Alcoólicas</h1>
+        <ul class="category-list">
+          <li class="drink-item">
+            <h2>Refrigerante KS</h2>
+            <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
+            <p class="price">R&dollar; 6</p>
+          </li>
+          <li class="drink-item">
+            <h2>Refrigerante Lata</h2>
+            <p>
+              Coca-Cola, Coca Zero, Guaraná Antártica, Guaraná Antártica Zero.
+            </p>
+            <p class="price">R&dollar; 7</p>
+          </li>
+          <li class="drink-item">
+            <h2>Suco de laranja copo</h2>
+            <p class="price">R&dollar; 9</p>
+          </li>
+          <li class="drink-item">
+            <h2>Suco de laranja jarra</h2>
+            <p class="price">R&dollar; 18</p>
+          </li>
+          <li class="drink-item">
+            <h2>Suco copo S/Leite</h2>
+            <p>Cajá, maracujá e acerola</p>
+            <p class="price">R&dollar; 7</p>
+          </li>
+          <li class="drink-item">
+            <h2>Suco copo C/Leite</h2>
+            <p>Cajá, maracujá e acerola</p>
+            <p class="price">R&dollar; 8</p>
+          </li>
+          <li class="drink-item">
+            <h2>Suco jarra S/Leite</h2>
+            <p>Cajá, maracujá e acerola</p>
+            <p class="price">R&dollar; 15</p>
+          </li>
+          <li class="drink-item">
+            <h2>Suco jarra C/Leite</h2>
+            <p>Cajá, maracujá e acerola</p>
+            <p class="price">R&dollar; 16</p>
+          </li>
+          <li class="drink-item">
+            <h2>Redbull</h2>
+            <p class="price">R&dollar; 15</p>
+          </li>
+        </ul>
+        <h1>Café</h1>
+        <ul class="category-list">
+          <li class="drink-item">
+            <h2>Expresso Forza(forte)</h2>
+            <p class="price">R&dollar; 5</p>
+          </li>
+          <li class="drink-item">
+            <h2>Expresso Vibrante(médio)</h2>
+            <p class="price">R&dollar; 5</p>
+          </li>
+          <li class="drink-item">
+            <h2>Expresso Pleno(leve/médio)</h2>
+            <p class="price">R&dollar; 5</p>
+          </li>
+          <li class="drink-item">
+            <h2>Chocolatto Caramello</h2>
+            <p class="price">R&dollar; 7</p>
+          </li>
+          <li class="drink-item">
+            <h2>Café com leite</h2>
+            <p class="price">R&dollar; 7</p>
+          </li>
+          <li class="drink-item">
+            <h2>Cappuccino</h2>
+            <p class="price">R&dollar; 7</p>
+          </li>
+          <li class="drink-item">
+            <h2>Cappuccino Avelã</h2>
+            <p class="price">R&dollar; 7</p>
+          </li>
+        </ul>
+        <h1>Cervejas</h1>
+        <ul class="category-list">
+          <li class="drink-item">
+            <h2>Corona</h2>
+            <p class="price">R&dollar; 10</p>
+          </li>
+          <li class="drink-item">
+            <h2>Corona Zero</h2>
+            <p class="price">R&dollar; 10</p>
+          </li>
+          <li class="drink-item">
+            <h2>Stella Artois Puro Malte/Gold</h2>
+            <p class="price">R&dollar; 9</p>
+          </li>
+          <li class="drink-item">
+            <h2>Chopp De La Cruz Pilsen</h2>
+            <p class="price">R&dollar; 10</p>
+          </li>
+        </ul>
+      </section>
+      <section class="main-category" id="cocktails">
+        <h1>Drinks</h1>
+        <ul class="category-list cocktail-list">
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/aperol-spritz.webp"
+              alt="aperol spritz"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Aperol Spritz</h2>
+              <p>
+                Aperol, água gaseificada e espumante brut(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/bellini.webp"
+              alt="bellini"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Bellini</h2>
+              <p>Espumante brut e suco de pêssego(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/caipirinha.webp"
+              alt="caipirinha"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Caipirinha</h2>
+              <p>Cachaça, limão e açúrca(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 15</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/caipirinha.webp"
+              alt="caipirinha"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Caipirinha Especial</h2>
+              <p>Cachaça, morango e açúrca(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 18</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/caipirinha.webp"
+              alt="caipirinha"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Caipirosca</h2>
+              <p>
+                Vodka Smirnoff, limão ou morango e açúrca(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 20</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/caipirinha.webp"
+              alt="caipirinha"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Caipirosca Especial</h2>
+              <p>
+                Vodka Absolut, limão ou morango e açúrca(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/corona-spritz.webp"
+              alt="corona spritz"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Corona Spritz</h2>
+              <p>Corona, suco de limão e aperol(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 20</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/dry-martini.webp"
+              alt="dry martini"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Dry Martini</h2>
+              <p>Gin, vermute seco e azeitona(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 35</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/gin-saborizada.webp"
+              alt="gin saborizada"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Gin Saborizada</h2>
+              <p>Gin, água tônica, xarope a consultar(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 35</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/gin-tonica.webp"
+              alt="gin tonica"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Gin Tônica</h2>
+              <p>Gin, água tônica e especiarias(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/margarita.webp"
+              alt="margarita"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Margarita</h2>
+              <p>
+                Tequila, suco de limão, licor de laranja e sal(imagem
+                ilustrativa).
+              </p>
+              <p class="price">R&dollar; 42</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/mojito.webp"
+              alt="mojito"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Mojito</h2>
+              <p>Rum branco, suco de limão e xarope(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 25</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/moscow-mule.webp"
+              alt="moscow mule"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Moscow Mule</h2>
+              <p>
+                Vodka, espuma de gengibre, suco de limão e refrigerante de
+                gengibre(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 35</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/negroni.webp"
+              alt="negroni"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Negroni</h2>
+              <p>Gin, Campari, Vermute Rosso e laranja(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/royal-blood.webp"
+              alt="royal blood"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Royal Blood</h2>
+              <p>
+                Vodka Citron, xarope de blue coraçau, hortelã e água
+                gaseificada(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 35</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/mentirosca.webp"
+              alt="mentirosca"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Mentirosca</h2>
+              <p>Mix de frutas e água de coco(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 15</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/daiquiri.webp"
+              alt="daiquiri"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Daquiri</h2>
+              <p>Rum, suco de limão, xarope(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 15</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/whiskey-sour.webp"
+              alt="whiskey sour"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Whiskey Sour</h2>
+              <p>
+                Whisky Bourbom, suco de limão siciliano, xarope(imagem
+                ilustrativa).
+              </p>
+              <p class="price">R&dollar; 25</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/new-york.webp"
+              alt="new york sour"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>New York Sour</h2>
+              <p>
+                Whisky Bourbom, suco de limão siciliano, vinho tinto seco,
+                xarope(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 28</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/tequila-sunrise.webp"
+              alt="tequila sunrise"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Tequila Sunrise</h2>
+              <p>
+                Tequila, suco de laranja, xarope de grenadine(imagem
+                ilustrativa).
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/tom-collins.webp"
+              alt="tom collins"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Tom Collins</h2>
+              <p>
+                Gin, suco de limão, xarope, água gaseificada(imagem
+                ilustrativa).
+              </p>
+              <p class="price">R&dollar; 28</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/jhon-collins.webp"
+              alt="jhon collins"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Jhon Collins</h2>
+              <p>
+                Whisky Bourbom, suco de limão, xarope, água gaseificada(imagem
+                ilustrativa).
+              </p>
+              <p class="price">R&dollar; 28</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/americano.webp"
+              alt="americano"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Americano</h2>
+              <p>
+                Campari, Vermute Rosso, água gaseificada(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 20</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/cuba-libre.webp"
+              alt="cuba libre"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Cuba Libre</h2>
+              <p>Rum, suco de limão, coca-cola(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 15</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/french-75.webp"
+              alt="french 75"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>French 75</h2>
+              <p>
+                Gin, suco de limão, xarope, espumante brut(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 35</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/boulevardier.webp"
+              alt="boulevardier"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Boulevardier</h2>
+              <p>Whisky Bourbom, Vermute Rosso, campari(imagem ilustrativa).</p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/long-island.webp"
+              alt="long island"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Long Island Ice Tea</h2>
+              <p>
+                Vodka, Rum, Gin, Tequila, licor de laranja, suco de limão,
+                coca-cola(imagem ilustrativa).
+              </p>
+              <p class="price">R&dollar; 45</p>
+            </div>
+          </li>
+          <li class="cocktail-item">
+            <img
+              class="cocktail-image"
+              src="assets/imgs/cocktails/limoncello.webp"
+              alt="limoncello"
+              width="700"
+              height="700"
+            />
+            <div class="cocktail-description">
+              <h2>Limoncello Spritz</h2>
+              <p>
+                Limoncello caseiro, espumante brut, água gaseificada(imagem
+                ilustrativa).
+              </p>
+              <p class="price">R&dollar; 30</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <section class="main-category" id="drinks">
-            <h1>Bebidas Não Alcoólicas</h1>
-            <ul class="category-list">
-                <li class="drink-item">
-                    <h2>Refrigerante KS</h2>
-                    <p>Coca-Cola, Coca Zero, Sprite e Fanta</p>
-                    <p class="price">R&dollar; 6</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Refrigerante Lata</h2>
-                    <p>Coca-Cola, Coca Zero, Guaraná Antártica, Guaraná Antártica Zero.</p>
-                    <p class="price">R&dollar; 7</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Suco de laranja copo</h2>
-                    <p class="price">R&dollar; 9</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Suco de laranja jarra</h2>
-                    <p class="price">R&dollar; 18</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Suco copo S/Leite</h2>
-                    <p>Cajá, maracujá e acerola</p>
-                    <p class="price">R&dollar; 7</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Suco copo C/Leite</h2>
-                    <p>Cajá, maracujá e acerola</p>
-                    <p class="price">R&dollar; 8</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Suco jarra S/Leite</h2>
-                    <p>Cajá, maracujá e acerola</p>
-                    <p class="price">R&dollar; 15</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Suco jarra C/Leite</h2>
-                    <p>Cajá, maracujá e acerola</p>
-                    <p class="price">R&dollar; 16</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Redbull</h2>
-                    <p class="price">R&dollar; 15</p>
-                </li>
-            </ul>
-            <h1>Café</h1>
-            <p class="coffe-description">Todos Acompanham biscoitos D'licia</p>
-            <ul class="category-list">
-                <li class="drink-item">
-                    <h2>Expresso Forza(forte)</h2>
-                    <p class="price">R&dollar; 7</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Expresso Vibrante(médio)</h2>
-                    <p class="price">R&dollar; 7</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Expresso Pleno(leve/médio)</h2>
-                    <p class="price">R&dollar; 7</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Chocolatto Caramello</h2>
-                    <p class="price">R&dollar; 9</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Café com leite</h2>
-                    <p class="price">R&dollar; 9</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Cappuccino</h2>
-                    <p class="price">R&dollar; 11</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Cappuccino Avelã</h2>
-                    <p class="price">R&dollar; 11</p>
-                </li>
-            </ul>
-            <h1>Cervejas</h1>
-            <ul class="category-list">
-                <li class="drink-item">
-                    <h2>Corona</h2>
-                    <p class="price">R&dollar; 10</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Corona Zero</h2>
-                    <p class="price">R&dollar; 10</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Stella Artois Puro Malte/Gold</h2>
-                    <p class="price">R&dollar; 9</p>
-                </li>
-                <li class="drink-item">
-                    <h2>Chopp De La Cruz Pilsen</h2>
-                    <p class="price">R&dollar; 10</p>
-                </li>
-            </ul>
-        </section>
-        <section class="main-category" id="cocktails">
-            <h1>Drinks</h1>
-            <ul class="category-list cocktail-list">
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/aperol-spritz.webp" alt="aperol spritz"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Aperol Spritz</h2>
-                        <p>Aperol, água gaseificada e espumante brut(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/bellini.webp" alt="bellini" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Bellini</h2>
-                        <p>Espumante brut e suco de pêssego(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Caipirinha</h2>
-                        <p>Cachaça, limão e açúrca(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 15</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Caipirinha Especial</h2>
-                        <p>Cachaça, morango e açúrca(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 18</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Caipirosca</h2>
-                        <p>Vodka Smirnoff, limão ou morango e açúrca(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 20</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Caipirosca Especial</h2>
-                        <p>Vodka Absolut, limão ou morango e açúrca(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/corona-spritz.webp" alt="corona spritz"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Corona Spritz</h2>
-                        <p>Corona, suco de limão e aperol(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 20</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/dry-martini.webp" alt="dry martini"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Dry Martini</h2>
-                        <p>Gin, vermute seco e azeitona(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 35</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/gin-saborizada.webp" alt="gin saborizada"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Gin Saborizada</h2>
-                        <p>Gin, água tônica, xarope a consultar(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 35</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/gin-tonica.webp" alt="gin tonica" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Gin Tônica</h2>
-                        <p>Gin, água tônica e especiarias(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/margarita.webp" alt="margarita" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Margarita</h2>
-                        <p>Tequila, suco de limão, licor de laranja e sal(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 42</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/mojito.webp" alt="mojito" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Mojito</h2>
-                        <p>Rum branco, suco de limão e xarope(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 25</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/moscow-mule.webp" alt="moscow mule"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Moscow Mule</h2>
-                        <p>Vodka, espuma de gengibre, suco de limão e refrigerante de gengibre(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 35</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/negroni.webp" alt="negroni" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Negroni</h2>
-                        <p>Gin, Campari, Vermute Rosso e laranja(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/royal-blood.webp" alt="royal blood"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Royal Blood</h2>
-                        <p>Vodka Citron, xarope de blue coraçau, hortelã e água gaseificada(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 35</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/mentirosca.webp" alt="mentirosca" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Mentirosca</h2>
-                        <p>Mix de frutas e água de coco(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 15</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/daiquiri.webp" alt="daiquiri" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Daquiri</h2>
-                        <p>Rum, suco de limão, xarope(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 15</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/whiskey-sour.webp" alt="whiskey sour"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Whiskey Sour</h2>
-                        <p>Whisky Bourbom, suco de limão siciliano, xarope(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 25</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/new-york.webp" alt="new york sour"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>New York Sour</h2>
-                        <p>Whisky Bourbom, suco de limão siciliano, vinho tinto seco, xarope(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 28</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/tequila-sunrise.webp" alt="tequila sunrise"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Tequila Sunrise</h2>
-                        <p>Tequila, suco de laranja, xarope de grenadine(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/tom-collins.webp" alt="tom collins"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Tom Collins</h2>
-                        <p>Gin, suco de limão, xarope, água gaseificada(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 28</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/jhon-collins.webp" alt="jhon collins"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Jhon Collins</h2>
-                        <p>Whisky Bourbom, suco de limão, xarope, água gaseificada(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 28</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/americano.webp" alt="americano" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Americano</h2>
-                        <p>Campari, Vermute Rosso, água gaseificada(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 20</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/cuba-libre.webp" alt="cuba libre" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Cuba Libre</h2>
-                        <p>Rum, suco de limão, coca-cola(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 15</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/french-75.webp" alt="french 75" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>French 75</h2>
-                        <p>Gin, suco de limão, xarope, espumante brut(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 35</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/boulevardier.webp" alt="boulevardier"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Boulevardier</h2>
-                        <p>Whisky Bourbom, Vermute Rosso, campari(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/long-island.webp" alt="long island"
-                        width="700" height="700">
-                    <div class="cocktail-description">
-                        <h2>Long Island Ice Tea</h2>
-                        <p>Vodka, Rum, Gin, Tequila, licor de laranja, suco de limão, coca-cola(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 45</p>
-                    </div>
-                </li>
-                <li class="cocktail-item">
-                    <img class="cocktail-image" src="assets/imgs/cocktails/limoncello.webp" alt="limoncello" width="700"
-                        height="700">
-                    <div class="cocktail-description">
-                        <h2>Limoncello Spritz</h2>
-                        <p>Limoncello caseiro, espumante brut, água gaseificada(imagem ilustrativa).</p>
-                        <p class="price">R&dollar; 30</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <section class="main-category" id="distilled">
-            <h1>Whisky´s</h1>
-            <p class="club-description">Temos o Duke Club destinados a quem ama a destilaria, com whisky, gin, vodka e
-                mais com valor especial.</p>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/balla-12.webp" alt="ballatines 12"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Ballatines 12 anos</h2>
-                        <p class="price">R&dollar; 25</p>
-                        <p class="price">R&dollar; 18 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/balla-finest.webp"
-                        alt="ballatines finest" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Ballatines Finest</h2>
-                        <p class="price">R&dollar; 12</p>
-                        <p class="price">R&dollar; 9 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/black.webp" alt="black label"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Black Label</h2>
-                        <p class="price">R&dollar; 26</p>
-                        <p class="price">R&dollar; 18 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/buchanans.webp" alt="buchanans delux"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Buchanan´s Delux</h2>
-                        <p class="price">R&dollar; 30</p>
-                        <p class="price">R&dollar; 22 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/buffalo.webp" alt="buffalo trace"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Buffalo Trace</h2>
-                        <p class="price">R&dollar; 30</p>
-                        <p class="price">R&dollar; 22 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/chivas.webp" alt="chivas" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Chivas Regal</h2>
-                        <p class="price">R&dollar; 23</p>
-                        <p class="price">R&dollar; 16 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/double.webp" alt="double" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Double Black</h2>
-                        <p class="price">R&dollar; 30</p>
-                        <p class="price">R&dollar; 22 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/gentleman.webp" alt="gentleman"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Gentleman Jack</h2>
-                        <p class="price">R&dollar; 26</p>
-                        <p class="price">R&dollar; 19 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/gold.webp" alt="gold" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Gold Label</h2>
-                        <p class="price">R&dollar; 46</p>
-                        <p class="price">R&dollar; 33 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/jack-danielsn7.webp"
-                        alt="jack daniels n7" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Jack Daniels Tenesse</h2>
-                        <p class="price">R&dollar; 22</p>
-                        <p class="price">R&dollar; 16 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/jameson.webp" alt="jameson"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Jameson</h2>
-                        <p class="price">R&dollar; 21</p>
-                        <p class="price">R&dollar; 15 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/jim.webp" alt="jim" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Jim Beam</h2>
-                        <p class="price">R&dollar; 17</p>
-                        <p class="price">R&dollar; 12 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/makers.webp" alt="makers" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Maker´s Mask</h2>
-                        <p class="price">R&dollar; 32</p>
-                        <p class="price">R&dollar; 23 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/old.webp" alt="old" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Old Par</h2>
-                        <p class="price">R&dollar; 27</p>
-                        <p class="price">R&dollar; 20 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/red.webp" alt="red" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Red Label</h2>
-                        <p class="price">R&dollar; 15</p>
-                        <p class="price">R&dollar; 10 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/white.webp" alt="white" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>White Horse</h2>
-                        <p class="price">R&dollar; 14</p>
-                        <p class="price">R&dollar; 10 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/wild.webp" alt="wild" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Wild Turkey</h2>
-                        <p class="price">R&dollar; 37</p>
-                        <p class="price">R&dollar; 27 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/whiskys/woodford.webp" alt="wood" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Wooddford Reserve</h2>
-                        <p class="price">R&dollar; 39</p>
-                        <p class="price">R&dollar; 28 club</p>
-                    </div>
-                </li>
-            </ul>
-            <h1>Vodka</h1>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut.webp" alt="absolut" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Absolut</h2>
-                        <p class="price">R&dollar; 16</p>
-                        <p class="price">R&dollar; 12 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut-rasp.webp"
-                        alt="absolut raspberri" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Absolut Raspberri</h2>
-                        <p class="price">R&dollar; 18</p>
-                        <p class="price">R&dollar; 13 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut-citron.webp"
-                        alt="absolut citron" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Absolut Citron</h2>
-                        <p class="price">R&dollar; 24</p>
-                        <p class="price">R&dollar; 17 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/absolut-vanilia.webp"
-                        alt="absolut vanilia" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Absolut Vanilia</h2>
-                        <p class="price">R&dollar; 16</p>
-                        <p class="price">R&dollar; 12 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/belvedere.webp" alt="belvedere"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Belvedere</h2>
-                        <p class="price">R&dollar; 38</p>
-                        <p class="price">R&dollar; 27 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/orloff.webp" alt="orloff" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Orloff</h2>
-                        <p class="price">R&dollar; 8</p>
-                        <p class="price">R&dollar; 6 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/vodka/smirnoff.webp" alt="smirnoff"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Smirnoff</h2>
-                        <p class="price">R&dollar; 6</p>
-                        <p class="price">R&dollar; 4 club</p>
-                    </div>
-                </li>
-            </ul>
-            <h1>Gin</h1>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/gin/beefeater.webp" alt="beefeater"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Beefeater London</h2>
-                        <p class="price">R&dollar; 21</p>
-                        <p class="price">R&dollar; 15 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/gin/bulldog.webp" alt="bulldog" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Bulldog</h2>
-                        <p class="price">R&dollar; 26</p>
-                        <p class="price">R&dollar; 18 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/gin/tanqueray.webp" alt="tanqueray"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Tanqueray London</h2>
-                        <p class="price">R&dollar; 27</p>
-                        <p class="price">R&dollar; 19 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/gin/tanqueray-s.webp" alt="tanqueray sevilla"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Tanqueray Sevilla</h2>
-                        <p class="price">R&dollar; 22</p>
-                        <p class="price">R&dollar; 16 club</p>
-                    </div>
-                </li>
-            </ul>
-            <h1>Diversos</h1>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/bacardi-big.webp" alt="bacardi big"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Bacardi Big Apple</h2>
-                        <p class="price">R&dollar; 9</p>
-                        <p class="price">R&dollar; 6 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/campari.webp" alt="campari"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Campari Bitter</h2>
-                        <p class="price">R&dollar; 11</p>
-                        <p class="price">R&dollar; 8 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/cointreau.webp" alt="cointreau"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Cointreau</h2>
-                        <p class="price">R&dollar; 29</p>
-                        <p class="price">R&dollar; 25 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/fireball.webp" alt="fireball"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Fire Ball</h2>
-                        <p class="price">R&dollar; 16</p>
-                        <p class="price">R&dollar; 14 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/licor-43.webp" alt="licor 43"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Licor 43</h2>
-                        <p class="price">R&dollar; 16</p>
-                        <p class="price">R&dollar; 14 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/sagatiba.webp" alt="sagatiba"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Sagatiba</h2>
-                        <p class="price">R&dollar; 6</p>
-                        <p class="price">R&dollar; 5 club</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/distilled/diverse/jose-cuervo.webp" alt="jose cuervo"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Jose Cuervo</h2>
-                        <p class="price">R&dollar; 21</p>
-                        <p class="price">R&dollar; 18 club</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section class="main-category" id="wines">
-            <h1>Tintos(tranquilos)</h1>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/arte.webp" alt="arte" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casa Valduga Arte</h2>
-                        <p>Cabernet Sauvignon e Merlot.</p>
-                        <p class="price">R&dollar; 98</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/astronauta.webp" alt="astronauta" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Astronauta</h2>
-                        <p>Touringa Nacional.</p>
-                        <p class="price">R&dollar; 166</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-caber.webp"
-                        alt="carta vieja caber" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Carta Vieja</h2>
-                        <p>Cabernet Sauvignon.</p>
-                        <p class="price">R&dollar; 57</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-carme.webp"
-                        alt="carta vieja carmenere" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Carta Vieja</h2>
-                        <p>Carmenere.</p>
-                        <p class="price">R&dollar; 57</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-merlot.webp"
-                        alt="carta vieja merlot" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Carta Vieja</h2>
-                        <p>Merlot.</p>
-                        <p class="price">R&dollar; 57</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/carta-vieja-gran.webp"
-                        alt="carta vieja gran reserva" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Carta Vieja Gran Reserva</h2>
-                        <p>Cabernet Sauvignon.</p>
-                        <p class="price">R&dollar; 158</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/casa-del-bosque-pinot.webp"
-                        alt="casa del bosque pinot" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casa Del Bosque Reserva</h2>
-                        <p>Pinot Noir.</p>
-                        <p class="price">R&dollar; 89</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/casi-caber.webp"
-                        alt="casillero cabernet sauvignon" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casillero Del Diablo</h2>
-                        <p>Cabernet Sauvignon.</p>
-                        <p class="price">R&dollar; 118</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/dao-casa-santar.webp" alt="casa de santar"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casa de Santar</h2>
-                        <p>Alfrocheiro, Aragonês e Touriga Nacional.</p>
-                        <p class="price">R&dollar; 199</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/felino.webp" alt="cobos felino" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Cobos Felino</h2>
-                        <p>Malbec.</p>
-                        <p class="price">R&dollar; 199</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/gentileza.webp" alt="gentileza" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Gentileza</h2>
-                        <p>Uvas viníferas.</p>
-                        <p class="price">R&dollar; 81</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/jose-piteira-syrah.webp"
-                        alt="jose piteira syrah" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>José Piteira</h2>
-                        <p>Syrah.</p>
-                        <p class="price">R&dollar; 149</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/latitud-33-caber.webp"
-                        alt="latitud 33 cabernet sauvignon" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Latitud 33</h2>
-                        <p>Cabernet Sauvignon.</p>
-                        <p class="price">R&dollar; 98</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/latitud-33-mal.webp" alt="latitud 33 malbec"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Latitud 33</h2>
-                        <p>Malbec.</p>
-                        <p class="price">R&dollar; 98</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/mar-salgado-tinto.webp" alt="mar salgado"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Mar Salgado</h2>
-                        <p>Castelão, Aragonez e Touriga Nacional.</p>
-                        <p class="price">R&dollar; 98</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/marques.webp" alt="marques de casa concha"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Marques de Casa Concha</h2>
-                        <p>Cabernet Sauvignon.</p>
-                        <p class="price">R&dollar; 220</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/monte-cal-tinto.webp" alt="monte da cal tinto"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Monte da Cal</h2>
-                        <p>Alicante Bouschet, Touriga Nacional, Alfrocheiro, Aragonez.</p>
-                        <p class="price">R&dollar; 114</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/origem-caber.webp"
-                        alt="origem cabernet sauvignon" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Origem</h2>
-                        <p>Cabernet Sauvignon.</p>
-                        <p class="price">R&dollar; 130</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/periquita.webp" alt="periquita" width="90"
-                        height="200">
-                    <div class="beverage-description">
-                        <h2>Periquita</h2>
-                        <p>Castelão, Trincadeira e Alicante Bouschet.</p>
-                        <p class="price">R&dollar; 140</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/red/trivento-mal.webp" alt="trivento malbec"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Trivento</h2>
-                        <p>Malbec.</p>
-                        <p class="price">R&dollar; 123</p>
-                    </div>
-                </li>
-            </ul>
-            <h1>Brancos e rosé(tranquilos)</h1>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/almaden-resling.webp"
-                        alt="almaden resling" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Almaden</h2>
-                        <p>Riesling.</p>
-                        <p class="price">R&dollar; 63</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/carta-vieja-char.webp"
-                        alt="carta vieja chardonnay" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Carta Vieja</h2>
-                        <p>Chardonnay.</p>
-                        <p class="price">R&dollar; 57</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/casal-garcia-rose.webp"
-                        alt="casal garcia rose" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casal Garcia</h2>
-                        <p>Vinhão.</p>
-                        <p class="price">R&dollar; 128</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/casi-branco.webp"
-                        alt="casillero sauvignon blanc" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casillero Del Diablo Belight</h2>
-                        <p>Sauvignon Blanc.</p>
-                        <p class="price">R&dollar; 91</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/casi-cha.webp"
-                        alt="casillero chardonnay" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casillero Del Diablo</h2>
-                        <p>Chardonnay.</p>
-                        <p class="price">R&dollar; 104</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/jose-piteira-branco.webp"
-                        alt="jose piteira branco" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>José Piteira</h2>
-                        <p>Roupeiro, Diagalves.</p>
-                        <p class="price">R&dollar; 92</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-branco.webp"
-                        alt="la belle branco" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>La Belle de Jour</h2>
-                        <p>Fernão Pires, Arinto, Sauvignon Blanc, Gewurztraminer.</p>
-                        <p class="price">R&dollar; 118</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-rose.webp" alt="la belle rose"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>La Belle de Jour</h2>
-                        <p>Castelão.</p>
-                        <p class="price">R&dollar; 109</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/los-incas.webp" alt="los incas"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Los Incas</h2>
-                        <p>Chardonnay.</p>
-                        <p class="price">R&dollar; 67</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/marioa-chardo.webp" alt="mario branco"
-                        width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Mario</h2>
-                        <p>Chardonnay.</p>
-                        <p class="price">R&dollar; 66</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/monte-cal-branco.webp"
-                        alt="monte da cal branco" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Monte da Cal</h2>
-                        <p> Viognier, Alvarinho, Arinto, Antão Vaz.</p>
-                        <p class="price">R&dollar; 87</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/white-rose/rose-piscine.webp"
-                        alt="frances piscine" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Francês Piscine</h2>
-                        <p>Négrette.</p>
-                        <p class="price">R&dollar; 139</p>
-                    </div>
-                </li>
-            </ul>
-            <h1>Espumantes</h1>
-            <ul class="category-list category-beverage">
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-aquarela.webp"
-                        alt="casa perini aquarela" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casa Perini Aquarela</h2>
-                        <p>Moscato Branco, Moscato Giallo, Moscato de Hamburgo.</p>
-                        <p class="price">R&dollar; 104</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-brut.webp"
-                        alt=" casa perini brut" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casa Perini Brut</h2>
-                        <p>Chardonnay, Gamay, Pinot Noir.</p>
-                        <p class="price">R&dollar; 101</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-ice.webp"
-                        alt="casa perini ice" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Casa Perini Ice Rose</h2>
-                        <p>Uvas viníferas.</p>
-                        <p class="price">R&dollar; 118</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/sparkling/esp-rio-mos-rose.webp"
-                        alt="rio sol rose" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Rio Sol Moscatel</h2>
-                        <p>Moscato Hamburgo.</p>
-                        <p class="price">R&dollar; 75</p>
-                    </div>
-                </li>
-                <li class="category-beverage-item">
-                    <img class="beverage-image" src="assets/imgs/wine/sparkling/rio-sol-branco.webp"
-                        alt="rio sol branco" width="90" height="200">
-                    <div class="beverage-description">
-                        <h2>Rio Sol Moscatel</h2>
-                        <p>Moscato Canelli.</p>
-                        <p class="price">R&dollar; 75</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
+      <section class="main-category" id="distilled">
+        <h1>Whisky´s</h1>
+        <p class="club-description">
+          Temos o Duke Club destinados a quem ama a destilaria, com whisky, gin,
+          vodka e mais com valor especial.
+        </p>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/balla-12.webp"
+              alt="ballatines 12"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Ballatines 12 anos</h2>
+              <p class="price">R&dollar; 25</p>
+              <p class="price">R&dollar; 18 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/balla-finest.webp"
+              alt="ballatines finest"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Ballatines Finest</h2>
+              <p class="price">R&dollar; 12</p>
+              <p class="price">R&dollar; 9 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/black.webp"
+              alt="black label"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Black Label</h2>
+              <p class="price">R&dollar; 26</p>
+              <p class="price">R&dollar; 18 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/buchanans.webp"
+              alt="buchanans delux"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Buchanan´s Delux</h2>
+              <p class="price">R&dollar; 30</p>
+              <p class="price">R&dollar; 22 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/buffalo.webp"
+              alt="buffalo trace"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Buffalo Trace</h2>
+              <p class="price">R&dollar; 30</p>
+              <p class="price">R&dollar; 22 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/chivas.webp"
+              alt="chivas"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Chivas Regal</h2>
+              <p class="price">R&dollar; 23</p>
+              <p class="price">R&dollar; 16 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/double.webp"
+              alt="double"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Double Black</h2>
+              <p class="price">R&dollar; 30</p>
+              <p class="price">R&dollar; 22 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/gentleman.webp"
+              alt="gentleman"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Gentleman Jack</h2>
+              <p class="price">R&dollar; 26</p>
+              <p class="price">R&dollar; 19 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/gold.webp"
+              alt="gold"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Gold Label</h2>
+              <p class="price">R&dollar; 46</p>
+              <p class="price">R&dollar; 33 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/jack-danielsn7.webp"
+              alt="jack daniels n7"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Jack Daniels Tenesse</h2>
+              <p class="price">R&dollar; 22</p>
+              <p class="price">R&dollar; 16 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/jameson.webp"
+              alt="jameson"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Jameson</h2>
+              <p class="price">R&dollar; 21</p>
+              <p class="price">R&dollar; 15 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/jim.webp"
+              alt="jim"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Jim Beam</h2>
+              <p class="price">R&dollar; 17</p>
+              <p class="price">R&dollar; 12 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/makers.webp"
+              alt="makers"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Maker´s Mask</h2>
+              <p class="price">R&dollar; 32</p>
+              <p class="price">R&dollar; 23 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/old.webp"
+              alt="old"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Old Par</h2>
+              <p class="price">R&dollar; 27</p>
+              <p class="price">R&dollar; 20 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/red.webp"
+              alt="red"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Red Label</h2>
+              <p class="price">R&dollar; 15</p>
+              <p class="price">R&dollar; 10 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/white.webp"
+              alt="white"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>White Horse</h2>
+              <p class="price">R&dollar; 14</p>
+              <p class="price">R&dollar; 10 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/wild.webp"
+              alt="wild"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Wild Turkey</h2>
+              <p class="price">R&dollar; 37</p>
+              <p class="price">R&dollar; 27 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/whiskys/woodford.webp"
+              alt="wood"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Wooddford Reserve</h2>
+              <p class="price">R&dollar; 39</p>
+              <p class="price">R&dollar; 28 club</p>
+            </div>
+          </li>
+        </ul>
+        <h1>Vodka</h1>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/absolut.webp"
+              alt="absolut"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Absolut</h2>
+              <p class="price">R&dollar; 16</p>
+              <p class="price">R&dollar; 12 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/absolut-rasp.webp"
+              alt="absolut raspberri"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Absolut Raspberri</h2>
+              <p class="price">R&dollar; 18</p>
+              <p class="price">R&dollar; 13 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/absolut-citron.webp"
+              alt="absolut citron"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Absolut Citron</h2>
+              <p class="price">R&dollar; 24</p>
+              <p class="price">R&dollar; 17 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/absolut-vanilia.webp"
+              alt="absolut vanilia"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Absolut Vanilia</h2>
+              <p class="price">R&dollar; 16</p>
+              <p class="price">R&dollar; 12 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/belvedere.webp"
+              alt="belvedere"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Belvedere</h2>
+              <p class="price">R&dollar; 38</p>
+              <p class="price">R&dollar; 27 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/orloff.webp"
+              alt="orloff"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Orloff</h2>
+              <p class="price">R&dollar; 8</p>
+              <p class="price">R&dollar; 6 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/vodka/smirnoff.webp"
+              alt="smirnoff"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Smirnoff</h2>
+              <p class="price">R&dollar; 6</p>
+              <p class="price">R&dollar; 4 club</p>
+            </div>
+          </li>
+        </ul>
+        <h1>Gin</h1>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/gin/beefeater.webp"
+              alt="beefeater"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Beefeater London</h2>
+              <p class="price">R&dollar; 21</p>
+              <p class="price">R&dollar; 15 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/gin/bulldog.webp"
+              alt="bulldog"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Bulldog</h2>
+              <p class="price">R&dollar; 26</p>
+              <p class="price">R&dollar; 18 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/gin/tanqueray.webp"
+              alt="tanqueray"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Tanqueray London</h2>
+              <p class="price">R&dollar; 27</p>
+              <p class="price">R&dollar; 19 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/gin/tanqueray-s.webp"
+              alt="tanqueray sevilla"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Tanqueray Sevilla</h2>
+              <p class="price">R&dollar; 22</p>
+              <p class="price">R&dollar; 16 club</p>
+            </div>
+          </li>
+        </ul>
+        <h1>Diversos</h1>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/bacardi-big.webp"
+              alt="bacardi big"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Bacardi Big Apple</h2>
+              <p class="price">R&dollar; 9</p>
+              <p class="price">R&dollar; 6 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/campari.webp"
+              alt="campari"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Campari Bitter</h2>
+              <p class="price">R&dollar; 11</p>
+              <p class="price">R&dollar; 8 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/cointreau.webp"
+              alt="cointreau"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Cointreau</h2>
+              <p class="price">R&dollar; 29</p>
+              <p class="price">R&dollar; 25 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/fireball.webp"
+              alt="fireball"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Fire Ball</h2>
+              <p class="price">R&dollar; 16</p>
+              <p class="price">R&dollar; 14 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/licor-43.webp"
+              alt="licor 43"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Licor 43</h2>
+              <p class="price">R&dollar; 16</p>
+              <p class="price">R&dollar; 14 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/sagatiba.webp"
+              alt="sagatiba"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Sagatiba</h2>
+              <p class="price">R&dollar; 6</p>
+              <p class="price">R&dollar; 5 club</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/distilled/diverse/jose-cuervo.webp"
+              alt="jose cuervo"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Jose Cuervo</h2>
+              <p class="price">R&dollar; 21</p>
+              <p class="price">R&dollar; 18 club</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="main-category" id="wines">
+        <h1>Tintos(tranquilos)</h1>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/arte.webp"
+              alt="arte"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casa Valduga Arte</h2>
+              <p>Cabernet Sauvignon e Merlot.</p>
+              <p class="price">R&dollar; 98</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/astronauta.webp"
+              alt="astronauta"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Astronauta</h2>
+              <p>Touringa Nacional.</p>
+              <p class="price">R&dollar; 166</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/carta-vieja-caber.webp"
+              alt="carta vieja caber"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Carta Vieja</h2>
+              <p>Cabernet Sauvignon.</p>
+              <p class="price">R&dollar; 57</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/carta-vieja-carme.webp"
+              alt="carta vieja carmenere"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Carta Vieja</h2>
+              <p>Carmenere.</p>
+              <p class="price">R&dollar; 57</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/carta-vieja-merlot.webp"
+              alt="carta vieja merlot"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Carta Vieja</h2>
+              <p>Merlot.</p>
+              <p class="price">R&dollar; 57</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/carta-vieja-gran.webp"
+              alt="carta vieja gran reserva"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Carta Vieja Gran Reserva</h2>
+              <p>Cabernet Sauvignon.</p>
+              <p class="price">R&dollar; 158</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/casa-del-bosque-pinot.webp"
+              alt="casa del bosque pinot"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casa Del Bosque Reserva</h2>
+              <p>Pinot Noir.</p>
+              <p class="price">R&dollar; 89</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/casi-caber.webp"
+              alt="casillero cabernet sauvignon"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casillero Del Diablo</h2>
+              <p>Cabernet Sauvignon.</p>
+              <p class="price">R&dollar; 118</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/dao-casa-santar.webp"
+              alt="casa de santar"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casa de Santar</h2>
+              <p>Alfrocheiro, Aragonês e Touriga Nacional.</p>
+              <p class="price">R&dollar; 199</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/felino.webp"
+              alt="cobos felino"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Cobos Felino</h2>
+              <p>Malbec.</p>
+              <p class="price">R&dollar; 199</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/gentileza.webp"
+              alt="gentileza"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Gentileza</h2>
+              <p>Uvas viníferas.</p>
+              <p class="price">R&dollar; 81</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/jose-piteira-syrah.webp"
+              alt="jose piteira syrah"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>José Piteira</h2>
+              <p>Syrah.</p>
+              <p class="price">R&dollar; 149</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/latitud-33-caber.webp"
+              alt="latitud 33 cabernet sauvignon"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Latitud 33</h2>
+              <p>Cabernet Sauvignon.</p>
+              <p class="price">R&dollar; 98</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/latitud-33-mal.webp"
+              alt="latitud 33 malbec"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Latitud 33</h2>
+              <p>Malbec.</p>
+              <p class="price">R&dollar; 98</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/mar-salgado-tinto.webp"
+              alt="mar salgado"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Mar Salgado</h2>
+              <p>Castelão, Aragonez e Touriga Nacional.</p>
+              <p class="price">R&dollar; 98</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/marques.webp"
+              alt="marques de casa concha"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Marques de Casa Concha</h2>
+              <p>Cabernet Sauvignon.</p>
+              <p class="price">R&dollar; 220</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/monte-cal-tinto.webp"
+              alt="monte da cal tinto"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Monte da Cal</h2>
+              <p>Alicante Bouschet, Touriga Nacional, Alfrocheiro, Aragonez.</p>
+              <p class="price">R&dollar; 114</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/origem-caber.webp"
+              alt="origem cabernet sauvignon"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Origem</h2>
+              <p>Cabernet Sauvignon.</p>
+              <p class="price">R&dollar; 130</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/periquita.webp"
+              alt="periquita"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Periquita</h2>
+              <p>Castelão, Trincadeira e Alicante Bouschet.</p>
+              <p class="price">R&dollar; 140</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/red/trivento-mal.webp"
+              alt="trivento malbec"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Trivento</h2>
+              <p>Malbec.</p>
+              <p class="price">R&dollar; 123</p>
+            </div>
+          </li>
+        </ul>
+        <h1>Brancos e rosé(tranquilos)</h1>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/almaden-resling.webp"
+              alt="almaden resling"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Almaden</h2>
+              <p>Riesling.</p>
+              <p class="price">R&dollar; 63</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/carta-vieja-char.webp"
+              alt="carta vieja chardonnay"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Carta Vieja</h2>
+              <p>Chardonnay.</p>
+              <p class="price">R&dollar; 57</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/casal-garcia-rose.webp"
+              alt="casal garcia rose"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casal Garcia</h2>
+              <p>Vinhão.</p>
+              <p class="price">R&dollar; 128</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/casi-branco.webp"
+              alt="casillero sauvignon blanc"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casillero Del Diablo Belight</h2>
+              <p>Sauvignon Blanc.</p>
+              <p class="price">R&dollar; 91</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/casi-cha.webp"
+              alt="casillero chardonnay"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casillero Del Diablo</h2>
+              <p>Chardonnay.</p>
+              <p class="price">R&dollar; 104</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/jose-piteira-branco.webp"
+              alt="jose piteira branco"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>José Piteira</h2>
+              <p>Roupeiro, Diagalves.</p>
+              <p class="price">R&dollar; 92</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/la-belle-branco.webp"
+              alt="la belle branco"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>La Belle de Jour</h2>
+              <p>Fernão Pires, Arinto, Sauvignon Blanc, Gewurztraminer.</p>
+              <p class="price">R&dollar; 118</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/la-belle-rose.webp"
+              alt="la belle rose"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>La Belle de Jour</h2>
+              <p>Castelão.</p>
+              <p class="price">R&dollar; 109</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/los-incas.webp"
+              alt="los incas"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Los Incas</h2>
+              <p>Chardonnay.</p>
+              <p class="price">R&dollar; 67</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/marioa-chardo.webp"
+              alt="mario branco"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Mario</h2>
+              <p>Chardonnay.</p>
+              <p class="price">R&dollar; 66</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/monte-cal-branco.webp"
+              alt="monte da cal branco"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Monte da Cal</h2>
+              <p>Viognier, Alvarinho, Arinto, Antão Vaz.</p>
+              <p class="price">R&dollar; 87</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/white-rose/rose-piscine.webp"
+              alt="frances piscine"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Francês Piscine</h2>
+              <p>Négrette.</p>
+              <p class="price">R&dollar; 139</p>
+            </div>
+          </li>
+        </ul>
+        <h1>Espumantes</h1>
+        <ul class="category-list category-beverage">
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/sparkling/casa-perini-aquarela.webp"
+              alt="casa perini aquarela"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casa Perini Aquarela</h2>
+              <p>Moscato Branco, Moscato Giallo, Moscato de Hamburgo.</p>
+              <p class="price">R&dollar; 104</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/sparkling/casa-perini-brut.webp"
+              alt=" casa perini brut"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casa Perini Brut</h2>
+              <p>Chardonnay, Gamay, Pinot Noir.</p>
+              <p class="price">R&dollar; 101</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/sparkling/casa-perini-ice.webp"
+              alt="casa perini ice"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Casa Perini Ice Rose</h2>
+              <p>Uvas viníferas.</p>
+              <p class="price">R&dollar; 118</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/sparkling/esp-rio-mos-rose.webp"
+              alt="rio sol rose"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Rio Sol Moscatel</h2>
+              <p>Moscato Hamburgo.</p>
+              <p class="price">R&dollar; 75</p>
+            </div>
+          </li>
+          <li class="category-beverage-item">
+            <img
+              class="beverage-image"
+              src="assets/imgs/wine/sparkling/rio-sol-branco.webp"
+              alt="rio sol branco"
+              width="90"
+              height="200"
+            />
+            <div class="beverage-description">
+              <h2>Rio Sol Moscatel</h2>
+              <p>Moscato Canelli.</p>
+              <p class="price">R&dollar; 75</p>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-        <div class="restaurant-social">
-            <img class="restaurant-logo-footer" src="assets/imgs/icons/logo.webp" alt="logo" width="128" height="39">
-            <a href="https://www.instagram.com/srdukebistro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img
-                    class="social-icon instagram" src="assets/imgs/icons/instagram.webp" alt="instagram"></a>
-            <a href="https://api.whatsapp.com/send?phone=5582996007627"><img class="social-icon whatsapp1"
-                    src="assets/imgs/icons/whatsapp.webp" alt="whatsapp"></a>
-        </div>
-        <div class="creator-infor">
-            <figure class="creator-profile">
-                <img class="creator-image" src="assets/imgs/icons/criador.webp" alt="criador-perfil" width="39"
-                    height="39">
-                <figcaption class="creator-name">Pedro</figcaption>
-            </figure>
-            <a href="https://github.com/PedroNascimento009"><img class="social-icon github"
-                    src="assets/imgs/icons/github.webp" alt="github"></a>
-            <a href="https://api.whatsapp.com/send?phone=5582996430080"><img class="social-icon whatsapp2"
-                    src="assets/imgs/icons/whatsapp.webp" alt="whatsapp"></a>
-        </div>
-        <div class="footer-thanks">
-            <span>OBRIGADO PELA PREFERÊNCIA!</span>
-        </div>
+      <div class="restaurant-social">
+        <img
+          class="restaurant-logo-footer"
+          src="assets/imgs/icons/logo.webp"
+          alt="logo"
+          width="128"
+          height="39"
+        />
+        <a
+          href="https://www.instagram.com/srdukebistro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          ><img
+            class="social-icon instagram"
+            src="assets/imgs/icons/instagram.webp"
+            alt="instagram"
+        /></a>
+        <a href="https://api.whatsapp.com/send?phone=5582996007627"
+          ><img
+            class="social-icon whatsapp1"
+            src="assets/imgs/icons/whatsapp.webp"
+            alt="whatsapp"
+        /></a>
+      </div>
+      <div class="creator-infor">
+        <figure class="creator-profile">
+          <img
+            class="creator-image"
+            src="assets/imgs/icons/criador.webp"
+            alt="criador-perfil"
+            width="39"
+            height="39"
+          />
+          <figcaption class="creator-name">Pedro</figcaption>
+        </figure>
+        <a href="https://github.com/PedroNascimento009"
+          ><img
+            class="social-icon github"
+            src="assets/imgs/icons/github.webp"
+            alt="github"
+        /></a>
+        <a href="https://api.whatsapp.com/send?phone=5582996430080"
+          ><img
+            class="social-icon whatsapp2"
+            src="assets/imgs/icons/whatsapp.webp"
+            alt="whatsapp"
+        /></a>
+      </div>
+      <div class="footer-thanks">
+        <span>OBRIGADO PELA PREFERÊNCIA!</span>
+      </div>
     </footer>
     <script type="module" src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
