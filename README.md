@@ -1,11 +1,11 @@
 # Cardápio Sr.Duke
 
-Cardápio sendo produzido para o bistrô Sr.Duke, feito inspirado pela identidade do local.
+Cardápio finalizado para o bistrô Sr.Duke, feito inspirado pela identidade do local.
 
 
 ## Atualizações
 
-Adiçao de pratos.
+Finalizado.
 
 ## Autor e Deploy
 
