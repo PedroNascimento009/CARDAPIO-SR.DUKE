@@ -1,150 +1,191 @@
 /* Background Body */
 body {
-    background-image: url(/assets/imgs/bg/praça-12-abril.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url(/assets/imgs/bg/praça-12-abril.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Box Main */
 main {
-    -webkit-box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
-    -moz-box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
-    box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+  -webkit-box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+  -moz-box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+  box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+}
+
+/* Menu Fechado */
+.category-button:nth-child(1),
+.category-button:nth-child(4),
+.category-button:nth-child(5) {
+  display: none;
+}
+
+#pastel-siri,
+#camarao-coco,
+#croquete-nordestina,
+#tabua-frios,
+#bolinhos-queijo,
+#brusqueta-classica,
+#brusqueta-camarao,
+#brusqueta-siri,
+#torrada-pate,
+#batata-g,
+#batata-p,
+#vinagrete-polvo,
+#arroz-duke,
+#risoto-nordestino,
+#linguine-camarao,
+#carbonara,
+#prime-rib,
+#peixe-branco,
+#peixe-maracuja,
+#linguine-branco,
+#linguine-sugo,
+#linguine-polvo {
+  display: none;
+}
+
+.dish-description > .price {
+  display: none;
+}
+
+#dueto,
+#risoto-camarao {
+  padding-bottom: 40px;
 }
 
 /* Main */
 .main-category {
-    display: none;
+  display: none;
 
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 1s forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
 }
 
-.main-category>h1 {
-    text-align: center;
-    padding: 20px 0px;
+.main-category > h1 {
+  text-align: center;
+  padding: 20px 0px;
 }
 
 .main-category.active {
-    display: block;
+  display: block;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn2 {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeOut2 {
-    from {
-        opacity: 1;
-    }
+  from {
+    opacity: 1;
+  }
 
-    to {
-        opacity: 0;
-    }
+  to {
+    opacity: 0;
+  }
 }
 
 /* List */
 .category-happy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 0;
-    flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0;
+  flex-wrap: nowrap;
 }
 
 .category-list {
-    display: grid;
-    gap: 40px;
-    list-style: none;
+  display: grid;
+  gap: 40px;
+  list-style: none;
 }
 
 .category-beverage {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 
-    overflow-x: scroll;
+  overflow-x: scroll;
 }
 
 .category-beverage::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* Item */
 .category-dish-item {
-    list-style: none;
+  list-style: none;
 }
 
 .category-dish-item:last-child,
-.cocktail-item>:last-child,
+.cocktail-item > :last-child,
 .drink-item:last-child {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .category-beverage-item {
-    display: flex;
-    gap: 10px;
-    padding: 0px 20px;
+  display: flex;
+  gap: 10px;
+  padding: 0px 20px;
 }
 
 /* Description */
 .happy-description {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 40px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .dish-description,
 .drink-item,
 .cocktail-description,
 .happy-description {
-    margin: 0px 30px;
+  margin: 0px 30px;
 }
 
-.dish-description>h2,
-.slide-description>h2,
-.drink-item>h2,
-.cocktail-description>h2 {
-    border-bottom: 2px solid var(--first-border-color);
+.dish-description > h2,
+.slide-description > h2,
+.drink-item > h2,
+.cocktail-description > h2 {
+  border-bottom: 2px solid var(--first-border-color);
 }
 
 .club-description {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .beverage-description {
-    max-width: 115px;
+  max-width: 115px;
 }
 
-.beverage-description>p {
-    margin: 10px 0px;
+.beverage-description > p {
+  margin: 10px 0px;
 }
 
 .club-description,
 .coffe-description {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
