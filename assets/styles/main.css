@@ -13,47 +13,6 @@ main {
   box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
 }
 
-/* Menu Fechado */
-.category-button:nth-child(1),
-.category-button:nth-child(4),
-.category-button:nth-child(5) {
-  display: none;
-}
-
-#pastel-siri,
-#camarao-coco,
-#croquete-nordestina,
-#tabua-frios,
-#bolinhos-queijo,
-#brusqueta-classica,
-#brusqueta-camarao,
-#brusqueta-siri,
-#torrada-pate,
-#batata-g,
-#batata-p,
-#vinagrete-polvo,
-#arroz-duke,
-#risoto-nordestino,
-#linguine-camarao,
-#carbonara,
-#prime-rib,
-#peixe-branco,
-#peixe-maracuja,
-#linguine-branco,
-#linguine-sugo,
-#linguine-polvo {
-  display: none;
-}
-
-.dish-description > .price {
-  display: none;
-}
-
-#dueto,
-#risoto-camarao {
-  padding-bottom: 40px;
-}
-
 /* Main */
 .main-category {
   display: none;
