@@ -16,7 +16,6 @@ export function exibirPratoDaSemana() {
     if (pratoOriginal && container) {
         const clone = pratoOriginal.cloneNode(true);
 
-        // Aplica desconto no preço
         const precoElement = clone.querySelector('.price');
         if (precoElement) {
             const textoOriginal = precoElement.textContent.trim();
