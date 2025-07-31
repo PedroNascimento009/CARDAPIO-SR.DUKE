@@ -6,7 +6,7 @@ export function exibirPratoDaSemana() {
         4: 'risoto-camarao'
     };
 
-    const container = document.getElementById('weekDish');
+    const container = document.getElementById('week-dish');
     const hoje = new Date();
     const dia = hoje.getDate();
     const semana = Math.ceil(dia / 7);
