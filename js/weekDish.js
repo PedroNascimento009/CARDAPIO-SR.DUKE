@@ -1,21 +1,22 @@
 export function exibirPratoDaSemana() {
     const pratosSemana = {
-        1: 'risoto-nordestino',
+        1: 'arroz-duke',
         2: 'polvo-grelhado',
-        3: 'prime-rib',
+        3: 'risoto-nordestino',
         4: 'risoto-camarao'
     };
 
     const container = document.getElementById('week-dish');
     const hoje = new Date();
     const dia = hoje.getDate();
-    const semana = Math.ceil(dia / 7);
+    const semana = Math.min(Math.ceil(dia / 7), 4); // Limita de 1 a 4
     const idPrato = pratosSemana[semana];
 
     const pratoOriginal = document.getElementById(idPrato);
     if (pratoOriginal && container) {
         const clone = pratoOriginal.cloneNode(true);
 
+        // Aplica desconto no preço
         const precoElement = clone.querySelector('.price');
         if (precoElement) {
             const textoOriginal = precoElement.textContent.trim();
