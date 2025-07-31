@@ -1,9 +1,9 @@
 export function exibirPratoDaSemana() {
     const pratosSemana = {
-        1: 'risoto-camarao',
+        1: 'risoto-nordestino',
         2: 'polvo-grelhado',
         3: 'prime-rib',
-        4: 'risoto-nordestino'
+        4: 'risoto-camarao'
     };
 
     const container = document.getElementById('week-dish');
