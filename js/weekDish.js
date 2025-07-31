@@ -2,7 +2,7 @@ export function exibirPratoDaSemana() {
     const pratosSemana = {
         1: 'risoto-camarao',
         2: 'polvo-grelhado',
-        3: 'arroz-duke',
+        3: 'prime-rib',
         4: 'risoto-nordestino'
     };
 
