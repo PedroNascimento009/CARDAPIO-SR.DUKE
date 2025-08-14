@@ -3,13 +3,14 @@ export function exibirPratoDaSemana() {
         1: 'arroz-duke',
         2: 'peixe-branco',
         3: 'polvo-grelhado',
-        4: 'risoto-nordestino'
+        4: 'risoto-nordestino',
+        5: 'risoto-camarao'
     };
 
     const container = document.getElementById('week-dish');
     const hoje = new Date();
     const dia = hoje.getDate();
-    const semana = Math.min(Math.ceil(dia / 7), 4); // Limita de 1 a 4
+    const semana = Math.min(Math.ceil(dia / 7), 4);
     const idPrato = pratosSemana[semana];
 
     const pratoOriginal = document.getElementById(idPrato);
