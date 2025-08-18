@@ -3,8 +3,7 @@ export function exibirPratoDaSemana() {
         1: 'peixe-branco',
         2: 'polvo-grelhado',
         3: 'risoto-nordestino',
-        4: 'risoto-camarao',
-        5: 'arroz-duke'
+        4: 'arroz-duke',
     };
 
     const container = document.getElementById('week-dish');
