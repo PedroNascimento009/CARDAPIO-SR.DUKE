@@ -1,15 +1,16 @@
 export function exibirPratoDaSemana() {
     const pratosSemana = {
-        1: 'file-vinho',
-        2: 'arroz-duke',
-        3: 'risoto-nordestino',
-        4: 'linguine-branco',
+        1: 'carbonara',
+        2: 'peixe-maracuja',
+        3: 'risoto-camarao',
+        4: 'polvo-grelhado',
+        5: 'file-vinho',
     };
 
     const container = document.getElementById('week-dish');
     const hoje = new Date();
     const dia = hoje.getDate();
-    const semana = Math.min(Math.ceil(dia / 7), 4);
+    const semana = Math.min(Math.ceil(dia / 7), 5);
     const idPrato = pratosSemana[semana];
 
     const pratoOriginal = document.getElementById(idPrato);
