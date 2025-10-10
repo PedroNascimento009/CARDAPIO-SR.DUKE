@@ -11,7 +11,7 @@ Finalizado.
 
 - [@PedroNascimento009](https://github.com/PedroNascimento009)
 
-- [Deploy](https://cardapio-sr-duke.vercel.app/)
+- [Deploy](https://cardapio-sr-duke-ivory.vercel.app)
 
 ### Tecnologia Usada:
 
