@@ -1,25 +1,20 @@
-import { verificarVisibilidade } from './scrollReveal.js';
-
-export function abrirTabs(id) {
+export function tabs() {
   document.querySelectorAll('.main-category').forEach(sec => {
-    sec.style.display = 'none';
-  });
+    sec.style.display = 'none'
+  })
 
-  const secAtual = document.getElementById(id);
-  secAtual.style.display = 'block';
+  document.querySelector('.active').style.display = 'block'
 
-  verificarVisibilidade();
+  const mostrar = (n) => document.querySelector(n).style.display = 'block'
+
+  document.querySelectorAll('.category-button').forEach(botao => {
+    botao.addEventListener('click', () => {
+      document.querySelectorAll('.main-category').forEach(sec => {
+        sec.style.display = 'none'
+      })
+
+      const nome = botao.dataset.category
+      mostrar(nome)
+    })
+  })
 }
-
-export function openTabs(IdTab) {
-  const category = document.getElementsByClassName('main-category');
-
-  for (let i = 0; i < category.length; i++) {
-    category[i].style.display = 'none';
-  }
-
-  document.getElementById(IdTab).style.display = "block";
-}
-
-window.openTabs = openTabs;
-window.abrirTabs = abrirTabs;

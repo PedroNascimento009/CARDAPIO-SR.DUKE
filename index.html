@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="assets/styles/fonts.css" />
   <link rel="stylesheet" href="assets/styles/imgs.css" />
   <link rel="stylesheet" href="assets/styles/colors.css" />
-  
+
   <script type="module" src="js/main.js" defer></script>
 
   <link rel="preload" href="assets/fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
@@ -35,41 +35,42 @@
 <body>
   <header>
     <figure id="introduction">
-      <img loading="lazy" class="introduction-image" src="assets/imgs/icons/logo.webp" alt="logo abertura" width="230" height="300" />
+      <img loading="lazy" class="introduction-image" src="assets/imgs/icons/logo.webp" alt="logo abertura" width="230"
+        height="300" />
     </figure>
     <figure class="container-profile">
       <img loading="lazy" class="profile-img" src="assets/imgs/icons/logo.webp" alt="logo" width="158" height="50" />
       <p>&#9906; Praça Marechal Deodoro, Centro</p>
     </figure>
     <nav class="container-category">
-      <button class="category-button" onclick="openTabs('promotions')">
+      <button class="category-button" type="button" data-category="#promotions">
         Promoções
       </button>
-      <button class="category-button" onclick="openTabs('entrance')">
+      <button class="category-button" type="button" data-category="#entrance">
         Entradas
       </button>
-      <button class="category-button" onclick="openTabs('mainDish')">
+      <button class="category-button" type="button" data-category="#mainDish">
         Prato-Principal
       </button>
-      <button class="category-button" onclick="openTabs('salad')">
+      <button class="category-button" type="button" data-category="#salad">
         Saladas
       </button>
-      <button class="category-button" onclick="openTabs('kids')">
+      <button class="category-button" type="button" data-category="#kids">
         Kid´s
       </button>
-      <button class="category-button" onclick="openTabs('dessert')">
+      <button class="category-button" type="button" data-category="#dessert">
         Sobremesas
       </button>
-      <button class="category-button" onclick="openTabs('drinks')">
+      <button class="category-button" type="button" data-category="#drinks">
         Bebidas
       </button>
-      <button class="category-button" onclick="openTabs('cocktails')">
+      <button class="category-button" type="button" data-category="#cocktails">
         Drinks
       </button>
-      <button class="category-button" onclick="openTabs('distilled')">
+      <button class="category-button" type="button" data-category="#distilled">
         Destilados
       </button>
-      <button class="category-button" onclick="openTabs('wines')">
+      <button class="category-button" type="button" data-category="#wines">
         Vinhos
       </button>
     </nav>
@@ -85,8 +86,8 @@
       <h1>Entradas</h1>
       <ul class="category-list">
         <li class="category-dish-item" id="pastel-nordestino">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" alt="Pastel nordestino"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Pastel nordestino(6 uni.)</h2>
             <p>
@@ -96,8 +97,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="pastel-siri">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" loading="lazy" alt="Pastel siri" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/pastel.webp" loading="lazy"
+            alt="Pastel siri" width="700" height="670" />
           <div class="dish-description">
             <h2>Pastel de siri(6 uni.)</h2>
             <p>Massa de pastel recheada com file de siri.</p>
@@ -105,8 +106,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="coxinha-siri">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/coxinha.webp" alt="Coxinha de siri"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Coxinha de siri(6 uni.)</h2>
             <p>
@@ -116,8 +117,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="camarao-coco">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/comarão.webp" alt="Camarão ao coco"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Camarão ao coco</h2>
             <p>
@@ -128,7 +129,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="dueto">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto" width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/dueto.webp" alt="Dueto" width="700"
+            height="670" />
           <div class="dish-description">
             <h2>Dueto</h2>
             <p>
@@ -139,8 +141,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="croquete-nordestina">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/croquetes.webp" alt="Croquete nordestina"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/croquetes.webp"
+            alt="Croquete nordestina" width="700" height="670" />
           <div class="dish-description">
             <h2>Croquete nordestina(5 uni.)</h2>
             <p>
@@ -151,8 +153,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="bolinhos-queijo">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/bolinho-queijo.webp" alt="Bolinho de queijo"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/bolinho-queijo.webp"
+            alt="Bolinho de queijo" width="700" height="670" />
           <div class="dish-description">
             <h2>Bolinhos de queijo coalho</h2>
             <p>Bolinhos de massa de macaxeira recheados com queijo coalho.</p>
@@ -160,8 +162,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="batata-g">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/batata-g.webp" alt="Batata G" width="700"
-            height="670">
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/prohibited/batata-g.webp" alt="Batata G"
+            width="700" height="670">
           <div class="dish-description">
             <h2>Batata com cheddar e bacon(G)</h2>
             <p>
@@ -270,8 +272,8 @@
       <h1>Prato-Principal</h1>
       <ul class="category-list">
         <li class="category-dish-item" id="arroz-duke">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/arroz-duke.webp" alt="Arroz duke"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Arroz do Duke</h2>
             <p>
@@ -282,8 +284,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="linguine-camarao">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/linguine-camarao.webp" alt="Linguine camarao"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/linguine-camarao.webp"
+            alt="Linguine camarao" width="700" height="670" />
           <div class="dish-description">
             <h2>Linguine de camarão com abobrinhas e cogumelos</h2>
             <p>
@@ -303,8 +305,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="carbonara">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/carbonara.webp" alt="Tabua de queijos e frios"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/carbonara.webp"
+            alt="Tabua de queijos e frios" width="700" height="670" />
           <div class="dish-description">
             <h2>Carbonara</h2>
             <p>
@@ -315,8 +317,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="prime-rib">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/prime-rib.webp" alt="Prime rib"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Prime rib suíno</h2>
             <p>
@@ -328,8 +330,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="prime-risoto">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/prime-risoto.webp" alt="Prime risoto" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/prime-risoto.webp"
+            alt="Prime risoto" width="700" height="670" />
           <div class="dish-description">
             <h2>Prime rib com risoto de limão siciliano</h2>
             <p>
@@ -340,8 +342,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="polvo-grelhado">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/polvo-grelhado.webp" alt="Polvo grelhado"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/polvo-grelhado.webp"
+            alt="Polvo grelhado" width="700" height="670" />
           <div class="dish-description">
             <h2>Polvo grelhado</h2>
             <p>
@@ -352,8 +354,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="file-risoto">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/file-risoto.webp" alt="Filé com risoto"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/file-risoto.webp"
+            alt="Filé com risoto" width="700" height="670" />
           <div class="dish-description">
             <h2>Filé com risoto</h2>
             <p>Medalhão de filé grelhado servido com risoto de parmesão.</p>
@@ -361,8 +363,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="file-vinho">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/file-ao-vinho.webp" alt="Filé ao vinho"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/file-ao-vinho.webp"
+            alt="Filé ao vinho" width="700" height="670" />
           <div class="dish-description">
             <h2>Filé ao vinho com linguine de gorgonzola.</h2>
             <p>
@@ -373,8 +375,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="risoto-camarao">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/risoto-camarao.webp" alt="risoto de camarão"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/risoto-camarao.webp"
+            alt="risoto de camarão" width="700" height="670" />
           <div class="dish-description">
             <h2>Risoto de camarão</h2>
             <p>
@@ -385,8 +387,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="peixe-branco">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/peixe-branco.webp" alt="Peixe branco" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/peixe-branco.webp"
+            alt="Peixe branco" width="700" height="670" />
           <div class="dish-description">
             <h2>Peixe branco</h2>
             <p>
@@ -397,8 +399,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="peixe-maracuja">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/peixe-maracuja.webp" alt="Peixe maracuja"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/peixe-maracuja.webp"
+            alt="Peixe maracuja" width="700" height="670" />
           <div class="dish-description">
             <h2>Peixe branco ao molho de maracujá</h2>
             <p>
@@ -409,8 +411,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="risoto-nordestino">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/risoto-nordestino.webp" alt="Risoto nordestino"
-            width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/main-course/risoto-nordestino.webp"
+            alt="Risoto nordestino" width="700" height="670" />
           <div class="dish-description">
             <h2>Risoto Nordestino</h2>
             <p>
@@ -448,8 +450,8 @@
       <h1>Salada</h1>
       <ul class="category-list">
         <li class="category-dish-item" id="salada-ceasar">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/salad/salada-ceasar.webp" alt="Salada Ceasar" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/salad/salada-ceasar.webp" alt="Salada Ceasar"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Salada Ceasar</h2>
             <p>
@@ -460,8 +462,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="niçoise-duke">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/salad/niçoise-duke.webp" alt="Niçoise do Duke" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/salad/niçoise-duke.webp" alt="Niçoise do Duke"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Niçoise do Duke</h2>
             <p>
@@ -478,8 +480,8 @@
       <h1>Kid's</h1>
       <ul class="category-list">
         <li class="category-dish-item" id="cheese-burguer">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/kids/cheese-burguer.webp" alt="Cheeseburguer" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/kids/cheese-burguer.webp" alt="Cheeseburguer"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Cheeseburguer</h2>
             <p>
@@ -490,8 +492,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="risoto-kids">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/kids/risoto-kids" alt="Risoto nordestino kids" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/kids/risoto-kids" alt="Risoto nordestino kids"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Risoto nordestino kid's</h2>
             <p>
@@ -517,8 +519,8 @@
       <h1>Sobremesa</h1>
       <ul class="category-list">
         <li class="category-dish-item" id="pudim-rapadura">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/dessert/pudim-rapadura.webp" alt="Pudim rapadura" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/dessert/pudim-rapadura.webp"
+            alt="Pudim rapadura" width="700" height="670" />
           <div class="dish-description">
             <h2>Pudim de rapadura</h2>
             <p class="price">
@@ -529,8 +531,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="delicia-real">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real" width="700"
-            height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/dessert/delicia-real.webp" alt="Delicia real"
+            width="700" height="670" />
           <div class="dish-description">
             <h2>Delícia Real</h2>
             <p>Brownie da casa acompanhado com sorvete e ganache.</p>
@@ -538,7 +540,8 @@
           </div>
         </li>
         <li class="category-dish-item" id="perola">
-          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/dessert/perola.webp" alt="Perola" width="700" height="670" />
+          <img loading="lazy" class="dish-image" src="assets/imgs/dishes/dessert/perola.webp" alt="Perola" width="700"
+            height="670" />
           <div class="dish-description">
             <h2>Perola do São Francisco</h2>
             <p>
@@ -667,8 +670,8 @@
       <h1>Drinks</h1>
       <ul class="category-list cocktail-list">
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/aperol-spritz.webp" alt="aperol spritz" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/aperol-spritz.webp" alt="aperol spritz"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Aperol Spritz</h2>
             <p>
@@ -678,7 +681,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/bellini.webp" alt="bellini" width="700" height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/bellini.webp" alt="bellini" width="700"
+            height="700" />
           <div class="cocktail-description">
             <h2>Bellini</h2>
             <p>Espumante brut e suco de pêssego(imagem ilustrativa).</p>
@@ -686,8 +690,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Caipirinha</h2>
             <p>Cachaça, limão e açúrca(imagem ilustrativa).</p>
@@ -695,8 +699,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Caipirinha Especial</h2>
             <p>Cachaça, morango e açúrca(imagem ilustrativa).</p>
@@ -704,8 +708,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Caipirosca</h2>
             <p>
@@ -715,8 +719,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/caipirinha.webp" alt="caipirinha"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Caipirosca Especial</h2>
             <p>
@@ -726,8 +730,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/corona-spritz.webp" alt="corona spritz" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/corona-spritz.webp" alt="corona spritz"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Corona Spritz</h2>
             <p>Corona, suco de limão e aperol(imagem ilustrativa).</p>
@@ -735,8 +739,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/dry-martini.webp" alt="dry martini" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/dry-martini.webp" alt="dry martini"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Dry Martini</h2>
             <p>Gin, vermute seco e azeitona(imagem ilustrativa).</p>
@@ -744,8 +748,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/gin-saborizada.webp" alt="gin saborizada" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/gin-saborizada.webp"
+            alt="gin saborizada" width="700" height="700" />
           <div class="cocktail-description">
             <h2>Gin Saborizada</h2>
             <p>Gin, água tônica, xarope a consultar(imagem ilustrativa).</p>
@@ -753,8 +757,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/gin-tonica.webp" alt="gin tonica" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/gin-tonica.webp" alt="gin tonica"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Gin Tônica</h2>
             <p>Gin, água tônica e especiarias(imagem ilustrativa).</p>
@@ -762,8 +766,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/margarita.webp" alt="margarita" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/margarita.webp" alt="margarita"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Margarita</h2>
             <p>
@@ -774,7 +778,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/mojito.webp" alt="mojito" width="700" height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/mojito.webp" alt="mojito" width="700"
+            height="700" />
           <div class="cocktail-description">
             <h2>Mojito</h2>
             <p>Rum branco, suco de limão e xarope(imagem ilustrativa).</p>
@@ -782,8 +787,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/moscow-mule.webp" alt="moscow mule" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/moscow-mule.webp" alt="moscow mule"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Moscow Mule</h2>
             <p>
@@ -794,7 +799,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/negroni.webp" alt="negroni" width="700" height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/negroni.webp" alt="negroni" width="700"
+            height="700" />
           <div class="cocktail-description">
             <h2>Negroni</h2>
             <p>Gin, Campari, Vermute Rosso e laranja(imagem ilustrativa).</p>
@@ -802,8 +808,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/royal-blood.webp" alt="royal blood" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/royal-blood.webp" alt="royal blood"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Royal Blood</h2>
             <p>
@@ -814,8 +820,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/mentirosca.webp" alt="mentirosca" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/mentirosca.webp" alt="mentirosca"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Mentirosca</h2>
             <p>Mix de frutas e água de coco(imagem ilustrativa).</p>
@@ -823,8 +829,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/daiquiri.webp" alt="daiquiri" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/daiquiri.webp" alt="daiquiri"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Daquiri</h2>
             <p>Rum, suco de limão, xarope(imagem ilustrativa).</p>
@@ -832,8 +838,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/whiskey-sour.webp" alt="whiskey sour" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/whiskey-sour.webp" alt="whiskey sour"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Whiskey Sour</h2>
             <p>
@@ -844,8 +850,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/new-york.webp" alt="new york sour" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/new-york.webp" alt="new york sour"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>New York Sour</h2>
             <p>
@@ -856,8 +862,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/tequila-sunrise.webp" alt="tequila sunrise" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/tequila-sunrise.webp"
+            alt="tequila sunrise" width="700" height="700" />
           <div class="cocktail-description">
             <h2>Tequila Sunrise</h2>
             <p>
@@ -868,8 +874,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/tom-collins.webp" alt="tom collins" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/tom-collins.webp" alt="tom collins"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Tom Collins</h2>
             <p>
@@ -880,8 +886,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/jhon-collins.webp" alt="jhon collins" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/jhon-collins.webp" alt="jhon collins"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Jhon Collins</h2>
             <p>
@@ -892,8 +898,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/americano.webp" alt="americano" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/americano.webp" alt="americano"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Americano</h2>
             <p>
@@ -903,8 +909,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/cuba-libre.webp" alt="cuba libre" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/cuba-libre.webp" alt="cuba libre"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Cuba Libre</h2>
             <p>Rum, suco de limão, coca-cola(imagem ilustrativa).</p>
@@ -912,8 +918,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/french-75.webp" alt="french 75" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/french-75.webp" alt="french 75"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>French 75</h2>
             <p>
@@ -923,8 +929,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/boulevardier.webp" alt="boulevardier" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/boulevardier.webp" alt="boulevardier"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Boulevardier</h2>
             <p>Whisky Bourbom, Vermute Rosso, campari(imagem ilustrativa).</p>
@@ -932,8 +938,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/long-island.webp" alt="long island" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/long-island.webp" alt="long island"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Long Island Ice Tea</h2>
             <p>
@@ -944,8 +950,8 @@
           </div>
         </li>
         <li class="cocktail-item">
-          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/limoncello.webp" alt="limoncello" width="700"
-            height="700" />
+          <img loading="lazy" class="cocktail-image" src="assets/imgs/cocktails/limoncello.webp" alt="limoncello"
+            width="700" height="700" />
           <div class="cocktail-description">
             <h2>Limoncello Spritz</h2>
             <p>
@@ -966,8 +972,8 @@
       </p>
       <ul class="category-list category-beverage">
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/balla-12.webp" alt="ballatines 12" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/balla-12.webp"
+            alt="ballatines 12" width="90" height="200" />
           <div class="beverage-description">
             <h2>Ballatines 12 anos</h2>
             <p class="price">R&dollar; 25</p>
@@ -975,8 +981,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/balla-finest.webp" alt="ballatines finest"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/balla-finest.webp"
+            alt="ballatines finest" width="90" height="200" />
           <div class="beverage-description">
             <h2>Ballatines Finest</h2>
             <p class="price">R&dollar; 12</p>
@@ -984,8 +990,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/black.webp" alt="black label" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/black.webp" alt="black label"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Black Label</h2>
             <p class="price">R&dollar; 26</p>
@@ -993,8 +999,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/buchanans.webp" alt="buchanans delux"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/buchanans.webp"
+            alt="buchanans delux" width="90" height="200" />
           <div class="beverage-description">
             <h2>Buchanan´s Delux</h2>
             <p class="price">R&dollar; 30</p>
@@ -1002,8 +1008,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/buffalo.webp" alt="buffalo trace" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/buffalo.webp"
+            alt="buffalo trace" width="90" height="200" />
           <div class="beverage-description">
             <h2>Buffalo Trace</h2>
             <p class="price">R&dollar; 30</p>
@@ -1011,8 +1017,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/chivas.webp" alt="chivas" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/chivas.webp" alt="chivas"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Chivas Regal</h2>
             <p class="price">R&dollar; 23</p>
@@ -1020,8 +1026,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/double.webp" alt="double" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/double.webp" alt="double"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Double Black</h2>
             <p class="price">R&dollar; 30</p>
@@ -1029,8 +1035,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/gentleman.webp" alt="gentleman" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/gentleman.webp" alt="gentleman"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Gentleman Jack</h2>
             <p class="price">R&dollar; 26</p>
@@ -1047,8 +1053,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/jack-danielsn7.webp" alt="jack daniels n7"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/jack-danielsn7.webp"
+            alt="jack daniels n7" width="90" height="200" />
           <div class="beverage-description">
             <h2>Jack Daniels Tenesse</h2>
             <p class="price">R&dollar; 22</p>
@@ -1056,8 +1062,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/jameson.webp" alt="jameson" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/jameson.webp" alt="jameson"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Jameson</h2>
             <p class="price">R&dollar; 21</p>
@@ -1065,7 +1071,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/jim.webp" alt="jim" width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/jim.webp" alt="jim" width="90"
+            height="200" />
           <div class="beverage-description">
             <h2>Jim Beam</h2>
             <p class="price">R&dollar; 17</p>
@@ -1073,8 +1080,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/makers.webp" alt="makers" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/makers.webp" alt="makers"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Maker´s Mask</h2>
             <p class="price">R&dollar; 32</p>
@@ -1082,7 +1089,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/old.webp" alt="old" width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/old.webp" alt="old" width="90"
+            height="200" />
           <div class="beverage-description">
             <h2>Old Par</h2>
             <p class="price">R&dollar; 27</p>
@@ -1090,7 +1098,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/red.webp" alt="red" width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/red.webp" alt="red" width="90"
+            height="200" />
           <div class="beverage-description">
             <h2>Red Label</h2>
             <p class="price">R&dollar; 15</p>
@@ -1098,8 +1107,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/white.webp" alt="white" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/white.webp" alt="white"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>White Horse</h2>
             <p class="price">R&dollar; 14</p>
@@ -1116,8 +1125,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/woodford.webp" alt="wood" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/whiskys/woodford.webp" alt="wood"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Woodford Reserve</h2>
             <p class="price">R&dollar; 39</p>
@@ -1128,8 +1137,8 @@
       <h1>Vodka</h1>
       <ul class="category-list category-beverage">
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut.webp" alt="absolut" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut.webp" alt="absolut"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Absolut</h2>
             <p class="price">R&dollar; 16</p>
@@ -1137,8 +1146,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut-rasp.webp" alt="absolut raspberri"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut-rasp.webp"
+            alt="absolut raspberri" width="90" height="200" />
           <div class="beverage-description">
             <h2>Absolut Raspberri</h2>
             <p class="price">R&dollar; 18</p>
@@ -1146,8 +1155,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut-citron.webp" alt="absolut citron"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut-citron.webp"
+            alt="absolut citron" width="90" height="200" />
           <div class="beverage-description">
             <h2>Absolut Citron</h2>
             <p class="price">R&dollar; 24</p>
@@ -1155,8 +1164,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut-vanilia.webp" alt="absolut vanilia"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/absolut-vanilia.webp"
+            alt="absolut vanilia" width="90" height="200" />
           <div class="beverage-description">
             <h2>Absolut Vanilia</h2>
             <p class="price">R&dollar; 16</p>
@@ -1164,8 +1173,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/belvedere.webp" alt="belvedere" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/belvedere.webp" alt="belvedere"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Belvedere</h2>
             <p class="price">R&dollar; 38</p>
@@ -1173,8 +1182,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/orloff.webp" alt="orloff" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/orloff.webp" alt="orloff"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Orloff</h2>
             <p class="price">R&dollar; 8</p>
@@ -1182,8 +1191,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/smirnoff.webp" alt="smirnoff" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/vodka/smirnoff.webp" alt="smirnoff"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Smirnoff</h2>
             <p class="price">R&dollar; 6</p>
@@ -1194,8 +1203,8 @@
       <h1>Gin</h1>
       <ul class="category-list category-beverage">
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/beefeater.webp" alt="beefeater" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/beefeater.webp" alt="beefeater"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Beefeater London</h2>
             <p class="price">R&dollar; 21</p>
@@ -1203,8 +1212,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/bulldog.webp" alt="bulldog" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/bulldog.webp" alt="bulldog"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Bulldog</h2>
             <p class="price">R&dollar; 26</p>
@@ -1212,8 +1221,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/tanqueray.webp" alt="tanqueray" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/tanqueray.webp" alt="tanqueray"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Tanqueray London</h2>
             <p class="price">R&dollar; 27</p>
@@ -1221,8 +1230,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/tanqueray-s.webp" alt="tanqueray sevilla"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/gin/tanqueray-s.webp"
+            alt="tanqueray sevilla" width="90" height="200" />
           <div class="beverage-description">
             <h2>Tanqueray Sevilla</h2>
             <p class="price">R&dollar; 22</p>
@@ -1233,8 +1242,8 @@
       <h1>Diversos</h1>
       <ul class="category-list category-beverage">
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/bacardi-big.webp" alt="bacardi big" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/bacardi-big.webp"
+            alt="bacardi big" width="90" height="200" />
           <div class="beverage-description">
             <h2>Bacardi Big Apple</h2>
             <p class="price">R&dollar; 9</p>
@@ -1242,8 +1251,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/campari.webp" alt="campari" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/campari.webp" alt="campari"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Campari Bitter</h2>
             <p class="price">R&dollar; 11</p>
@@ -1251,8 +1260,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/cointreau.webp" alt="cointreau" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/cointreau.webp" alt="cointreau"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Cointreau</h2>
             <p class="price">R&dollar; 29</p>
@@ -1260,8 +1269,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/fireball.webp" alt="fireball" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/fireball.webp" alt="fireball"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Fire Ball</h2>
             <p class="price">R&dollar; 16</p>
@@ -1269,8 +1278,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/licor-43.webp" alt="licor 43" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/licor-43.webp" alt="licor 43"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Licor 43</h2>
             <p class="price">R&dollar; 16</p>
@@ -1278,8 +1287,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/sagatiba.webp" alt="sagatiba" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/sagatiba.webp" alt="sagatiba"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Sagatiba</h2>
             <p class="price">R&dollar; 6</p>
@@ -1287,8 +1296,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/jose-cuervo.webp" alt="jose cuervo" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/distilled/diverse/jose-cuervo.webp"
+            alt="jose cuervo" width="90" height="200" />
           <div class="beverage-description">
             <h2>Jose Cuervo</h2>
             <p class="price">R&dollar; 21</p>
@@ -1301,8 +1310,8 @@
       <h1>Tintos(tranquilos)</h1>
       <ul class="category-list category-beverage">
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/alabastro-blend.webp" alt="alabastro blend" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/alabastro-blend.webp"
+            alt="alabastro blend" width="90" height="200" />
           <div class="beverage-description">
             <h2>Alabastro</h2>
             <p>Alicante Bouschet, Aragonez, Trincadeira.</p>
@@ -1310,8 +1319,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/alasbastro-blend-reserva.webp" alt="alabastro reserva"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/alasbastro-blend-reserva.webp"
+            alt="alabastro reserva" width="90" height="200" />
           <div class="beverage-description">
             <h2>Alabastro Reserva</h2>
             <p>Alicante Bouschet, Trincadeira, Aragonez.</p>
@@ -1319,8 +1328,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/cabriz-tinto.webp" alt="cabriz tinto" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/cabriz-tinto.webp" alt="cabriz tinto"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Cabriz</h2>
             <p>Touringa Nacional, Tinta Roriz, Rufete.</p>
@@ -1328,7 +1337,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/arte.webp" alt="arte" width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/arte.webp" alt="arte" width="90"
+            height="200" />
           <div class="beverage-description">
             <h2>Casa Valduga Arte</h2>
             <p>Cabernet Sauvignon e Merlot.</p>
@@ -1336,8 +1346,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/astronauta.webp" alt="astronauta" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/astronauta.webp" alt="astronauta"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Astronauta</h2>
             <p>Touringa Nacional.</p>
@@ -1345,8 +1355,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-caber.webp" alt="carta vieja caber"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-caber.webp"
+            alt="carta vieja caber" width="90" height="200" />
           <div class="beverage-description">
             <h2>Carta Vieja</h2>
             <p>Cabernet Sauvignon.</p>
@@ -1354,8 +1364,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-carme.webp" alt="carta vieja carmenere"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-carme.webp"
+            alt="carta vieja carmenere" width="90" height="200" />
           <div class="beverage-description">
             <h2>Carta Vieja</h2>
             <p>Carmenere.</p>
@@ -1363,8 +1373,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-merlot.webp" alt="carta vieja merlot"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-merlot.webp"
+            alt="carta vieja merlot" width="90" height="200" />
           <div class="beverage-description">
             <h2>Carta Vieja</h2>
             <p>Merlot.</p>
@@ -1372,8 +1382,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-gran.webp" alt="carta vieja gran reserva"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/carta-vieja-gran.webp"
+            alt="carta vieja gran reserva" width="90" height="200" />
           <div class="beverage-description">
             <h2>Carta Vieja Gran Reserva</h2>
             <p>Cabernet Sauvignon.</p>
@@ -1381,8 +1391,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/casa-del-bosque-pinot.webp" alt="casa del bosque pinot"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/casa-del-bosque-pinot.webp"
+            alt="casa del bosque pinot" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casa Del Bosque Reserva</h2>
             <p>Pinot Noir.</p>
@@ -1390,8 +1400,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/casi-caber.webp" alt="casillero cabernet sauvignon"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/casi-caber.webp"
+            alt="casillero cabernet sauvignon" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casillero Del Diablo</h2>
             <p>Cabernet Sauvignon.</p>
@@ -1399,8 +1409,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/dao-casa-santar.webp" alt="casa de santar" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/dao-casa-santar.webp"
+            alt="casa de santar" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casa de Santar</h2>
             <p>Alfrocheiro, Aragonês e Touriga Nacional.</p>
@@ -1408,8 +1418,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/felino.webp" alt="cobos felino" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/felino.webp" alt="cobos felino"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Cobos Felino</h2>
             <p>Malbec.</p>
@@ -1417,8 +1427,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/gentileza.webp" alt="gentileza" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/gentileza.webp" alt="gentileza"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Gentileza</h2>
             <p>Uvas viníferas.</p>
@@ -1426,8 +1436,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/jose-piteira-syrah.webp" alt="jose piteira syrah"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/jose-piteira-syrah.webp"
+            alt="jose piteira syrah" width="90" height="200" />
           <div class="beverage-description">
             <h2>José Piteira</h2>
             <p>Syrah.</p>
@@ -1444,8 +1454,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/latitud-33-mal.webp" alt="latitud 33 malbec" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/latitud-33-mal.webp"
+            alt="latitud 33 malbec" width="90" height="200" />
           <div class="beverage-description">
             <h2>Latitud 33</h2>
             <p>Malbec.</p>
@@ -1453,8 +1463,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/mar-salgado-tinto.webp" alt="mar salgado" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/mar-salgado-tinto.webp" alt="mar salgado"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Mar Salgado</h2>
             <p>Castelão, Aragonez e Touriga Nacional.</p>
@@ -1462,8 +1472,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/marques.webp" alt="marques de casa concha" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/marques.webp"
+            alt="marques de casa concha" width="90" height="200" />
           <div class="beverage-description">
             <h2>Marques de Casa Concha</h2>
             <p>Cabernet Sauvignon.</p>
@@ -1471,8 +1481,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/monte-cal-tinto.webp" alt="monte da cal tinto"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/monte-cal-tinto.webp"
+            alt="monte da cal tinto" width="90" height="200" />
           <div class="beverage-description">
             <h2>Monte da Cal</h2>
             <p>Alicante Bouschet, Touriga Nacional, Alfrocheiro, Aragonez.</p>
@@ -1480,8 +1490,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/origem-caber.webp" alt="origem cabernet sauvignon"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/origem-caber.webp"
+            alt="origem cabernet sauvignon" width="90" height="200" />
           <div class="beverage-description">
             <h2>Origem</h2>
             <p>Cabernet Sauvignon.</p>
@@ -1489,8 +1499,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/periquita.webp" alt="periquita" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/periquita.webp" alt="periquita"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Periquita</h2>
             <p>Castelão, Trincadeira e Alicante Bouschet.</p>
@@ -1498,8 +1508,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/trivento-mal.webp" alt="trivento malbec" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/trivento-mal.webp" alt="trivento malbec"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Trivento</h2>
             <p>Malbec.</p>
@@ -1507,8 +1517,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/fausto-tannat.webp" alt="fausto tannat" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/fausto-tannat.webp" alt="fausto tannat"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Pizzato Fausto</h2>
             <p>Tannat.</p>
@@ -1516,8 +1526,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/los-incas-carmenere.webp" alt="los incas carmenere"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/red/los-incas-carmenere.webp"
+            alt="los incas carmenere" width="90" height="200" />
           <div class="beverage-description">
             <h2>Los Incas Reserve</h2>
             <p>Carmenere</p>
@@ -1528,8 +1538,8 @@
       <h1>Brancos e rosé(tranquilos)</h1>
       <ul class="category-list category-beverage">
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/almaden-resling.webp" alt="almaden resling"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/almaden-resling.webp"
+            alt="almaden resling" width="90" height="200" />
           <div class="beverage-description">
             <h2>Almaden</h2>
             <p>Riesling.</p>
@@ -1546,8 +1556,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/casal-garcia-rose.webp" alt="casal garcia rose"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/casal-garcia-rose.webp"
+            alt="casal garcia rose" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casal Garcia</h2>
             <p>Vinhão.</p>
@@ -1555,8 +1565,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/casi-branco.webp" alt="casillero sauvignon blanc"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/casi-branco.webp"
+            alt="casillero sauvignon blanc" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casillero Del Diablo Belight</h2>
             <p>Sauvignon Blanc.</p>
@@ -1564,8 +1574,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/casi-cha.webp" alt="casillero chardonnay"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/casi-cha.webp"
+            alt="casillero chardonnay" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casillero Del Diablo</h2>
             <p>Chardonnay.</p>
@@ -1582,8 +1592,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-branco.webp" alt="la belle branco"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-branco.webp"
+            alt="la belle branco" width="90" height="200" />
           <div class="beverage-description">
             <h2>La Belle de Jour</h2>
             <p>Fernão Pires, Arinto, Sauvignon Blanc, Gewurztraminer.</p>
@@ -1591,8 +1601,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-rose.webp" alt="la belle rose"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/la-belle-rose.webp"
+            alt="la belle rose" width="90" height="200" />
           <div class="beverage-description">
             <h2>La Belle de Jour</h2>
             <p>Castelão.</p>
@@ -1600,8 +1610,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/los-incas.webp" alt="los incas" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/los-incas.webp" alt="los incas"
+            width="90" height="200" />
           <div class="beverage-description">
             <h2>Los Incas</h2>
             <p>Chardonnay.</p>
@@ -1609,8 +1619,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/marioa-chardo.webp" alt="mario branco" width="90"
-            height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/marioa-chardo.webp"
+            alt="mario branco" width="90" height="200" />
           <div class="beverage-description">
             <h2>Mario</h2>
             <p>Chardonnay.</p>
@@ -1618,8 +1628,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/monte-cal-branco.webp" alt="monte da cal branco"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/monte-cal-branco.webp"
+            alt="monte da cal branco" width="90" height="200" />
           <div class="beverage-description">
             <h2>Monte da Cal</h2>
             <p>Viognier, Alvarinho, Arinto, Antão Vaz.</p>
@@ -1627,8 +1637,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/rose-piscine.webp" alt="frances piscine"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/rose-piscine.webp"
+            alt="frances piscine" width="90" height="200" />
           <div class="beverage-description">
             <h2>Francês Piscine</h2>
             <p>Négrette.</p>
@@ -1636,8 +1646,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/felino-chardonnay.webp" alt="felino chardonnay"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/white-rose/felino-chardonnay.webp"
+            alt="felino chardonnay" width="90" height="200" />
           <div class="beverage-description">
             <h2>Cobos Felino</h2>
             <p>Chardonnay.</p>
@@ -1657,8 +1667,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-brut.webp" alt=" casa perini brut"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-brut.webp"
+            alt=" casa perini brut" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casa Perini Brut</h2>
             <p>Chardonnay, Gamay, Pinot Noir.</p>
@@ -1666,8 +1676,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-ice.webp" alt="casa perini ice"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/casa-perini-ice.webp"
+            alt="casa perini ice" width="90" height="200" />
           <div class="beverage-description">
             <h2>Casa Perini Ice Rose</h2>
             <p>Uvas viníferas.</p>
@@ -1675,8 +1685,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/esp-rio-mos-rose.webp" alt="rio sol rose"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/esp-rio-mos-rose.webp"
+            alt="rio sol rose" width="90" height="200" />
           <div class="beverage-description">
             <h2>Rio Sol Moscatel</h2>
             <p>Moscato Hamburgo.</p>
@@ -1684,8 +1694,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/rio-sol-branco.webp" alt="rio sol branco"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/sparkling/rio-sol-branco.webp"
+            alt="rio sol branco" width="90" height="200" />
           <div class="beverage-description">
             <h2>Rio Sol Moscatel</h2>
             <p>Moscato Canelli.</p>
@@ -1705,8 +1715,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/half-bottle/cabriz-tinto-meia.webp" alt="cabriz tinto meia"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/half-bottle/cabriz-tinto-meia.webp"
+            alt="cabriz tinto meia" width="90" height="200" />
           <div class="beverage-description">
             <h2>Cabriz</h2>
             <p>Alfrocheiro, Tinta Roriz, Touriga Nacional.</p>
@@ -1714,8 +1724,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/half-bottle/miolo-branco-meia.webp" alt="miolo branco meia"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/half-bottle/miolo-branco-meia.webp"
+            alt="miolo branco meia" width="90" height="200" />
           <div class="beverage-description">
             <h2>Miolo</h2>
             <p>Chardonnay, Viognier.</p>
@@ -1723,8 +1733,8 @@
           </div>
         </li>
         <li class="category-beverage-item">
-          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/half-bottle/miolo-tinto-meia.webp" alt="miolo tinto meia"
-            width="90" height="200" />
+          <img loading="lazy" class="beverage-image" src="assets/imgs/wine/half-bottle/miolo-tinto-meia.webp"
+            alt="miolo tinto meia" width="90" height="200" />
           <div class="beverage-description">
             <h2>Miolo</h2>
             <p>Cabernet Sauvignon, Merlot.</p>
@@ -1736,15 +1746,17 @@
 
   <footer>
     <div class="restaurant-social">
-      <img loading="lazy" class="restaurant-logo-footer" src="assets/imgs/icons/logo.webp" alt="logo" width="128" height="39" />
-      <a href="https://www.instagram.com/srdukebistro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img loading="lazy"
-          class="social-icon instagram" src="assets/imgs/icons/instagram.webp" alt="instagram" /></a>
+      <img loading="lazy" class="restaurant-logo-footer" src="assets/imgs/icons/logo.webp" alt="logo" width="128"
+        height="39" />
+      <a href="https://www.instagram.com/srdukebistro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img
+          loading="lazy" class="social-icon instagram" src="assets/imgs/icons/instagram.webp" alt="instagram" /></a>
       <a href="https://api.whatsapp.com/send?phone=5582996007627"><img loading="lazy" class="social-icon whatsapp1"
           src="assets/imgs/icons/whatsapp.webp" alt="whatsapp" /></a>
     </div>
     <div class="creator-infor">
       <figure class="creator-profile">
-        <img loading="lazy" class="creator-image" src="assets/imgs/icons/criador.webp" alt="criador-perfil" width="39" height="39" />
+        <img loading="lazy" class="creator-image" src="assets/imgs/icons/criador.webp" alt="criador-perfil" width="39"
+          height="39" />
         <figcaption class="creator-name">Pedro</figcaption>
       </figure>
       <a href="https://github.com/PedroNascimento009"><img loading="lazy" class="social-icon github"

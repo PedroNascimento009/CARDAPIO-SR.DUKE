@@ -15,8 +15,6 @@ main {
 
 /* Main */
 .main-category {
-  display: none;
-
   opacity: 0;
   transform: translateY(20px);
   animation: fadeIn 1s forwards;
