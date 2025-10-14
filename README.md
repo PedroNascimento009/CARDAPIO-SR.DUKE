@@ -20,3 +20,5 @@ Finalizado.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40" alt="html5 logo"  />
 </div>
+
+© 2025 Pedro Nascimento. Todos os direitos reservados.
