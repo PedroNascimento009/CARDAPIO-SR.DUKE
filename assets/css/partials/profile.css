@@ -1,0 +1,72 @@
+/* Header */
+/* Restaurant */
+.container-profile {
+    border-bottom: 2px solid var(--first-border-color);
+}
+
+/* Footer */
+/* Profiles */
+.creator-profile {
+    display: flex;
+    align-items: center;
+    grid-area: creator-profile;
+
+    width: 128px;
+
+    margin-bottom: 20px;
+}
+
+.restaurant-social {
+    display: grid;
+    grid-template-areas:
+        "restaurant-logo restaurant-logo"
+        "sr1 sr2";
+    justify-content: center;
+
+    grid-area: restaurant-social;
+
+    margin-bottom: 10px;
+}
+
+.creator-infor {
+    display: grid;
+    grid-template-areas:
+        "creator-profile creator-profile"
+        "github whatsapp2";
+    justify-content: center;
+
+    grid-area: creator-infor;
+
+    margin-bottom: 10px;
+}
+
+/* Icons */
+.social-icon {
+    width: 3rem;
+}
+
+.instagram {
+    grid-area: instagram;
+}
+
+.whatsapp1 {
+    grid-area: whatsapp1;
+}
+
+.github {
+    grid-area: github;
+    justify-self: flex-start;
+}
+
+.whatsapp2 {
+    grid-area: whatsapp2;
+    margin-left: 6px;
+}
+
+.footer-thanks {
+    text-align: center;
+
+    border-top: 1px solid var(--second-border-color);
+
+    grid-area: thanks;
+}

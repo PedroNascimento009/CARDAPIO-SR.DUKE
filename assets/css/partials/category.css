@@ -1,0 +1,101 @@
+/* Main */
+.main-category {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
+
+.main-category > h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.main-category.active {
+  display: block;
+}
+
+/* List */
+.category-happy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0;
+  flex-wrap: nowrap;
+}
+
+.category-list {
+  display: grid;
+  gap: 40px;
+  list-style: none;
+}
+
+.category-beverage {
+  display: flex;
+  gap: 40px;
+
+  padding-bottom: 30px;
+
+  overflow-x: scroll;
+}
+
+.category-beverage::-webkit-scrollbar {
+  display: none;
+}
+
+/* Item */
+.category-dish-item {
+  list-style: none;
+}
+
+.category-dish-item:last-child,
+.cocktail-item > :last-child,
+.drink-item:last-child {
+  padding-bottom: 40px;
+}
+
+.category-beverage-item {
+  display: flex;
+  gap: 10px;
+  padding: 0px 20px;
+}
+
+/* Description */
+.happy-description {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.dish-description,
+.drink-item,
+.cocktail-description,
+.happy-description {
+  margin: 0px 30px;
+}
+
+.dish-description > h2,
+.slide-description > h2,
+.drink-item > h2,
+.cocktail-description > h2 {
+  border-bottom: 2px solid var(--first-border-color);
+}
+
+.club-description {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.beverage-description {
+  max-width: 115px;
+}
+
+.beverage-description > p {
+  margin: 10px 0px;
+}
+
+.club-description,
+.coffe-description {
+  text-align: center;
+  margin-bottom: 20px;
+}

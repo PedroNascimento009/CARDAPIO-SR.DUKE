@@ -1,0 +1,64 @@
+@media only screen and (max-width: 350px) {
+    /* Mobile */
+    /* Header */
+    .container-category {
+        gap: 4px;
+    }
+
+    /* Main */
+    .dish-description,
+    .drink-item,
+    .cocktail-description,
+    .happy-description {
+        margin: 0px 10px;
+    }
+
+    /* Footer */
+    .logo-footer {
+        width: 112px;
+        height: 112px;
+    }
+
+    .creator-image {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social-image {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* Fontes */
+    .container-profile>p {
+        font-size: 0.8rem !important;
+    }
+
+    .category-button {
+        font-size: 0.9rem !important;
+    }
+
+    h1 {
+        font-size: 1.4rem !important;
+    }
+
+    .dish-description>h2,
+    .category-drink-item>h2 {
+        font-size: 1.2rem !important;
+    }
+
+    .dish-description,
+    .category-drink-item>p,
+    .beverage-description>p {
+        font-size: 0.9rem !important;
+    }
+
+    .footer-thanks>h3 {
+        font-size: 0.6rem !important;
+        line-height: 30px !important;
+    }
+
+    .creator-image>figcaption {
+        font-size: 1rem !important;
+    }
+}

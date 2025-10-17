@@ -1,0 +1,14 @@
+@import url('header.css');
+@import url("main.css");
+@import url('footer.css');
+
+@import url('partials/imgs.css');
+@import url('partials/media600.css');
+@import url('partials/media350.css');
+@import url('partials/fonts.css');
+@import url('partials/category.css');
+@import url('partials/introduction.css');
+@import url('partials/navbar.css');
+@import url('partials/profile.css');
+@import url('partials/normalize.css');
+@import url('partials/variables.css');

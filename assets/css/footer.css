@@ -1,0 +1,15 @@
+/* General Footer */
+footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "restaurant-social creator-infor"
+        "thanks thanks";
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--main-bg-color);
+
+    padding: 10px 10px;
+}

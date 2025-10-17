@@ -1,0 +1,35 @@
+@media only screen and (min-width: 600px) {
+
+    /* Desktop */
+    /* Main */
+    .main-category {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .happy-image {
+        height: 40vw !important;
+    }
+
+    .happy-video {
+        height: 40vw !important;
+    }
+
+    .dish-image,
+    .cocktail-image {
+        height: 25vw !important;
+    }
+
+    .category-dish-item.visible>img {
+        height: 35vw !important;
+    }
+
+    .cocktail-item.visible>img {
+        height: 40vw !important;
+    }
+
+    .category-dish-item:last-child,
+    .cocktail-item>:last-child {
+        padding-bottom: 65px;
+    }
+}

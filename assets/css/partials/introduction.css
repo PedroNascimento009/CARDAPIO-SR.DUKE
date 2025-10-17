@@ -1,0 +1,25 @@
+/* Introduciton Menu */
+#introduction {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    animation: fadeOut 1.7s ease forwards;
+    animation-delay: 1.5s;
+    z-index: 10;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

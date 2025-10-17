@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(/assets/fonts/RobotoCondensed-Bold.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-SemiBold';
+    src: url(/assets/fonts/RobotoCondensed-SemiBold.ttf) format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(/assets/fonts/Poppins-Regular.ttf) format(truetype);
+    font-display: swap;
+}
+
+/* Header */
+
+.category-button,
+.container-profile>p {
+    color: var(--second-font-color);
+
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.category-button {
+    font-size: 1.1rem;
+}
+
+/* Main */
+h1 {
+    color: var(--first-font-color);
+
+    font-family: 'Roboto-Bold', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.dish-description>h2,
+.category-drink-item>h2,
+.beverage-description>h2 {
+    color: var(--first-font-color);
+
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+.dish-description>p,
+.category-drink-item>p,
+.beverage-description>p,
+.happy-description {
+    color: var(--first-font-color);
+
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.1rem;
+
+    line-height: 17px;
+}
+
+.beverage-description>h2 {
+    font-size: 1.6rem;
+}
+
+.beverage-description>p {
+    font-size: 0.9rem;
+}
+
+.price {
+    font-size: 1rem;
+}
+
+/* Footer */
+.creator-name {
+    color: var(--second-font-color);
+
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.footer-thanks>span {
+    color: var(--second-font-color);
+
+    font-family: 'Roboto-SemiBold', Arial, sans-serif;
+    font-size: 0.8rem;
+
+    line-height: 38px;
+}

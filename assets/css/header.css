@@ -1,0 +1,8 @@
+/* General Header */
+header {
+    background: var(--main-bg-color);
+
+    padding-top: 30px;
+
+    text-align: center;
+}

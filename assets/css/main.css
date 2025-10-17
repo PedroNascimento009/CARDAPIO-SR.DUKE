@@ -1,0 +1,48 @@
+/* Background Body */
+body {
+  background-image: url(/assets/imgs/bg/praça-12-abril.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Box Main */
+main {
+  -webkit-box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+  -moz-box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+  box-shadow: inset 0px -111px 95px -24px var(--box-shadow-color);
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut2 {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
