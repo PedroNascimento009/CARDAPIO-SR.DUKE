@@ -10,8 +10,8 @@
   padding: 20px 0px;
 }
 
-.main-category.active {
-  display: block;
+.separate-category {
+  display: none;
 }
 
 /* List */

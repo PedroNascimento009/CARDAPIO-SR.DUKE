@@ -18,7 +18,7 @@
 
 /* Header */
 
-.category-button,
+.category-button, #button-promotions,
 .container-profile>p {
     color: var(--second-font-color);
 
@@ -27,8 +27,8 @@
     font-size: 1rem;
 }
 
-.category-button {
-    font-size: 1.1rem;
+.category-button, #button-promotions {
+    font-size: 1rem;
 }
 
 /* Main */
