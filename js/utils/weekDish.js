@@ -14,7 +14,7 @@ async function buscarPrato(categoria, idPrato) {
 
 export async function exibirPratoDaSemana() {
     const pratosSemana = {
-        1: { categoria: 'mainDish', id: 'carbonara' },
+        1: { categoria: 'mainDish', id: 'file-vinho' },
         2: { categoria: 'mainDish', id: 'peixe-maracuja' },
         3: { categoria: 'mainDish', id: 'risoto-camarao' },
         4: { categoria: 'mainDish', id: 'polvo-grelhado' },
