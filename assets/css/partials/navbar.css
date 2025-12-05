@@ -17,12 +17,14 @@
 
 .category-button {
     background: none;
-    border: none;
-    padding: 0.2px 2px;
+    padding: 2px 8px;
 
     cursor: pointer;
+
+    border: 1px solid var(--second-border-color);
+    border-radius: 20px;
 }
 
 .category-button:hover {
-    border-bottom: 2px solid var(--second-border-color);
+    border: 1px solid var(--third-border-color);
 }
